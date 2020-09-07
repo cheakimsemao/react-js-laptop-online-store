@@ -1,0 +1,8 @@
+:root{
+    --primaryColor : #ff6600;
+    --primaryFontFamily:Arial;
+}
+
+.paragraph{
+    color : var(--primaryColor);
+}

@@ -6,8 +6,6 @@ const Header = () => {
     return (
         <div>
             This is the HeaderPart.
-            <SignIn />
-            <SignUp />
         </div>
     )
 };
