@@ -1,69 +1,95 @@
-:root{
-    --primaryColor : #ff6600;
-    --primaryFontFamily:Arial;
+:root {
+    --primaryColor: #ff6600;
+    --primaryFontFamily: Arial;
 }
 
-.paragraph{
-    color : var(--primaryColor);
+.paragraph {
+    color: var(--primaryColor);
 }
 
-.label-text{
+.label-text {
     font-weight: 500;
 }
 
-.form-control{
+.form-control {
     border: 2px solid black;
     padding-left: 50px;
 }
 
-.form-label{
+.form-label {
     margin-bottom: 1.5em;
 }
 
-.sign-button{
+.sign-button {
     border: 2.2px solid var(--primaryColor);
     border-radius: 18px;
     width: 120px;
     color: var(--primaryColor);
 }
 
-.sign-button:hover{
+.sign-button:hover {
     background-color: var(--primaryColor);
-    color:white;
+    color: white;
 }
 
-.horizontal-line{
-    border-top:2px solid rgba(0,0,0,.1)
+.horizontal-line {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-.input-field{
+.input-field {
     position: relative;
 }
-.input-icon{
-   position: absolute;
-   top: 10px;
+.input-icon {
+    position: absolute;
+    top: 10px;
     left: 15px;
     font-size: 20px;
 }
 
-.fa-facebook, .fa-twitter, .fa-instagram, .fa-reddit{
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-reddit {
     font-size: 45px;
 }
 
-.fa:hover{
+.fa:hover {
     opacity: 0.8;
 }
 
-.fa-twitter{
+.fa-twitter {
     color: #55acee;
 }
 
-.fa-instagram{
+.fa-instagram {
     color: #e4405f;
 }
 
-.fa-reddit{
+.fa-reddit {
     color: #ff5700;
 }
 
+#footer li {
+    font-size: 12px;
+    font-weight: 550;
+    margin-top: 15px;
+}
 
+#footer a {
+    color: #a7a6a6;
+}
+
+#footer a:hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.social-media-icon {
+    font-size: 23px;
+    color: #a7a6a6;
+    margin-right: 15px;
+}
+
+.social-media-icon:hover {
+    color: #ff6600;
+}
