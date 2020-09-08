@@ -1,30 +1,23 @@
 import React from 'react';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Nav from 'react-bootstrap/Nav'
 
 const Header = () => {
+    const navTitle = ['Testing Logo', 'Home', 'About', 'Brand', 'Accessories', 'Search', 'Account', 'Cart'];
     return (
         <>
-            {['Home', 'About', 'Brand', 'Accessories', 'Search', 'Account', 'Cart'].map(
-            (variant, idx) => (
-            <DropdownButton
-                as={ButtonGroup}
-                key={idx}
-                id={`dropdown-variants-${variant}`}
-                variant={variant.toLowerCase()}
-                title={variant}
+            <Nav
+                className="justify-content-center"
+                activeKey="/home"
+                as="ul"
+                onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
             >
-                <Dropdown.Item eventKey="1">Action</Dropdown.Item>
-                <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-                <Dropdown.Item eventKey="3" active>
-                Active Item
-                </Dropdown.Item>
-                <Dropdown.Divider />
-                <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
-            </DropdownButton>
-            ),
-        )}
+                {navTitle.map((variant)=> (
+                    <Nav.Item as="li" id={variant}>
+                        <Nav.Link href={variant}>{variant}</Nav.Link>
+                    </Nav.Item>    
+                    ),
+                )}
+            </Nav>
         </>
     )
 };
