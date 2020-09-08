@@ -3,10 +3,16 @@ import '../App.css';
 import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { Container, Col, Row } from 'react-bootstrap';
-import { BsFillEnvelopeFill, BsLockFill, BsLock } from 'react-icons/bs';
+import { BsFillEnvelopeFill, BsLockFill } from 'react-icons/bs';
 import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaRedditSquare } from 'react-icons/fa';
-
+import { useForm } from 'react-hook-form';
+import { ErrorMessage } from "@hookform/error-message";
 const SignIn = () => {
+    const { register, handleSubmit, errors } = useForm({
+        criteriaMode: "all"
+    });
+    const onSubmit = data => { console.log(data) };
+
     return (
         <Container className='mt-4'>
             <Row className='justify-content-center'>
@@ -15,17 +21,37 @@ const SignIn = () => {
             <Row className='justify-content-center paragraph'>
                 <h3 className='mb-5'>Let's Get Started</h3>
             </Row>
-            <Form fluid='md'>
+            <Form fluid='md' onSubmit={handleSubmit(onSubmit)}>
                 <Row className='justify-content-center'>
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text' controlId='formBasicEmail'>
                             <Form.Label className='form-label'>Email address</Form.Label>
-                            <div class='input-field'>
-                                <Form.Control
+                            <div className='input-field'>
+                                <Form.Control autoComplete="off"
+                                    ref={register({
+                                        required: 'This is required.',
+                                        pattern: {
+                                            value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                                            message: 'Invalid Email Address',
+                                        },
+
+                                    })}
+                                    name="email"
                                     className='from-control'
                                     type='email'
                                     placeholder='Enter Email'
                                     required
+                                />
+
+                                <ErrorMessage
+                                    errors={errors}
+                                    name="email"
+                                    render={({ messages }) => {
+                                        return messages ?
+                                            Object.entries(messages).map(([type, message]) => (
+                                                <p style={{ "color": "red" }} key={type}>{message}</p>
+                                            )) : null;
+                                    }}
                                 />
                                 <BsFillEnvelopeFill className='input-icon' />
                             </div>
@@ -38,7 +64,7 @@ const SignIn = () => {
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text' controlId='formBasicPassword'>
                             <Form.Label className='form-label'>Password</Form.Label>
-                            <div class='input-field'>
+                            <div className='input-field'>
                                 <Form.Control
                                     className='from-control'
                                     type='password'
@@ -52,14 +78,14 @@ const SignIn = () => {
                 </Row>
 
                 <Row className='mb-4'>
-                    <Col style={{ 'text-align': 'center' }}>
+                    <Col style={{ 'textAlign': 'center' }}>
                         Don't have an account yet?
                         <a
                             href='$'
                             style={{
                                 color: '#ff6600',
-                                'margin-left': '1em',
-                                'text-decoration': 'none',
+                                'marginLeft': '1em',
+                                'textDecoration': 'none',
                             }}>
                             Sign Up
                         </a>
@@ -67,7 +93,7 @@ const SignIn = () => {
                 </Row>
 
                 <Row className='mb-4'>
-                    <Col style={{ 'text-align': 'center' }}>
+                    <Col style={{ 'textAlign': 'center' }}>
                         <Button className='sign-button' variant='white' type='submit'>
                             Sign In
                         </Button>
@@ -78,7 +104,7 @@ const SignIn = () => {
                     <Col lg={2} md={3} sm={4} xs={5}>
                         <hr className='horizontal-line'></hr>
                     </Col>
-                    <Col style={{ 'text-align': 'center' }} lg={1} md={2} sm={2} xs={1}>
+                    <Col style={{ 'textAlign': 'center' }} lg={1} md={2} sm={2} xs={1}>
                         <span>Or</span>
                     </Col>
                     <Col lg={2} md={3} sm={4} xs={5}>
@@ -87,7 +113,7 @@ const SignIn = () => {
                 </Row>
 
                 <Row>
-                    <Col classname='social-menu' style={{ 'text-align': 'center' }}>
+                    <Col className='social-menu' style={{ 'textAlign': 'center' }}>
                         <a href='$'>
                             <FaFacebookSquare className='fa fa-facebook'></FaFacebookSquare>
                         </a>
