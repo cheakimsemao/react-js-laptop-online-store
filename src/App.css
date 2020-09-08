@@ -6,3 +6,64 @@
 .paragraph{
     color : var(--primaryColor);
 }
+
+.label-text{
+    font-weight: 500;
+}
+
+.form-control{
+    border: 2px solid black;
+    padding-left: 50px;
+}
+
+.form-label{
+    margin-bottom: 1.5em;
+}
+
+.sign-button{
+    border: 2.2px solid var(--primaryColor);
+    border-radius: 18px;
+    width: 120px;
+    color: var(--primaryColor);
+}
+
+.sign-button:hover{
+    background-color: var(--primaryColor);
+    color:white;
+}
+
+.horizontal-line{
+    border-top:2px solid rgba(0,0,0,.1)
+}
+
+.input-field{
+    position: relative;
+}
+.input-icon{
+   position: absolute;
+   top: 10px;
+    left: 15px;
+    font-size: 20px;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-reddit{
+    font-size: 45px;
+}
+
+.fa:hover{
+    opacity: 0.8;
+}
+
+.fa-twitter{
+    color: #55acee;
+}
+
+.fa-instagram{
+    color: #e4405f;
+}
+
+.fa-reddit{
+    color: #ff5700;
+}
+
+
