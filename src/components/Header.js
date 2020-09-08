@@ -1,12 +1,24 @@
 import React from 'react';
-import SignIn from './SignIn'
-import SignUp from './SignUp'
+import Nav from 'react-bootstrap/Nav'
 
 const Header = () => {
+    const navTitle = ['Testing Logo', 'Home', 'About', 'Brand', 'Accessories', 'Search', 'Account', 'Cart'];
     return (
-        <div>
-            This is the HeaderPart.
-        </div>
+        <>
+            <Nav
+                className="justify-content-center"
+                activeKey="/home"
+                as="ul"
+                onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+            >
+                {navTitle.map((variant)=> (
+                    <Nav.Item as="li" id={variant}>
+                        <Nav.Link href={variant}>{variant}</Nav.Link>
+                    </Nav.Item>    
+                    ),
+                )}
+            </Nav>
+        </>
     )
 };
 
