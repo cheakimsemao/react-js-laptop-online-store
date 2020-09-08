@@ -1,4 +1,4 @@
-import React, {useState, useRef}  from 'react';
+import React, {useRef } from 'react';
 import '../App.css';
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Form } from 'react-bootstrap';
@@ -10,15 +10,15 @@ import { useForm } from 'react-hook-form';
 import { ErrorMessage } from "@hookform/error-message";
 
 const SignUp = () => {
-    const isEven = () => 6 % 2 === 0;
+
     const { register, handleSubmit, errors, watch } = useForm({
         criteriaMode: "all"
     });
-    const onSubmit = data => { 
+    const onSubmit = data => {
         console.log(data);
-     };
-     const password = useRef({});
-     password.current = watch("password", "");
+    };
+    const password = useRef({});
+    password.current = watch("password", "");
     return (
         <Container className='mt-4'>
             <Row className='justify-content-center'>
@@ -80,7 +80,7 @@ const SignUp = () => {
                                             value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
                                             message: 'Invalid Email Address',
                                         },
-                                        
+
                                     })}
                                     name="email"
                                     className='from-control'
@@ -110,27 +110,27 @@ const SignUp = () => {
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text' >
                             <Form.Label className='form-label'>Password
-                                   {} 
+                                   {}
                             </Form.Label>
                             <div className='input-field'>
                                 <Form.Control autoComplete="off"
-                                   name="password"
-                                   type="password"
-                                   ref={register({
-                                     required: 'This is required.',
-                                     minLength: {
-                                       value: 8,
-                                       message: "Password must have at least 8 characters"
-                                     },
-                                     maxLength: {
-                                        value: 20,
-                                        message: "Password must have less than 20 characters"
-                                      }
-                                   })}
-                                   required placeholder="Enter password"
+                                    name="password"
+                                    type="password"
+                                    ref={register({
+                                        required: 'This is required.',
+                                        minLength: {
+                                            value: 8,
+                                            message: "Password must have at least 8 characters"
+                                        },
+                                        maxLength: {
+                                            value: 20,
+                                            message: "Password must have less than 20 characters"
+                                        }
+                                    })}
+                                    required placeholder="Enter password"
                                 />
- {errors.password && <p style={{color:"red"}}>{errors.password.message}</p>}
-                               
+                                {errors.password && <p style={{ color: "red" }}>{errors.password.message}</p>}
+
                                 <BsLockFill className='input-icon'></BsLockFill>
                             </div>
                         </Form.Group>
@@ -143,15 +143,15 @@ const SignUp = () => {
                             <Form.Label className='form-label'>Confirm Password</Form.Label>
                             <div className='input-field'>
                                 <Form.Control autoComplete="off"
-                                required placeholder="Re-Enter password"
-                                  name="password_repeat"
-                                  type="password"
-                                  ref={register({
-                                    validate: value =>
-                                      value === password.current || "The passwords do not match"
-                                  })}
+                                    required placeholder="Re-Enter password"
+                                    name="password_repeat"
+                                    type="password"
+                                    ref={register({
+                                        validate: value =>
+                                            value === password.current || "The passwords do not match"
+                                    })}
                                 />
- {errors.password_repeat && <p style={{color:"red"}}>{errors.password_repeat.message}</p>}
+                                {errors.password_repeat && <p style={{ color: "red" }}>{errors.password_repeat.message}</p>}
 
                                 <BsLock className='input-icon'></BsLock>
                             </div>
