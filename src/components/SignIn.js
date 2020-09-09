@@ -1,42 +1,44 @@
 import React from 'react';
 import '../App.css';
-import { Form } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container, Col, Row, Form, Button } from 'react-bootstrap';
 import { BsFillEnvelopeFill, BsLockFill } from 'react-icons/bs';
-import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaRedditSquare } from 'react-icons/fa';
+import { FaFacebookSquare, FaTwitter, FaRedditSquare } from 'react-icons/fa';
+import { FcGoogle } from 'react-icons/fc';
 import { useForm } from 'react-hook-form';
-import { ErrorMessage } from "@hookform/error-message";
+import { ErrorMessage } from '@hookform/error-message';
+
 const SignIn = () => {
     const { register, handleSubmit, errors } = useForm({
-        criteriaMode: "all"
+        criteriaMode: 'all',
     });
-    const onSubmit = data => { console.log(data) };
+    const onSubmit = (data) => {
+        console.log(data);
+    };
 
     return (
         <Container className='mt-4'>
-            <Row className='justify-content-center'>
+            <Row className='justify-content-center mb-3'>
                 <h1>Sign In</h1>
             </Row>
             <Row className='justify-content-center paragraph'>
-                <h3 className='mb-5'>Let's Get Started</h3>
+                <h4 className='mb-5'>Let's Get Started</h4>
             </Row>
             <Form fluid='md' onSubmit={handleSubmit(onSubmit)}>
                 <Row className='justify-content-center'>
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text' controlId='formBasicEmail'>
-                            <Form.Label className='form-label'>Email address</Form.Label>
+                            <Form.Label className='form-label'>Email</Form.Label>
                             <div className='input-field'>
-                                <Form.Control autoComplete="off"
+                                <Form.Control
+                                    autoComplete='off'
                                     ref={register({
                                         required: 'This is required.',
                                         pattern: {
                                             value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
                                             message: 'Invalid Email Address',
                                         },
-
                                     })}
-                                    name="email"
+                                    name='email'
                                     className='from-control'
                                     type='email'
                                     placeholder='Enter Email'
@@ -45,12 +47,15 @@ const SignIn = () => {
 
                                 <ErrorMessage
                                     errors={errors}
-                                    name="email"
+                                    name='email'
                                     render={({ messages }) => {
-                                        return messages ?
-                                            Object.entries(messages).map(([type, message]) => (
-                                                <p style={{ "color": "red" }} key={type}>{message}</p>
-                                            )) : null;
+                                        return messages
+                                            ? Object.entries(messages).map(([type, message]) => (
+                                                  <p style={{ color: 'red' }} key={type}>
+                                                      {message}
+                                                  </p>
+                                              ))
+                                            : null;
                                     }}
                                 />
                                 <BsFillEnvelopeFill className='input-icon' />
@@ -77,15 +82,15 @@ const SignIn = () => {
                     </Col>
                 </Row>
 
-                <Row className='mb-4'>
-                    <Col style={{ 'textAlign': 'center' }}>
+                <Row className='mb-4 mt-3'>
+                    <Col style={{ textAlign: 'center' }}>
                         Don't have an account yet?
                         <a
                             href='$'
                             style={{
                                 color: '#ff6600',
-                                'marginLeft': '1em',
-                                'textDecoration': 'none',
+                                marginLeft: '5px',
+                                textDecoration: 'none',
                             }}>
                             Sign Up
                         </a>
@@ -93,7 +98,7 @@ const SignIn = () => {
                 </Row>
 
                 <Row className='mb-4'>
-                    <Col style={{ 'textAlign': 'center' }}>
+                    <Col style={{ textAlign: 'center' }}>
                         <Button className='sign-button' variant='white' type='submit'>
                             Sign In
                         </Button>
@@ -104,8 +109,8 @@ const SignIn = () => {
                     <Col lg={2} md={3} sm={4} xs={5}>
                         <hr className='horizontal-line'></hr>
                     </Col>
-                    <Col style={{ 'textAlign': 'center' }} lg={1} md={2} sm={2} xs={1}>
-                        <span>Or</span>
+                    <Col className='or' lg={1} md={2} sm={2} xs={1}>
+                        <span>OR</span>
                     </Col>
                     <Col lg={2} md={3} sm={4} xs={5}>
                         <hr className='horizontal-line'></hr>
@@ -113,18 +118,18 @@ const SignIn = () => {
                 </Row>
 
                 <Row>
-                    <Col className='social-menu' style={{ 'textAlign': 'center' }}>
+                    <Col className='social-menu'>
                         <a href='$'>
-                            <FaFacebookSquare className='fa fa-facebook'></FaFacebookSquare>
+                            <FaFacebookSquare className='fa-facebook' />
                         </a>
                         <a href='$'>
-                            <FaInstagramSquare className='fa fa-instagram'></FaInstagramSquare>
+                            <FcGoogle className='fc-google' />
                         </a>
                         <a href='$'>
-                            <FaTwitterSquare className='fa fa-twitter'></FaTwitterSquare>
+                            <FaTwitter className='fa-twitter' />
                         </a>
                         <a href='$'>
-                            <FaRedditSquare className='fa fa-reddit'></FaRedditSquare>
+                            <FaRedditSquare className='fa-reddit' />
                         </a>
                     </Col>
                 </Row>

@@ -1,49 +1,46 @@
-import React, {useRef } from 'react';
+import React, { useRef } from 'react';
 import '../App.css';
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Form } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import { Container, Col, Row } from 'react-bootstrap';
-import { BsFillEnvelopeFill, BsLockFill, BsLock } from 'react-icons/bs';
-import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaRedditSquare } from 'react-icons/fa';
+import { Container, Col, Row, Form, Button } from 'react-bootstrap';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsFillEnvelopeFill, BsLockFill } from 'react-icons/bs';
+import { FaFacebookSquare, FaTwitter, FaRedditSquare } from 'react-icons/fa';
+import { FcGoogle } from 'react-icons/fc';
 import { useForm } from 'react-hook-form';
-import { ErrorMessage } from "@hookform/error-message";
+import { ErrorMessage } from '@hookform/error-message';
 
 const SignUp = () => {
-
     const { register, handleSubmit, errors, watch } = useForm({
-        criteriaMode: "all"
+        criteriaMode: 'all',
     });
-    const onSubmit = data => {
+    const onSubmit = (data) => {
         console.log(data);
     };
     const password = useRef({});
-    password.current = watch("password", "");
+    password.current = watch('password', '');
     return (
         <Container className='mt-4'>
-            <Row className='justify-content-center'>
+            <Row className='justify-content-center mb-3'>
                 <h1>Sign Up</h1>
             </Row>
             <Row className='justify-content-center paragraph'>
-                <h3 className='mb-5'>Create Your Free Account</h3>
+                <h4 className='mb-5'>Create Your Free Account</h4>
             </Row>
             <Form fluid='md' onSubmit={handleSubmit(onSubmit)}>
-
                 <Row className='justify-content-center'>
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text' controlId='formBasicUserName'>
-                            <Form.Label className='form-label'>User Name</Form.Label>
+                            <Form.Label className='form-label'>Username</Form.Label>
                             <div className='input-field'>
-                                <Form.Control autoComplete="off"
+                                <Form.Control
+                                    autoComplete='off'
                                     ref={register({
                                         required: 'This is required.',
                                         pattern: {
                                             value: /^[a-z]*$/i,
                                             message: 'USer Name Must Contain Letters Only',
                                         },
-
                                     })}
-                                    name="userName"
+                                    name='userName'
                                     className='from-control'
                                     type='text'
                                     placeholder='Enter Full Name'
@@ -52,12 +49,15 @@ const SignUp = () => {
 
                                 <ErrorMessage
                                     errors={errors}
-                                    name="userName"
+                                    name='userName'
                                     render={({ messages }) => {
-                                        return messages ?
-                                            Object.entries(messages).map(([type, message]) => (
-                                                <p style={{ "color": "red" }} key={type}>{message}</p>
-                                            )) : null;
+                                        return messages
+                                            ? Object.entries(messages).map(([type, message]) => (
+                                                  <p style={{ color: 'red' }} key={type}>
+                                                      {message}
+                                                  </p>
+                                              ))
+                                            : null;
                                     }}
                                 />
                                 <BsFillPersonLinesFill className='input-icon' />
@@ -67,22 +67,21 @@ const SignUp = () => {
                     </Col>
                 </Row>
 
-
                 <Row className='justify-content-center'>
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text'>
-                            <Form.Label className='form-label'>Email address</Form.Label>
+                            <Form.Label className='form-label'>Email</Form.Label>
                             <div className='input-field'>
-                                <Form.Control autoComplete="off"
+                                <Form.Control
+                                    autoComplete='off'
                                     ref={register({
                                         required: 'This is required.',
                                         pattern: {
                                             value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
                                             message: 'Invalid Email Address',
                                         },
-
                                     })}
-                                    name="email"
+                                    name='email'
                                     className='from-control'
                                     type='email'
                                     placeholder='Enter Email'
@@ -91,12 +90,15 @@ const SignUp = () => {
 
                                 <ErrorMessage
                                     errors={errors}
-                                    name="email"
+                                    name='email'
                                     render={({ messages }) => {
-                                        return messages ?
-                                            Object.entries(messages).map(([type, message]) => (
-                                                <p style={{ "color": "red" }} key={type}>{message}</p>
-                                            )) : null;
+                                        return messages
+                                            ? Object.entries(messages).map(([type, message]) => (
+                                                  <p style={{ color: 'red' }} key={type}>
+                                                      {message}
+                                                  </p>
+                                              ))
+                                            : null;
                                     }}
                                 />
                                 <BsFillEnvelopeFill className='input-icon' />
@@ -108,28 +110,31 @@ const SignUp = () => {
 
                 <Row className='justify-content-center'>
                     <Col lg={5} md={8} sm={10} xs={11}>
-                        <Form.Group className='label-text' >
-                            <Form.Label className='form-label'>Password
-                                   {}
+                        <Form.Group className='label-text'>
+                            <Form.Label className='form-label'>
+                                Password
+                                {}
                             </Form.Label>
                             <div className='input-field'>
-                                <Form.Control autoComplete="off"
-                                    name="password"
-                                    type="password"
+                                <Form.Control
+                                    autoComplete='off'
+                                    name='password'
+                                    type='password'
                                     ref={register({
                                         required: 'This is required.',
                                         minLength: {
                                             value: 8,
-                                            message: "Password must have at least 8 characters"
+                                            message: 'Password must have at least 8 characters',
                                         },
                                         maxLength: {
                                             value: 20,
-                                            message: "Password must have less than 20 characters"
-                                        }
+                                            message: 'Password must have less than 20 characters',
+                                        },
                                     })}
-                                    required placeholder="Enter password"
+                                    required
+                                    placeholder='Enter password'
                                 />
-                                {errors.password && <p style={{ color: "red" }}>{errors.password.message}</p>}
+                                {errors.password && <p style={{ color: 'red' }}>{errors.password.message}</p>}
 
                                 <BsLockFill className='input-icon'></BsLockFill>
                             </div>
@@ -142,33 +147,35 @@ const SignUp = () => {
                         <Form.Group className='label-text'>
                             <Form.Label className='form-label'>Confirm Password</Form.Label>
                             <div className='input-field'>
-                                <Form.Control autoComplete="off"
-                                    required placeholder="Re-Enter password"
-                                    name="password_repeat"
-                                    type="password"
+                                <Form.Control
+                                    autoComplete='off'
+                                    required
+                                    placeholder='Confirm Password'
+                                    name='password_repeat'
+                                    type='password'
                                     ref={register({
-                                        validate: value =>
-                                            value === password.current || "The passwords do not match"
+                                        validate: (value) =>
+                                            value === password.current || 'The passwords do not match',
                                     })}
                                 />
-                                {errors.password_repeat && <p style={{ color: "red" }}>{errors.password_repeat.message}</p>}
-
-                                <BsLock className='input-icon'></BsLock>
+                                {errors.password_repeat && (
+                                    <p style={{ color: 'red' }}>{errors.password_repeat.message}</p>
+                                )}
+                                <BsLockFill className='input-icon'></BsLockFill>
                             </div>
                         </Form.Group>
                     </Col>
                 </Row>
 
-
                 <Row className='mb-4'>
-                    <Col style={{ 'textAlign': 'center' }}>
+                    <Col style={{ textAlign: 'center' }}>
                         Already have an account?
                         <a
                             href='$'
                             style={{
                                 color: '#ff6600',
-                                'marginLeft': '1em',
-                                'textDecoration': 'none',
+                                marginLeft: '5px',
+                                textDecoration: 'none',
                             }}>
                             Sign In
                         </a>
@@ -176,7 +183,7 @@ const SignUp = () => {
                 </Row>
 
                 <Row className='mb-4'>
-                    <Col style={{ 'textAlign': 'center' }}>
+                    <Col style={{ textAlign: 'center' }}>
                         <Button className='sign-button' variant='white' type='submit'>
                             Sign Up
                         </Button>
@@ -187,8 +194,8 @@ const SignUp = () => {
                     <Col lg={2} md={3} sm={4} xs={5}>
                         <hr className='horizontal-line'></hr>
                     </Col>
-                    <Col style={{ 'textAlign': 'center' }} lg={1} md={2} sm={2} xs={1}>
-                        <span>Or</span>
+                    <Col className='or' lg={1} md={2} sm={2} xs={1}>
+                        <span>OR</span>
                     </Col>
                     <Col lg={2} md={3} sm={4} xs={5}>
                         <hr className='horizontal-line'></hr>
@@ -196,18 +203,18 @@ const SignUp = () => {
                 </Row>
 
                 <Row>
-                    <Col className='social-menu' style={{ 'textAlign': 'center' }}>
+                    <Col className='social-menu'>
                         <a href='$'>
-                            <FaFacebookSquare className='fa fa-facebook'></FaFacebookSquare>
+                            <FaFacebookSquare className='fa-facebook' />
                         </a>
                         <a href='$'>
-                            <FaInstagramSquare className='fa fa-instagram'></FaInstagramSquare>
+                            <FcGoogle className='fc-google' />
                         </a>
                         <a href='$'>
-                            <FaTwitterSquare className='fa fa-twitter'></FaTwitterSquare>
+                            <FaTwitter className='fa-twitter' />
                         </a>
                         <a href='$'>
-                            <FaRedditSquare className='fa fa-reddit'></FaRedditSquare>
+                            <FaRedditSquare className='fa-reddit' />
                         </a>
                     </Col>
                 </Row>

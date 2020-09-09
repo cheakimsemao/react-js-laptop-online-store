@@ -7,23 +7,30 @@
     color: var(--primaryColor);
 }
 
+input:focus,
+textarea:focus {
+    border-color: #ff6600 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 159, 114, 0.582) !important;
+}
+
 .label-text {
     font-weight: 500;
 }
 
 .form-control {
-    border: 2px solid black;
+    border: 2px solid #a7a6a6;
+    border-radius: 8px;
     padding-left: 50px;
 }
 
 .form-label {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.2em;
 }
 
 .sign-button {
     border: 2.2px solid var(--primaryColor);
     border-radius: 18px;
-    width: 120px;
+    width: 130px;
     color: var(--primaryColor);
 }
 
@@ -39,30 +46,46 @@
 .input-field {
     position: relative;
 }
+
+.or {
+    text-align: center;
+    color: #a7a6a6;
+    font-weight: 400;
+    position: relative;
+    top: 5px;
+    right: 6px;
+}
+
 .input-icon {
     position: absolute;
     top: 10px;
-    left: 15px;
-    font-size: 20px;
+    left: 14px;
+    font-size: 18px;
+    color: #a7a6a6;
+}
+
+.social-menu {
+    text-align: center;
 }
 
 .fa-facebook,
 .fa-twitter,
-.fa-instagram,
-.fa-reddit {
-    font-size: 45px;
+.fa-reddit,
+.fc-google {
+    font-size: 40px;
+    margin: 0 12px 0;
 }
 
 .fa:hover {
     opacity: 0.8;
 }
 
-.fa-twitter {
-    color: #55acee;
+.fa-facebook {
+    color: #1778f2;
 }
 
-.fa-instagram {
-    color: #e4405f;
+.fa-twitter {
+    color: #55acee;
 }
 
 .fa-reddit {
