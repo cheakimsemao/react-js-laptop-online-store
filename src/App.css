@@ -1,16 +1,20 @@
 :root {
     --primaryColor: #ff6600;
-    --primaryFontFamily: Arial;
+    --primaryFontFamily: 'Poppins', sans-serif;
 }
 
-.paragraph {
-    color: var(--primaryColor);
+body {
+    font-family: var(--primaryFontFamily);
 }
 
 input:focus,
 textarea:focus {
     border-color: #ff6600 !important;
     box-shadow: 0 0 0 0.2rem rgba(255, 159, 114, 0.582) !important;
+}
+
+.paragraph {
+    color: var(--primaryColor);
 }
 
 .label-text {
