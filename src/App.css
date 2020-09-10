@@ -1,16 +1,24 @@
 :root {
     --primaryColor: #ff6600;
-    --primaryFontFamily: Arial;
+    --primaryFontFamily: 'Poppins', sans-serif;
 }
 
 .paragraph {
     color: var(--primaryColor) !important;
 }
 
+body {
+    font-family: var(--primaryFontFamily);
+}
+
 input:focus,
 textarea:focus {
     border-color: var(--primaryColor) !important;
     box-shadow: 0 0 0 0.2rem rgba(255, 159, 114, 0.582) !important;
+}
+
+.paragraph {
+    color: var(--primaryColor);
 }
 
 .label-text {
@@ -40,6 +48,16 @@ textarea:focus {
 }
 
 
+.form-title {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.form-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+}
+
 .sign-button {
     border: 2.2px solid var(--primaryColor);
     border-radius: 18px;
@@ -62,8 +80,8 @@ textarea:focus {
 
 .or {
     text-align: center;
-    color: #a7a6a6;
-    font-weight: 400;
+    color: #c6c6c6;
+    font-weight: 500;
     position: relative;
     top: 5px;
     right: 6px;
@@ -121,7 +139,7 @@ textarea:focus {
 /* Footer */
 #footer li {
     font-size: 12px;
-    font-weight: 550;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -132,6 +150,10 @@ textarea:focus {
 #footer a:hover {
     color: var(--primaryColor);
     text-decoration: none;
+}
+
+.footer-title {
+    font-weight: bold;
 }
 
 .social-media-icon {

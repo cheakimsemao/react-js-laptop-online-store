@@ -17,11 +17,11 @@ const SignIn = () => {
 
     return (
         <Container className='mt-4'>
-            <Row className='justify-content-center mb-3'>
-                <h1>Sign In</h1>
+            <Row className='justify-content-center'>
+                <p className='form-title'>Sign In</p>
             </Row>
             <Row className='justify-content-center paragraph'>
-                <h4 className='mb-5'>Let's Get Started</h4>
+                <p className='mb-5 form-subtitle'>Let's Get Started</p>
             </Row>
             <Form fluid='md' onSubmit={handleSubmit(onSubmit)}>
                 <Row className='justify-content-center'>

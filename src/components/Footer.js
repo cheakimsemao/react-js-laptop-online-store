@@ -10,7 +10,7 @@ const Footer = () => {
             <Row className='mt-5'>
                 <Col sm>Logo</Col>
                 <Col sm={4}>
-                    <h6 className='mb-4'>Brands</h6>
+                    <p className='mb-4 footer-title'>Brands</p>
                     <Row>
                         <Col>
                             <ul className='list-unstyled'>
@@ -65,7 +65,7 @@ const Footer = () => {
                     </Row>
                 </Col>
                 <Col sm>
-                    <h6 className='mb-4'>Accessories</h6>
+                    <p className='mb-4 footer-title'>Accessories</p>
                     <ul className='list-unstyled'>
                         <li>
                             <a href='#'>KEYBOARD</a>
@@ -88,7 +88,7 @@ const Footer = () => {
                     </ul>
                 </Col>
                 <Col sm>
-                    <h6 className='mb-4'>About</h6>
+                    <p className='mb-4 footer-title'>About</p>
                     <ul className='list-unstyled'>
                         <li>
                             <a href='#'>CONTACT</a>
@@ -97,7 +97,7 @@ const Footer = () => {
                             <a href='#'>LOCATION</a>
                         </li>
                     </ul>
-                    <h6 className='mt-5 mb-4'>Follow Us</h6>
+                    <p className='mt-5 mb-4 footer-title'>Follow Us</p>
                     <a href='#' className='social-media-icon'>
                         <FiFacebook />
                     </a>
