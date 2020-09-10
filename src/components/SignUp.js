@@ -19,11 +19,11 @@ const SignUp = () => {
     password.current = watch('password', '');
     return (
         <Container className='mt-4'>
-            <Row className='justify-content-center mb-3'>
-                <h1>Sign Up</h1>
+            <Row className='justify-content-center'>
+                <p className='form-title'>Sign Up</p>
             </Row>
             <Row className='justify-content-center paragraph'>
-                <h4 className='mb-5'>Create Your Free Account</h4>
+                <p className='mb-5 form-subtitle'>Create Your Free Account</p>
             </Row>
             <Form fluid='md' onSubmit={handleSubmit(onSubmit)}>
                 <Row className='justify-content-center'>
