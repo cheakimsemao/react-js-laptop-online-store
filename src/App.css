@@ -98,7 +98,7 @@ textarea:focus {
 
 #footer li {
     font-size: 12px;
-    font-weight: 550;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -109,6 +109,10 @@ textarea:focus {
 #footer a:hover {
     color: #ff6600;
     text-decoration: none;
+}
+
+.footer-title {
+    font-weight: bold;
 }
 
 .social-media-icon {
