@@ -1,24 +1,14 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import SignIn from './components/SignIn';
-import SignUp from './components/SignUp';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
+import Main from './components/Main';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
     return (
         <Router>
-        <div>
-            <Header />
-            
-            <Switch>
-                <Route path={'/signin'} exact component={SignIn}></Route>
-                <Route path={'/signout'} exact component={SignUp}></Route>
-            </Switch>
-            <Footer />
-        </div>
+            <div>
+                <Main />
+            </div>
         </Router>
     );
 }

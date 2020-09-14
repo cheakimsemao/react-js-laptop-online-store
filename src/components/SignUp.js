@@ -1,12 +1,12 @@
 import React, { useRef } from 'react';
 import '../App.css';
 import { Container, Col, Row, Form, Button } from 'react-bootstrap';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { BsFillEnvelopeFill, BsLockFill } from 'react-icons/bs';
+import { BsFillEnvelopeFill, BsLockFill, BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaFacebookSquare, FaTwitter, FaRedditSquare } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { useForm } from 'react-hook-form';
 import { ErrorMessage } from '@hookform/error-message';
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
     const { register, handleSubmit, errors, watch } = useForm({
@@ -170,15 +170,15 @@ const SignUp = () => {
                 <Row className='mb-4'>
                     <Col style={{ textAlign: 'center' }}>
                         Already have an account?
-                        <a
-                            href='$'
+                        <Link
+                            to='/signin'
                             style={{
                                 color: '#ff6600',
                                 marginLeft: '5px',
                                 textDecoration: 'none',
                             }}>
                             Sign In
-                        </a>
+                        </Link>
                     </Col>
                 </Row>
 

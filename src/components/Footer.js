@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -15,50 +16,50 @@ const Footer = () => {
                         <Col>
                             <ul className='list-unstyled'>
                                 <li>
-                                    <a href='#'>APPLE</a>
+                                    <Link to='/brands/apple'>APPLE</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>GOOGLE</a>
+                                    <Link to='/brands/google'>GOOGLE</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>SAMSUNG</a>
+                                    <Link to='/brands/samsung'>SAMSUNG</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>ALIENWARE</a>
+                                    <Link to='/brands/alienware'>ALIENWARE</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>LENOVO</a>
+                                    <Link to='/brands/lenovo'>LENOVO</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>MICROSOFT</a>
+                                    <Link to='/brands/microsoft'>MICROSOFT</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>HUAWEI</a>
+                                    <Link to='/brands/huawei'>HUAWEI</Link>
                                 </li>
                             </ul>
                         </Col>
                         <Col>
                             <ul className='list-unstyled'>
                                 <li>
-                                    <a href='#'>XIAOMI</a>
+                                    <Link to='/brands/xiaomi'>XIAOMI</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>MSI</a>
+                                    <Link to='/brands/msi'>MSI</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>DELL</a>
+                                    <Link to='/brands/dell'>DELL</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>SONY</a>
+                                    <Link to='/brands/sony'>SONY</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>ASUS</a>
+                                    <Link to='/brands/asus'>ASUS</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>RAZER</a>
+                                    <Link to='/brands/razer'>RAZER</Link>
                                 </li>
                                 <li>
-                                    <a href='#'>HP</a>
+                                    <Link to='/brands/hp'>HP</Link>
                                 </li>
                             </ul>
                         </Col>
@@ -68,22 +69,22 @@ const Footer = () => {
                     <p className='mb-4 footer-title'>Accessories</p>
                     <ul className='list-unstyled'>
                         <li>
-                            <a href='#'>KEYBOARD</a>
+                            <Link to='/accessories/keyboard'>KEYBOARD</Link>
                         </li>
                         <li>
-                            <a href='#'>MOUSE</a>
+                            <Link to='/accessories/mouse'>MOUSE</Link>
                         </li>
                         <li>
-                            <a href='#'>HEADSET</a>
+                            <Link to='/accessories/headset'>HEADSET</Link>
                         </li>
                         <li>
-                            <a href='#'>WEBCAM</a>
+                            <Link to='/accessories/webcam'>WEBCAM</Link>
                         </li>
                         <li>
-                            <a href='#'>USB</a>
+                            <Link to='/accessories/usb'>USB</Link>
                         </li>
                         <li>
-                            <a href='#'>ADAPTOR</a>
+                            <Link to='/accessories/adaptor'>ADAPTOR</Link>
                         </li>
                     </ul>
                 </Col>
@@ -91,22 +92,22 @@ const Footer = () => {
                     <p className='mb-4 footer-title'>About</p>
                     <ul className='list-unstyled'>
                         <li>
-                            <a href='#'>CONTACT</a>
+                            <Link to='/about'>CONTACT</Link>
                         </li>
                         <li>
-                            <a href='#'>LOCATION</a>
+                            <Link to='/about'>LOCATION</Link>
                         </li>
                     </ul>
                     <p className='mt-5 mb-4 footer-title'>Follow Us</p>
-                    <a href='#' className='social-media-icon'>
+                    <Link to='' className='social-media-icon'>
                         <FiFacebook />
-                    </a>
-                    <a href='#' className='social-media-icon'>
+                    </Link>
+                    <Link to='' className='social-media-icon'>
                         <FiTwitter />
-                    </a>
-                    <a href='#' className='social-media-icon'>
+                    </Link>
+                    <Link to='' className='social-media-icon'>
                         <FiInstagram />
-                    </a>
+                    </Link>
                 </Col>
             </Row>
         </Container>

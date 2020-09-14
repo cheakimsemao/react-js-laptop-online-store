@@ -6,6 +6,7 @@ import { FaFacebookSquare, FaTwitter, FaRedditSquare } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { useForm } from 'react-hook-form';
 import { ErrorMessage } from '@hookform/error-message';
+import { Link } from 'react-router-dom';
 
 const SignIn = () => {
     const { register, handleSubmit, errors } = useForm({
@@ -85,15 +86,15 @@ const SignIn = () => {
                 <Row className='mb-4 mt-3'>
                     <Col style={{ textAlign: 'center' }}>
                         Don't have an account yet?
-                        <a
-                            href='$'
+                        <Link
+                            to='/signup'
                             style={{
                                 color: '#ff6600',
                                 marginLeft: '5px',
                                 textDecoration: 'none',
                             }}>
                             Sign Up
-                        </a>
+                        </Link>
                     </Col>
                 </Row>
 
