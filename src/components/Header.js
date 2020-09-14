@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import { FaFacebookSquare, FaTwitter, FaRedditSquare } from 'react-icons/fa';
-
+import {Link}from "react-router-dom"
 const Header = () => {
     return (
         <>
@@ -44,12 +44,17 @@ const Header = () => {
                             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                             <Button className='search-button' variant='white' type='submit'>Search</Button>
                         </Form>
-                        <a href='$'>
+
+                        <Link to="/signin">
+                        <a>
                             <FaFacebookSquare className='fa-facebook' />
                         </a>
-                        <a href='$'>
+                        </Link>
+                        <Link to="/signout">
+                        <a>
                             <FaFacebookSquare className='fa-facebook' />
                         </a>
+                        </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
