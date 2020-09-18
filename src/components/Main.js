@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Header from './Header';
 import Footer from './Footer';
 import SignIn from './SignIn';
@@ -22,6 +23,7 @@ import Sony from './brands/Sony';
 import Asus from './brands/Asus';
 import Razer from './brands/Razer';
 import HP from './brands/HP';
+import ProductDetails from './ProductDetails';
 // accessories
 import Keyboard from './accessories/Keyboard';
 import Mouse from './accessories/Mouse';
@@ -62,6 +64,7 @@ const Main = () => {
                 <Route path={'/accessories/webcam'} component={Webcam} />
                 <Route path={'/accessories/usb'} component={USB} />
                 <Route path={'/accessories/adaptor'} component={Adaptor} />
+                <Route path={'/brands/product-details'} component={ProductDetails} />
             </Switch>
             <Footer />
         </div>
