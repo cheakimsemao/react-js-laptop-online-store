@@ -3,10 +3,6 @@
     --primaryFontFamily: 'Poppins', sans-serif;
 }
 
-.paragraph {
-    color: var(--primaryColor) !important;
-}
-
 body {
     font-family: var(--primaryFontFamily);
 }
@@ -16,6 +12,8 @@ textarea:focus {
     border-color: var(--primaryColor) !important;
     box-shadow: 0 0 0 0.2rem rgba(255, 159, 114, 0.582) !important;
 }
+
+/* Sign In & Sign Up */
 
 .paragraph {
     color: var(--primaryColor);
@@ -46,7 +44,6 @@ textarea:focus {
     background-color: var(--primaryColor);
     color: white;
 }
-
 
 .form-title {
     font-weight: bold;
@@ -124,7 +121,8 @@ textarea:focus {
 }
 
 /* Header */
-#header a{
+
+#header a {
     color: #000000;
 }
 
@@ -132,11 +130,12 @@ textarea:focus {
     color: var(--primaryColor);
     text-decoration: none;
 }
-#header #left-navbar .nav-link{
+
+#header #left-navbar .nav-link {
     margin: 5px 15px;
 }
 
-#header #right-navbar{
+#header #right-navbar {
     /* justify-content: center; */
     align-items: center;
 }
@@ -146,18 +145,23 @@ textarea:focus {
     margin: auto;
 }
 
-#header .nav-item:hover .dropdown-menu{
+#header .nav-item:hover .dropdown-menu {
     display: block;
 }
-
-
 
 #header .nav-icons {
     font-size: 40px;
     margin: 0 12px 0;
 }
 
+.store-logo {
+    font-weight: bold;
+    color: #ff6600 !important;
+    font-size: 30px;
+}
+
 /* Footer */
+
 #footer li {
     font-size: 12px;
     font-weight: 600;

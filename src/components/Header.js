@@ -3,8 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import {MdAddShoppingCart, MdPersonOutline, MdSearch} from 'react-icons/md';
-
+import { MdAddShoppingCart, MdPersonOutline, MdSearch } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -12,7 +11,7 @@ const Header = () => {
         <>
             <Navbar id='header' collapseOnSelect expand='lg' bg='' variant=''>
                 <Navbar.Brand>
-                    <Link to='/' className='paragraph'>
+                    <Link to='/' className='store-logo'>
                         100FH
                     </Link>
                 </Navbar.Brand>
@@ -77,7 +76,7 @@ const Header = () => {
                         <Form.Group className='label-text' controlId='Search'>
                             <div className='input-field'>
                                 <Form.Control className='mr-auto' type='text' placeholder='Search' />
-                                <MdSearch className='input-icon'/>
+                                <MdSearch className='input-icon' />
                             </div>
                         </Form.Group>
                         {/* <Form inline>
@@ -93,12 +92,11 @@ const Header = () => {
                             <MdPersonOutline className='nav-icons' />
                         </Link>
                         <Link to='/cart'>
-                            <MdAddShoppingCart className='nav-icons'/>
+                            <MdAddShoppingCart className='nav-icons' />
                         </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            
         </>
     );
 };
