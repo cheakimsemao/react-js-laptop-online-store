@@ -136,6 +136,27 @@ textarea:focus {
     margin: 5px 15px;
 }
 
+#header #right-navbar{
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#header .form-group {
+    /* align-items: center; */
+    margin: auto;
+}
+
+#header .nav-item:hover .dropdown-menu{
+    display: block;
+}
+
+
+
+#header .nav-icons {
+    font-size: 40px;
+    margin: 0 12px 0;
+}
+
 /* Footer */
 #footer li {
     font-size: 12px;
