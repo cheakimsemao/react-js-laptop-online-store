@@ -633,6 +633,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 1200px) {
+    /* Product Details & Accessory Details */
     #product-detail,
     #accessory-detail,
     #recommendation {
@@ -644,9 +645,23 @@ input[type='number']::-webkit-outer-spin-button {
     #accessory-detail {
         margin-top: 70px;
     }
+
+    /* About */
+    #about {
+        width: 85% !important;
+    }
+
+    .contact-padding-1 {
+        padding-right: 50px !important;
+    }
+
+    .contact-padding-2 {
+        padding-left: 20px !important;
+    }
 }
 
 @media only screen and (max-width: 991px) {
+    /* Product Details & Accessory Details */
     .product-detail-image img,
     .accessory-detail-image img {
         width: 300px !important;
@@ -665,9 +680,36 @@ input[type='number']::-webkit-outer-spin-button {
     .add-to-cart-btn {
         margin: 15px 0;
     }
+
+    /* About */
+    #about {
+        width: 85% !important;
+    }
+
+    .team-card {
+        margin-bottom: 40px;
+    }
+
+    #contact {
+        margin: 100px 0 130px 0 !important;
+    }
+
+    #contact h1 {
+        text-align: center;
+    }
+
+    .contact-padding-1 {
+        padding-right: 0 !important;
+        padding-bottom: 50px !important;
+    }
+
+    .contact-padding-2 {
+        padding-left: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
+    /* Product Details & Accessory Details */
     #product-detail,
     #accessory-detail,
     #recommendation {
@@ -703,6 +745,27 @@ input[type='number']::-webkit-outer-spin-button {
 
     .accessory-detail-image img {
         height: 260px !important;
+    }
+
+    /* About */
+    #about {
+        width: 85% !important;
+    }
+
+    .team-card {
+        margin-bottom: 40px;
+    }
+
+    #contact {
+        margin: 100px 0 130px 0 !important;
+    }
+
+    .contact-padding-1 {
+        padding-right: 0 !important;
+    }
+
+    .contact-padding-2 {
+        padding-left: 0 !important;
     }
 }
 
@@ -786,13 +849,13 @@ input[type='number']::-webkit-outer-spin-button {
     margin-right: 8px;
 }
 
-.custom-circle-image {
-    width: 7vw;
-    height: 7vw;
-}
-
-.custom-circle-image img {
+.team-profile img {
     object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-position: fixed;
+    background-repeat: no-repeat;
 }
 
 #contact {
