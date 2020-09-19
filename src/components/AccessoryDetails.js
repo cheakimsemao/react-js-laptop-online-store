@@ -16,9 +16,10 @@ import ListItemText from '@material-ui/core/ListItemText';
 import { GrLocation } from 'react-icons/gr';
 import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 
-import Macbook1 from '../assets/images/others/laptops/Macbook-1.png';
-import Macbook2 from '../assets/images/others/laptops/Macbook-2.png';
-import Macbook3 from '../assets/images/others/laptops/Macbook-3.png';
+import JBL1 from '../assets/images/others/headsets/JBL-1.jpg';
+import Razer1 from '../assets/images/others/headsets/Razer-1.jpg';
+import Razer2 from '../assets/images/others/headsets/Razer-2.jpg';
+import Razer3 from '../assets/images/others/headsets/Razer-3.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -34,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const ProductDetails = () => {
+const AccessoryDetails = () => {
     const classes = useStyles();
 
     const initialCount = 1;
@@ -42,17 +43,17 @@ const ProductDetails = () => {
 
     return (
         <>
-            <div id='product-detail'>
+            <div id='accessory-detail'>
                 <Container>
                     <Row>
-                        <Col sm className='product-detail-image'>
-                            <img src={Macbook3} alt='macbook-pro-2020' />
+                        <Col sm className='accessory-detail-image'>
+                            <img src={JBL1} alt='macbook-pro-2020' />
                         </Col>
-                        <Col sm>
-                            <p className='product-detail-title'>MACBOOK PRO 13-INCH 2020</p>
-                            <Row className='product-detail-option'>
+                        <Col>
+                            <p className='accessory-detail-title'>Razer Kraken Pro</p>
+                            <Row className='accessory-detail-option'>
                                 <Col lg={3}>
-                                    <h6 className='price'>$1799.00</h6>
+                                    <h6 className='price'>$179.00</h6>
                                 </Col>
                                 <Col lg={9} className={classes.root}>
                                     <Box component='fieldset' mb={3} borderColor='transparent'>
@@ -60,31 +61,14 @@ const ProductDetails = () => {
                                     </Box>
                                 </Col>
                             </Row>
-                            <Row className='product-detail-option'>
+                            <Row className='accessory-detail-option'>
                                 <Col sm={3}>
                                     <p>COLOR: </p>
                                 </Col>
                                 <Col sm={9}>
-                                    <button className='color-picker space-gray'>&nbsp;</button>
+                                    <button className='color-picker black'>&nbsp;</button>
                                     <button className='color-picker white'>&nbsp;</button>
-                                </Col>
-                            </Row>
-                            <Row className='product-detail-option'>
-                                <Col sm={3}>
-                                    <p>RAM: </p>
-                                </Col>
-                                <Col sm={9}>
-                                    <button className='laptop-ram'>8 GB</button>
-                                    <button className='laptop-ram'>16 GB</button>
-                                </Col>
-                            </Row>
-                            <Row className='product-detail-option'>
-                                <Col md={3}>
-                                    <p>STORAGE: </p>
-                                </Col>
-                                <Col md={9}>
-                                    <button className='laptop-storage'>128 GB</button>
-                                    <button className='laptop-storage'>256 GB</button>
+                                    <button className='color-picker red'>&nbsp;</button>
                                 </Col>
                             </Row>
                             <Row className='product-detail-option'>
@@ -123,82 +107,99 @@ const ProductDetails = () => {
                     <Container className='specification-details'>
                         <Row className='mt-5'>
                             <Col sm={3}>
-                                <p>CPU / Processor</p>
+                                <p>Audio Specifications</p>
                             </Col>
                             <Col sm={9}>
                                 <p>
-                                    2.3GHz quad core 10th generation Intel Core i7, Turbo Boost up to 4.1GHz,
-                                    with 6MB shared L3 cache
+                                    <span>
+                                        Frequency range 20Hz-20KHz
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Sensitivity passive mode 95dBSPL / 1mW
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Sensitivity active mode 102 dBSPL / 1mW
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Transducer Impedance 32Ohm
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Max input power 40mW
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Transmit sensitivity -15 Dbv/Pa
+                                        <br />
+                                    </span>
                                 </p>
                             </Col>
                             <Col sm={3}>
-                                <p>Operating Systems</p>
-                            </Col>
-                            <Col sm={9}>
-                                <p>macOS Catalina</p>
-                            </Col>
-                            <Col sm={3}>
-                                <p>RAM / Memory</p>
-                            </Col>
-                            <Col sm={9}>
-                                <p>8GB of 3733MHz LPDDR4X onboard memory</p>
-                            </Col>
-                            <Col sm={3}>
-                                <p>Storage</p>
-                            </Col>
-                            <Col sm={9}>
-                                <p>128GB SSD</p>
-                            </Col>
-                            <Col sm={3}>
-                                <p>Graphic</p>
-                            </Col>
-                            <Col sm={9}>
-                                <p>Intel Iris Plus Graphics</p>
-                            </Col>
-                            <Col sm={3}>
-                                <p>Display</p>
+                                <p>Control and Connection Specifications</p>
                             </Col>
                             <Col sm={9}>
                                 <p>
-                                    13.3 inch LED-backlit display with IPS technology; 2560x1600 native
-                                    resolution at 227 pixels per inch
+                                    <span>
+                                        Bluetooth transmitted power less than 5d8m
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Bluetooth transmitted modulation GFSK, π/4DQPSK
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Bluetooth frequency 2.402GHz-2.480GHz
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Bluetooth profiles version A2DP 1.2, AVRCP 1.5, HFP 1.6, HSP 1.2
+                                        <br />
+                                    </span>
+                                    <span>
+                                        1.2 Bluetooth version 4.2
+                                        <br />
+                                    </span>
                                 </p>
-                            </Col>
-                            <Col sm={3}>
-                                <p>Wireless</p>
-                            </Col>
-                            <Col sm={9}>
-                                <p>802.11ac Wi-Fi wireless networking, IEEE 802.11a/b/g/n compatible</p>
-                            </Col>
-                            <Col sm={3}>
-                                <p>Sound</p>
-                            </Col>
-                            <Col sm={9}>
-                                <p>Stereo speakers with high dynamic range</p>
-                            </Col>
-                            <Col sm={3}>
-                                <p>Webcam</p>
-                            </Col>
-                            <Col sm={9}>
-                                <p>720p FaceTime HD camera</p>
-                            </Col>
-                            <Col sm={3}>
-                                <p>Ports</p>
-                            </Col>
-                            <Col sm={9}>
-                                <p>Four Thunderbolt 3 (USB-C) ports</p>
                             </Col>
                             <Col sm={3}>
                                 <p>Battery</p>
                             </Col>
                             <Col sm={9}>
-                                <p>Up to 10 hours wireless web, Up to 10 hours Apple TV app movie playback</p>
+                                <p>
+                                    <span>
+                                        Headset battery type Polymer Li-ion Battery(610mAh/3.7V)
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Power supply 5V ⎓ 1A
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Charging time less than 2 hrs from empty
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Music play time with BT on 27 hrs
+                                        <br />
+                                    </span>
+                                </p>
                             </Col>
                             <Col sm={3}>
-                                <p>Weight</p>
+                                <p>Size</p>
                             </Col>
                             <Col sm={9}>
-                                <p>1.4kg</p>
+                                <p>
+                                    <span>
+                                        Driver size 40mm dynamic driver
+                                        <br />
+                                    </span>
+                                    <span>
+                                        Weight (g) 220 g<br />
+                                    </span>
+                                </p>
                             </Col>
                         </Row>
                     </Container>
@@ -339,28 +340,28 @@ const ProductDetails = () => {
                 <Container>
                     <Row>
                         <Col lg className='recommended-card'>
-                            <img src={Macbook1} alt='macbook-pro-2020' />
-                            <h6>MACBOOK PRO 16-INCH 2020</h6>
+                            <img src={Razer1} alt='macbook-pro-2020' />
+                            <h6>Razer Kraken Pro</h6>
                             <Box component='fieldset' borderColor='transparent'>
                                 <Rating name='read-only' value={5} size='small' readOnly />
                             </Box>
-                            <p>$2099.00</p>
+                            <p>$179.00</p>
                         </Col>
                         <Col lg className='recommended-card'>
-                            <img src={Macbook3} alt='macbook-pro-2020' />
-                            <h6>MACBOOK PRO 15-INCH 2020</h6>
+                            <img src={Razer2} alt='macbook-pro-2020' />
+                            <h6>Razer Kraken Pro V2</h6>
                             <Box component='fieldset' borderColor='transparent'>
                                 <Rating name='read-only' value={5} size='small' readOnly />
                             </Box>
-                            <p>$1999.00</p>
+                            <p>$179.00</p>
                         </Col>
                         <Col lg className='recommended-card'>
-                            <img src={Macbook2} alt='macbook-pro-2020' />
-                            <h6>MACBOOK AIR 2020</h6>
+                            <img src={Razer3} alt='macbook-pro-2020' />
+                            <h6>Razer Kraken Star War Edition</h6>
                             <Box component='fieldset' borderColor='transparent'>
                                 <Rating name='read-only' value={5} size='small' readOnly />
                             </Box>
-                            <p>$1199.00</p>
+                            <p>$179.00</p>
                         </Col>
                     </Row>
                 </Container>
@@ -369,4 +370,4 @@ const ProductDetails = () => {
     );
 };
 
-export default ProductDetails;
+export default AccessoryDetails;

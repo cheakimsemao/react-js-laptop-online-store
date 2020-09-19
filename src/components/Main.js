@@ -31,6 +31,8 @@ import Headset from './accessories/Headset';
 import Webcam from './accessories/Webcam';
 import USB from './accessories/USB';
 import Adaptor from './accessories/Adaptor';
+import AccessoryDetails from './AccessoryDetails';
+
 import { Switch, Route } from 'react-router-dom';
 
 const Main = () => {
@@ -65,6 +67,7 @@ const Main = () => {
                 <Route path={'/accessories/usb'} component={USB} />
                 <Route path={'/accessories/adaptor'} component={Adaptor} />
                 <Route path={'/brands/product-details'} component={ProductDetails} />
+                <Route path={'/brands/accessory-details'} component={AccessoryDetails} />
             </Switch>
             <Footer />
         </div>
