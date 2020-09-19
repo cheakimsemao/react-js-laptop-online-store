@@ -9,7 +9,11 @@ const Footer = () => {
         <Container id='footer' className='mt-5 mb-5'>
             <hr />
             <Row className='mt-5'>
-                <Col sm>Logo</Col>
+                <Col sm>
+                    <Link to='/' className='store-logo'>
+                        100FH
+                    </Link>
+                </Col>
                 <Col sm={4}>
                     <p className='mb-4 footer-title'>Brands</p>
                     <Row>

@@ -1,11 +1,9 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { FaFacebookSquare } from 'react-icons/fa';
+import { MdAddShoppingCart, MdPersonOutline, MdSearch } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -13,7 +11,7 @@ const Header = () => {
         <>
             <Navbar id='header' collapseOnSelect expand='lg' bg='' variant=''>
                 <Navbar.Brand>
-                    <Link to='/' className='paragraph'>
+                    <Link to='/' className='store-logo'>
                         100FH
                     </Link>
                 </Navbar.Brand>
@@ -74,24 +72,31 @@ const Header = () => {
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-                    <Nav>
-                        <Form inline>
-                            <FormControl type='text' placeholder='Search' className='mr-sm-2' />
+                    <Nav id='right-navbar'>
+                        <Form.Group className='label-text' controlId='Search'>
+                            <div className='input-field'>
+                                <Form.Control className='mr-auto' type='text' placeholder='Search' />
+                                <MdSearch className='input-icon' />
+                            </div>
+                        </Form.Group>
+                        {/* <Form inline>
+                            <FormControl type='text' placeholder='Search' className='mr-sm-2'>
+                                
+                            </FormControl>
                             <Button className='search-button' variant='white' type='submit'>
                                 Search
                             </Button>
-                        </Form>
+                        </Form> */}
 
                         <Link to='/signin'>
-                            <FaFacebookSquare className='fa-facebook' />
+                            <MdPersonOutline className='nav-icons' />
                         </Link>
                         <Link to='/cart'>
-                            <FaFacebookSquare className='fa-facebook' />
+                            <MdAddShoppingCart className='nav-icons' />
                         </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            <hr />
         </>
     );
 };
