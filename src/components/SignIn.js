@@ -12,12 +12,13 @@ const SignIn = () => {
     const { register, handleSubmit, errors } = useForm({
         criteriaMode: 'all',
     });
+
     const onSubmit = (data) => {
         console.log(data);
     };
 
     return (
-        <Container className='mt-4'>
+        <Container id='sign-in'>
             <Row className='justify-content-center'>
                 <p className='form-title'>Sign In</p>
             </Row>
@@ -45,7 +46,6 @@ const SignIn = () => {
                                     placeholder='Enter Email'
                                     required
                                 />
-
                                 <ErrorMessage
                                     errors={errors}
                                     name='email'
@@ -65,7 +65,6 @@ const SignIn = () => {
                         </Form.Group>
                     </Col>
                 </Row>
-
                 <Row className='justify-content-center'>
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text' controlId='formBasicPassword'>
@@ -82,7 +81,6 @@ const SignIn = () => {
                         </Form.Group>
                     </Col>
                 </Row>
-
                 <Row className='mb-4 mt-3'>
                     <Col style={{ textAlign: 'center' }}>
                         Don't have an account yet?
@@ -97,7 +95,6 @@ const SignIn = () => {
                         </Link>
                     </Col>
                 </Row>
-
                 <Row className='mb-4'>
                     <Col style={{ textAlign: 'center' }}>
                         <Button className='sign-button' variant='white' type='submit'>
@@ -105,7 +102,6 @@ const SignIn = () => {
                         </Button>
                     </Col>
                 </Row>
-
                 <Row className='justify-content-center mb-3'>
                     <Col lg={2} md={3} sm={4} xs={5}>
                         <hr className='horizontal-line'></hr>
@@ -117,7 +113,6 @@ const SignIn = () => {
                         <hr className='horizontal-line'></hr>
                     </Col>
                 </Row>
-
                 <Row>
                     <Col className='social-menu'>
                         <a href='$'>

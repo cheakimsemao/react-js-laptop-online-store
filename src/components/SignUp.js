@@ -12,13 +12,16 @@ const SignUp = () => {
     const { register, handleSubmit, errors, watch } = useForm({
         criteriaMode: 'all',
     });
+
     const onSubmit = (data) => {
         console.log(data);
     };
+
     const password = useRef({});
     password.current = watch('password', '');
+
     return (
-        <Container className='mt-4'>
+        <Container id='sign-up'>
             <Row className='justify-content-center'>
                 <p className='form-title'>Sign Up</p>
             </Row>
@@ -46,7 +49,6 @@ const SignUp = () => {
                                     placeholder='Enter Full Name'
                                     required
                                 />
-
                                 <ErrorMessage
                                     errors={errors}
                                     name='userName'
@@ -66,7 +68,6 @@ const SignUp = () => {
                         </Form.Group>
                     </Col>
                 </Row>
-
                 <Row className='justify-content-center'>
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text'>
@@ -87,7 +88,6 @@ const SignUp = () => {
                                     placeholder='Enter Email'
                                     required
                                 />
-
                                 <ErrorMessage
                                     errors={errors}
                                     name='email'
@@ -107,7 +107,6 @@ const SignUp = () => {
                         </Form.Group>
                     </Col>
                 </Row>
-
                 <Row className='justify-content-center'>
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text'>
@@ -135,13 +134,11 @@ const SignUp = () => {
                                     placeholder='Enter password'
                                 />
                                 {errors.password && <p style={{ color: 'red' }}>{errors.password.message}</p>}
-
                                 <BsLockFill className='input-icon'></BsLockFill>
                             </div>
                         </Form.Group>
                     </Col>
                 </Row>
-
                 <Row className='justify-content-center mb-3'>
                     <Col lg={5} md={8} sm={10} xs={11}>
                         <Form.Group className='label-text'>
@@ -166,7 +163,6 @@ const SignUp = () => {
                         </Form.Group>
                     </Col>
                 </Row>
-
                 <Row className='mb-4'>
                     <Col style={{ textAlign: 'center' }}>
                         Already have an account?
@@ -181,7 +177,6 @@ const SignUp = () => {
                         </Link>
                     </Col>
                 </Row>
-
                 <Row className='mb-4'>
                     <Col style={{ textAlign: 'center' }}>
                         <Button className='sign-button' variant='white' type='submit'>
@@ -189,7 +184,6 @@ const SignUp = () => {
                         </Button>
                     </Col>
                 </Row>
-
                 <Row className='justify-content-center mb-3'>
                     <Col lg={2} md={3} sm={4} xs={5}>
                         <hr className='horizontal-line'></hr>
@@ -201,7 +195,6 @@ const SignUp = () => {
                         <hr className='horizontal-line'></hr>
                     </Col>
                 </Row>
-
                 <Row>
                     <Col className='social-menu'>
                         <a href='$'>

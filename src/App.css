@@ -12,6 +12,7 @@ textarea:focus {
     border-color: var(--primaryColor) !important;
     box-shadow: 0 0 0 0.2rem rgba(255, 159, 114, 0.582) !important;
 }
+
 input[type='radio']:focus {
     box-shadow: none !important;
 }
@@ -19,6 +20,7 @@ input[type='radio']:focus {
 .radio input[type='radio'] {
     display: none;
 }
+
 .radio {
     vertical-align: middle;
     color: var(--primaryColor);
@@ -28,6 +30,7 @@ input[type='radio']:focus {
     padding-left: 30px;
     margin-right: 30px;
 }
+
 .radio span {
     height: 17.5px;
     width: 17.5px;
@@ -38,6 +41,7 @@ input[type='radio']:focus {
     left: 0;
     top: 3px;
 }
+
 .radio span:after {
     content: '';
     height: 8px;
@@ -51,10 +55,18 @@ input[type='radio']:focus {
     border-radius: 50%;
     transition: 300ms ease-in-out 0s;
 }
+
 .radio input[type='radio']:checked ~ span:after {
     transform: translate(-50%, -50%) scale(1);
 }
+
 /* Sign In & Sign Up */
+
+#sign-in,
+#sign-up {
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
 
 .paragraph {
     color: var(--primaryColor);

@@ -7,9 +7,8 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <Container id='footer' className='mt-5 mb-5'>
-            <hr />
             <Row className='mt-5'>
-                <Col sm>
+                <Col sm className='mb-5'>
                     <Link to='/' className='store-logo'>
                         100FH
                     </Link>
