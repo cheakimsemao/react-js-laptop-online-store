@@ -1,16 +1,39 @@
-import React from 'react';
-
-import Carousel from 'react-bootstrap/Carousel'
+import React, { useState } from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Carousel from 'react-bootstrap/Carousel';
+import NativeSelect from '@material-ui/core/NativeSelect';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import FormControl from '@material-ui/core/FormControl';
 import Grid from '../Grid'
 
+
+import Macbook1 from '../../assets/images/others/laptops/Macbook.png';
+import Macbook2 from '../../assets/images/others/laptops/Macbook-2.png';
+import Macbook3 from '../../assets/images/others/laptops/Macbook-3.png'
+const useStyles = makeStyles((theme) => ({
+    root: {
+        display: 'flex',
+        flexDirection: 'column',
+        '& > * + *': {
+            marginTop: theme.spacing(1),
+        },
+        formControl: {
+            margin: theme.spacing(1),
+            minWidth: 120,
+        },
+    },
+}));
+
+
 const Apple = () => {
+    const classes = useStyles();
     return (
         <>
-            <Carousel>
+            <Carousel id="carousel">
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="../../assets/images/others/laptops/Macbook.png"
+                    src={Macbook1}
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -21,7 +44,7 @@ const Apple = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="../../assets/images/others/laptops/Macbook.png"
+                    src={Macbook2}
                     alt="Second slide"
                     />
 
@@ -33,7 +56,7 @@ const Apple = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="../../assets/images/others/laptops/Macbook.png"
+                    src={Macbook3}
                     alt="Third slide"
                     />
 
@@ -43,11 +66,23 @@ const Apple = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <h1>Apple Products</h1>
-            <select name="sort" id="sort">
-                <option value="newest">SORT BY: NEWEST </option>
-                <option value="popularity">SORT BY: POPULARITY </option>
-            </select>
+            <div id='products'>
+                <div className='review-title'>
+                    <span>Apple Products</span>
+                </div>
+                <div>
+                    <FormControl
+                        style={{ width: '150px', marginRight: '30px' }}>
+                        <NativeSelect
+                            defaultValue='newest'
+                            style={{ fontSize: '12px', color: '#ff6600' }}>
+                            <option value='newest'>NEWEST</option>
+                            <option value='oldest'>OLDEST</option>
+                        </NativeSelect>
+                        <FormHelperText style={{ fontSize: '9px' }}>SORTED BY</FormHelperText>
+                    </FormControl>
+                </div>
+            </div>
             <Grid />
         </>
     )
