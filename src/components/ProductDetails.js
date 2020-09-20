@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Modal, Button, Form } from 'react-bootstrap';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Rating from '@material-ui/lab/Rating';
@@ -15,6 +15,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 
 import { GrLocation } from 'react-icons/gr';
 import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
+import { BsFillEnvelopeFill, BsFillPersonLinesFill } from 'react-icons/bs';
+import { MdTitle, MdMessage } from 'react-icons/md';
 
 import Macbook1 from '../assets/images/others/laptops/Macbook-1.png';
 import Macbook2 from '../assets/images/others/laptops/Macbook-2.png';
@@ -39,6 +41,10 @@ const ProductDetails = () => {
 
     const initialCount = 1;
     const [count, setCount] = useState(initialCount);
+
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     return (
         <>
@@ -219,7 +225,66 @@ const ProductDetails = () => {
                             </NativeSelect>
                             <FormHelperText style={{ fontSize: '9px' }}>SORTED BY</FormHelperText>
                         </FormControl>
-                        <button className='write-a-review-btn'>WRITE A REVIEW</button>
+                        <button className='write-a-review-btn' onClick={handleShow}>
+                            WRITE A REVIEW
+                        </button>
+                        <Modal
+                            show={show}
+                            onHide={handleClose}
+                            backdrop='static'
+                            keyboard={false}
+                            animation={true}
+                            centered>
+                            <Modal.Header closeButton>
+                                <Modal.Title>WRITE A REVIEW</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body id='write-a-review'>
+                                <Form id='review-form'>
+                                    <div className='input-field'>
+                                        <Form.Group controlId='formGroupName'>
+                                            <Form.Control type='text' placeholder='Full name' />
+                                            <BsFillPersonLinesFill className='input-icon' />
+                                        </Form.Group>
+                                    </div>
+                                    <div className='input-field'>
+                                        <Form.Group controlId='formGroupEmail'>
+                                            <Form.Control type='email' placeholder='Email' />
+                                            <BsFillEnvelopeFill className='input-icon' />
+                                        </Form.Group>
+                                    </div>
+                                    <div className='mb-3'>
+                                        <span className='mr-3'>Rating:</span>
+                                        <Rating
+                                            className='item-rating'
+                                            name='size-small'
+                                            defaultValue={0}
+                                            size='small'
+                                        />
+                                    </div>
+                                    <div className='input-field'>
+                                        <Form.Group controlId='formGroupNumber'>
+                                            <Form.Control type='text' placeholder='Review Title' />
+                                            <MdTitle className='input-icon' />
+                                        </Form.Group>
+                                    </div>
+                                    <div className='input-field'>
+                                        <Form.Group controlId='exampleForm.ControlTextarea1'>
+                                            <Form.Control
+                                                as='textarea'
+                                                rows='5'
+                                                placeholder='Body of Review'
+                                            />
+                                            <MdMessage className='input-icon' />
+                                        </Form.Group>
+                                    </div>
+                                    <div className='center'>
+                                        <Button className='submit-button' variant='white' type='submit'>
+                                            Submit
+                                        </Button>
+                                    </div>
+                                </Form>
+                            </Modal.Body>
+                        </Modal>
                     </div>
                 </div>
                 <Container className='mt-5'>

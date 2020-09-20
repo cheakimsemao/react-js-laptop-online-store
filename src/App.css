@@ -529,6 +529,16 @@ input[type='number']::-webkit-outer-spin-button {
     padding: 10px 25px;
 }
 
+#write-a-review {
+    margin: 40px 0;
+}
+
+.item-rating {
+    position: relative;
+    top: 50%;
+    transform: translateY(10%);
+}
+
 .review-item {
     margin-bottom: 50px;
 }
@@ -902,7 +912,8 @@ input[type='number']::-webkit-outer-spin-button {
     color: white;
 }
 
-#submit-form {
+#submit-form,
+#review-form {
     width: 80%;
     margin: auto;
 }
