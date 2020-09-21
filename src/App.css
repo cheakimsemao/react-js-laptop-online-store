@@ -860,7 +860,14 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .carousel-indicators li {
-    background-color: #000000;
+    background-color: #ff6600;
+    opacity: 0.3;
+}
+
+.carousel-indicators .active {
+    color: #ff6600;
+    height: 3px;
+    opacity: 1;
 }
 
 #products {
