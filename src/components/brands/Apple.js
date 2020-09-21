@@ -4,7 +4,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import NativeSelect from '@material-ui/core/NativeSelect';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
-import Grid from '../Grid'
+import Pagination from 'react-bootstrap/Pagination'
+import PageItem from 'react-bootstrap/PageItem'
 
 
 import Macbook1 from '../../assets/images/others/laptops/Macbook.png';
@@ -27,6 +28,18 @@ const useStyles = makeStyles((theme) => ({
 
 const Apple = () => {
     const classes = useStyles();
+    const parameterNumber = ["Apple1",'Apple2',"Apple3","Apple4",'Apple5', 'Apple6', 'Apple7', 'Apple8', 'Apple9'];
+    const grid = parameterNumber.map((name, idx) => 
+        <div className = {"product-items index" + idx}> 
+            <img src= {Macbook2} alt="mac"/>
+            <p class="product-items-title">{name}</p>
+            {idx}
+            <p class="price">$2000</p>
+        </div>
+        
+        )
+    
+    
     return (
         <>
             <Carousel id="carousel">
@@ -83,7 +96,21 @@ const Apple = () => {
                     </FormControl>
                 </div>
             </div>
-            <Grid />
+            <div className = "grid-container">
+                {grid}
+            </div>
+            <Pagination>
+                {/* <Pagination.First /> */}
+                <Pagination.Prev />
+                <Pagination.Item active>{1}</Pagination.Item>
+                <Pagination.Item>{2}</Pagination.Item>
+                <Pagination.Item>{3}</Pagination.Item>
+
+                <Pagination.Ellipsis />
+                <Pagination.Item>{20}</Pagination.Item>
+                <Pagination.Next />
+                {/* <Pagination.Last /> */}
+            </Pagination>        
         </>
     )
 };
