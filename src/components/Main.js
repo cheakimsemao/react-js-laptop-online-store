@@ -8,6 +8,7 @@ import Cart from './Cart';
 import Home from './Home';
 import About from './About';
 import Brands from './Brands';
+import Checkout from './Checkout';
 // brands
 import Apple from './brands/Apple';
 import Google from './brands/Google';
@@ -45,7 +46,8 @@ const Main = () => {
                 <Route exact path={'/brands'} component={Brands} />
                 <Route path={'/signin'} component={SignIn} />
                 <Route path={'/signup'} component={SignUp} />
-                <Route path={'/cart'} component={Cart} />
+                <Route path={'/cart'} exact component={Cart} />
+                <Route path={'/cart/checkout'} component={Checkout} />
                 <Route path={'/brands/apple'} component={Apple} />
                 <Route path={'/brands/google'} component={Google} />
                 <Route path={'/brands/samsung'} component={Samsung} />

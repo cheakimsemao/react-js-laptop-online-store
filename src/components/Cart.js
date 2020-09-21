@@ -92,14 +92,14 @@ const Cart = () => {
                         </tbody>
                     </Table>
                 </Col>
-                <Col>
+                <Col style={{"backgroundColor":"#f9f9f9"}}>
                     <h1 className='productHeader mb-5'>Order Summary</h1>
                     <div className='d-flex justify-content-between mb-4'>
                         <strong>Items : 2</strong>
                         <strong> $XXXX</strong>
                     </div>
                     <strong>Shipping Method</strong>
-                    <div className='radio-group mb-4 mt-4'>
+                    <div className='radio-group mb-4 mt-4' style={{"text-align": "center"}}>
                         <label class='radio'>
                             <input type='radio' value='free-delivery' name='pickup-method'></input>
                             Free Delivery <span></span>

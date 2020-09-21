@@ -40,7 +40,7 @@ const SignUp = () => {
                                         required: 'This is required.',
                                         pattern: {
                                             value: /^[a-z]*$/i,
-                                            message: 'USer Name Must Contain Letters Only',
+                                            message: 'User Name Must Contain Letters Only',
                                         },
                                     })}
                                     name='userName'
@@ -49,19 +49,8 @@ const SignUp = () => {
                                     placeholder='Enter Full Name'
                                     required
                                 />
-                                <ErrorMessage
-                                    errors={errors}
-                                    name='userName'
-                                    render={({ messages }) => {
-                                        return messages
-                                            ? Object.entries(messages).map(([type, message]) => (
-                                                  <p style={{ color: 'red' }} key={type}>
-                                                      {message}
-                                                  </p>
-                                              ))
-                                            : null;
-                                    }}
-                                />
+                                {errors.userName && <p style={{ color: 'red' }}>{errors.userName.message}</p>}
+                                
                                 <BsFillPersonLinesFill className='input-icon' />
                             </div>
                             <Form.Text className='text-muted'></Form.Text>
@@ -88,19 +77,8 @@ const SignUp = () => {
                                     placeholder='Enter Email'
                                     required
                                 />
-                                <ErrorMessage
-                                    errors={errors}
-                                    name='email'
-                                    render={({ messages }) => {
-                                        return messages
-                                            ? Object.entries(messages).map(([type, message]) => (
-                                                  <p style={{ color: 'red' }} key={type}>
-                                                      {message}
-                                                  </p>
-                                              ))
-                                            : null;
-                                    }}
-                                />
+                                {errors.email && <p style={{ color: 'red' }}>{errors.email.message}</p>}
+                                
                                 <BsFillEnvelopeFill className='input-icon' />
                             </div>
                             <Form.Text className='text-muted'></Form.Text>
@@ -112,7 +90,7 @@ const SignUp = () => {
                         <Form.Group className='label-text'>
                             <Form.Label className='form-label'>
                                 Password
-                                {}
+                               
                             </Form.Label>
                             <div className='input-field'>
                                 <Form.Control

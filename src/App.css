@@ -992,3 +992,15 @@ input[type='number']::-webkit-outer-spin-button {
 .index8{
     grid-area: '8';
 }
+.react-datepicker__input-container > input{
+        border: none;
+        outline: none !important;
+        box-shadow: none !important;
+        padding: 0;
+}
+
+.date-picker{
+    border: 2px solid #a7a6a6;
+    border-radius: 8px;
+    padding: 6px 12px 2px 50px;
+}
