@@ -83,8 +83,8 @@ const Apple = () => {
                 <div className='review-title'>
                     <span>Apple Products</span>
                 </div>
-                <div>
-                    <FormControl
+                <div className='sorted-by'>
+                    <FormControl 
                         style={{ width: '150px', marginRight: '30px' }}>
                         <NativeSelect
                             defaultValue='newest'
