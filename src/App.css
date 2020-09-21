@@ -1151,14 +1151,8 @@ input[type='number']::-webkit-outer-spin-button {
         height: 70px;
     }
 
-    .brand-microsoft img {
-        width: 140px;
-    }
-
-    .brand-samsung img {
-        width: 140px;
-    }
-
+    .brand-microsoft img,
+    .brand-samsung img,
     .brand-xiaomi img {
         width: 140px;
     }
@@ -1395,12 +1389,16 @@ input[type='number']::-webkit-outer-spin-button {
     }
 
     /* Brands */
-    .brand-apple img {
+    .brand-apple img,
+    .brand-dell img,
+    .brand-hp img,
+    .brand-huawei img {
         width: 70px;
         height: 70px;
     }
 
-    .brand-razer img {
+    .brand-razer img,
+    .brand-msi img {
         width: 90px;
         height: 50px;
     }
@@ -1425,24 +1423,10 @@ input[type='number']::-webkit-outer-spin-button {
         height: 130px;
     }
 
-    .brand-dell img {
-        width: 70px;
-        height: 70px;
-    }
-
-    .brand-asus img {
-        width: 90px;
-        height: 20px;
-    }
-
+    .brand-asus img,
     .brand-sony img {
         width: 90px;
         height: 20px;
-    }
-
-    .brand-hp img {
-        width: 70px;
-        height: 70px;
     }
 
     .brand-lenovo img {
@@ -1450,19 +1434,8 @@ input[type='number']::-webkit-outer-spin-button {
         height: 40px;
     }
 
-    .brand-msi img {
-        width: 90px;
-        height: 50px;
-    }
-
-    .brand-huawei img {
-        width: 70px;
-        height: 70px;
-    }
-
     .brand-xiaomi img {
         width: 90px;
         height: 90px;
     }
-
 }
