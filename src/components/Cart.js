@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Table, Container, Row, Col, Form } from 'react-bootstrap';
 import { BsArrowLeft } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
     const amount = 1;
@@ -9,7 +10,7 @@ const Cart = () => {
     return (
         <Container id='cart'>
             <Row>
-                <Col lg={7} md={7}>
+                <Col lg={7} md={12} sm={12}>
                     <h1 className='productHeader mb-5'>Shopping Cart</h1>
                     <Table responsive>
                         <thead>
@@ -92,14 +93,14 @@ const Cart = () => {
                         </tbody>
                     </Table>
                 </Col>
-                <Col style={{"backgroundColor":"#f9f9f9"}}>
+                <Col lg={5} md={12} sm={12} id='order-summary'>
                     <h1 className='productHeader mb-5'>Order Summary</h1>
                     <div className='d-flex justify-content-between mb-4'>
                         <strong>Items : 2</strong>
                         <strong> $XXXX</strong>
                     </div>
                     <strong>Shipping Method</strong>
-                    <div className='radio-group mb-4 mt-4' style={{"text-align": "center"}}>
+                    <div className='radio-group mb-4 mt-4' style={{ 'text-align': 'center' }}>
                         <label class='radio'>
                             <input type='radio' value='free-delivery' name='pickup-method'></input>
                             Free Delivery <span></span>
@@ -110,11 +111,11 @@ const Cart = () => {
                         </label>
                     </div>
                     <div className='mb-4'>
-                        <strong>Promocode</strong>
+                        <strong>Promo Code</strong>
                         <Row className='mt-4'>
                             <Col md={8}>
                                 <Form>
-                                    <Form.Group controlId=''>
+                                    <Form.Group>
                                         <Form.Control type='text' placeholder='Enter Your Code' />
                                     </Form.Group>
                                 </Form>
@@ -131,18 +132,18 @@ const Cart = () => {
                         <strong>Total Cost</strong>
                         <strong> $XXXX</strong>
                     </div>
-                    <button className='checkout-button' variant='white' type='submit'>
+                    <Link to='/cart/checkout' className='checkout-button' variant='white' type='button'>
                         Checkout
-                    </button>
+                    </Link>
                 </Col>
             </Row>
             <hr></hr>
-            <a href='$' className='go-back'>
+            <Link to='/' className='go-back'>
                 <strong>
                     <BsArrowLeft className='arrow-left mr-2' style={{ fontSize: '30px' }} />
                     Continue Shopping
                 </strong>
-            </a>
+            </Link>
         </Container>
     );
 };
