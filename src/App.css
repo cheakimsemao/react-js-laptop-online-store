@@ -378,7 +378,9 @@ input[type='radio']:focus {
 
 #product-detail,
 #accessory-detail,
-#recommendation {
+#recommendation,
+#new-arrival,
+#trending {
     width: 70%;
     margin: auto;
 }
@@ -661,8 +663,10 @@ input[type='number']::-webkit-outer-spin-button {
     color: #c4c4c4;
 }
 
-#recommendation .container {
-    margin: 120px 0;
+#recommendation .container,
+#new-arrival .container,
+#trending .container {
+    margin: 80px 0;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -693,6 +697,12 @@ input[type='number']::-webkit-outer-spin-button {
 
 .recommended-card p {
     font-weight: bold;
+}
+
+/* Homepage */
+
+#new-arrival {
+    margin-top: 100px;
 }
 
 /* About */
@@ -1138,7 +1148,9 @@ input[type='number']::-webkit-outer-spin-button {
     /* Product Details & Accessory Details */
     #product-detail,
     #accessory-detail,
-    #recommendation {
+    #recommendation,
+    #new-arrival,
+    #trending {
         width: 90%;
         margin: auto;
     }
@@ -1176,6 +1188,11 @@ input[type='number']::-webkit-outer-spin-button {
     .brand-samsung img,
     .brand-xiaomi img {
         width: 140px;
+    }
+
+    /* Homepage */
+    #new-arrival {
+        margin-top: 100px;
     }
 }
 
@@ -1255,6 +1272,11 @@ input[type='number']::-webkit-outer-spin-button {
     #brands .col-lg-4 {
         margin-top: 40px;
     }
+
+    /* Homepage */
+    #new-arrival {
+        margin-top: 100px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1296,7 +1318,9 @@ input[type='number']::-webkit-outer-spin-button {
     /* Product Details & Accessory Details */
     #product-detail,
     #accessory-detail,
-    #recommendation {
+    #recommendation,
+    #new-arrival,
+    #trending {
         width: 90%;
         margin: auto;
     }
@@ -1378,6 +1402,11 @@ input[type='number']::-webkit-outer-spin-button {
     #products .sorted-by {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    /* Homepage */
+    #new-arrival {
+        margin-top: 80px;
     }
 }
 
