@@ -5,6 +5,8 @@ import { BsArrowLeft } from 'react-icons/bs';
 import { useForm } from 'react-hook-form';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
+import Macbook from '../assets/images/others/laptops/Macbook.png';
+import Macbook1 from '../assets/images/others/laptops/Macbook-1.png';
 const Checkout = () => {
     const { register, handleSubmit, errors } = useForm({
         criteriaMode: 'all',
@@ -27,7 +29,7 @@ const Checkout = () => {
                             <Col md={6} className="mb-3">
                                 <Form.Group className='label-text' controlId='formBasicUserName'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             ref={register({
                                                 required: 'This is required.',
@@ -53,7 +55,7 @@ const Checkout = () => {
                             <Col md={6} className="mb-3">
                                 <Form.Group className='label-text' controlId='formBasicUserName'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control  style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             ref={register({
                                                 required: 'This is required.',
@@ -77,7 +79,7 @@ const Checkout = () => {
                             <Col md={12} className="mb-3">
                                 <Form.Group className='label-text' controlId='formBasicUserName'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             name='address'
                                             className='from-control'
@@ -93,7 +95,7 @@ const Checkout = () => {
                             <Col md={6} className="mb-3">
                                 <Form.Group className='label-text' controlId='formBasicUserName'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             ref={register({
                                                 required: 'This is required.',
@@ -116,10 +118,10 @@ const Checkout = () => {
 
                             </Col>
 
-                            <Col md={6}>
+                            <Col md={6} className="mb-3">
                                 <Form.Group className='label-text' controlId='formBasicUserName'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             name='postalCode'
                                             className='from-control'
@@ -136,7 +138,7 @@ const Checkout = () => {
                             <Col md={6} className="mb-3">
                                 <Form.Group className='label-text'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             ref={register({
                                                 required: 'This is required.',
@@ -161,7 +163,7 @@ const Checkout = () => {
                             <Col md={6}>
                                 <Form.Group className='label-text' controlId='formBasicUserName'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             name='postalCode'
                                             className='from-control'
@@ -183,7 +185,7 @@ const Checkout = () => {
                             <Col md={12} className="mb-3">
                                 <Form.Group className='label-text'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             name='creditCard'
                                             className='from-control'
@@ -199,7 +201,7 @@ const Checkout = () => {
                             <Col md={12} className="mb-3">
                                 <Form.Group className='label-text'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             name='cardNumber'
                                             className='from-control'
@@ -227,10 +229,10 @@ const Checkout = () => {
                                 </div>
 
                             </Col>
-                            <Col md={5}>
+                            <Col md={5} className="mb-3">
                                 <Form.Group className='label-text'>
                                     <div className='input-field'>
-                                        <Form.Control
+                                        <Form.Control style={{"padding-left":"20px"}}
                                             autoComplete='off'
                                             name='cardNumber'
                                             className='from-control'
@@ -247,7 +249,7 @@ const Checkout = () => {
 
                         </Row>
                         <Row className="mt-3">
-                            <Col md={8}>
+                            <Col md={8} className="mb-3">
                                 <a href='$' className='go-back'>
                                     <strong>
                                         <BsArrowLeft className='arrow-left mr-2' style={{ fontSize: '30px' }} />
@@ -255,7 +257,7 @@ const Checkout = () => {
                 </strong>
                                 </a>
                             </Col>
-                            <Col md={4}>
+                            <Col md={4} className="mb-3">
                                 <button className='apply-button' variant='white' type='submit'>
                                     Purchase Now
                                 </button>
@@ -267,46 +269,53 @@ const Checkout = () => {
 
                 <Col style={{ "backgroundColor": "#f9f9f9" }}>
                     <h1 className='productHeader mb-5' >Order Summary</h1>
+                    <hr></hr>
+                    <Row>
+
+                    <div className='d-flex align-items-center mb-3'>
+                                            <div>
+                                            <img height="150px" width="200px" src={Macbook1} alt='macbook-pro-2020' />
+                                            </div>
+                                            <div className='productDetail'>
+                                                <ul>
+                                                    <li className='productName'>IPHONE X</li>
+                                                    <li>COLOR: White</li>
+                                                    <li>RAM: 8 GB</li>
+                                                    <li>STORAGE: 64 GB</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className='d-flex align-items-center mb-3'>
+                                            <div>
+                                            <img height="150px" width="200px" src={Macbook1} alt='macbook-pro-2020' />
+                                            </div>
+                                            <div className='productDetail'>
+                                                <ul>
+                                                    <li className='productName'>IPHONE X</li>
+                                                    <li>COLOR: White</li>
+                                                    <li>RAM: 8 GB</li>
+                                                    <li>STORAGE: 64 GB</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                    </Row>
                     <div className='d-flex justify-content-between mb-4'>
                         <strong>Items : 2</strong>
-                        <strong> $XXXX</strong>
+                        
                     </div>
-                    <strong>Shipping Method</strong>
                     <div className='radio-group mb-4 mt-4'>
-                        <label class='radio'>
-                            <input type='radio' value='free-delivery' name='pickup-method'></input>
-                            Free Delivery <span></span>
-                        </label>
-                        <label class='radio'>
-                            <input type='radio' value='pick-up' name='pickup-method'></input>
-                            Pick Up <span></span>
-                        </label>
+                    <strong className='radio-group mb-4 mt-4'>Shipping Method: Free Delivery</strong>
                     </div>
+                    
+                    
                     <div className='mb-4'>
-                        <strong>Promocode</strong>
-                        <Row className='mt-4'>
-                            <Col md={8}>
-                                <Form>
-                                    <Form.Group controlId=''>
-                                        <Form.Control type='text' placeholder='Enter Your Code' />
-                                    </Form.Group>
-                                </Form>
-                            </Col>
-                            <Col md={4}>
-                                <button className='apply-button' variant='white' type='submit'>
-                                    Apply
-                                </button>
-                            </Col>
-                        </Row>
+                        <strong>Promocode : None</strong>
                     </div>
                     <hr></hr>
                     <div className='d-flex justify-content-between mb-4'>
                         <strong>Total Cost</strong>
                         <strong> $XXXX</strong>
                     </div>
-                    <button className='checkout-button' variant='white' type='submit'>
-                        Checkout
-                    </button>
                 </Col>
             </Row>
 
