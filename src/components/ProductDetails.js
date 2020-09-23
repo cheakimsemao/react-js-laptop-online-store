@@ -48,6 +48,11 @@ const ProductDetails = () => {
 
     return (
         <>
+            <div className='breadcrumbs'>
+                <p>
+                    Home / Brands / Apple / <span>Product Details</span>
+                </p>
+            </div>
             <div id='product-detail'>
                 <Container>
                     <Row>

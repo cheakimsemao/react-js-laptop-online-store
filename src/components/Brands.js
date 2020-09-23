@@ -20,121 +20,128 @@ import Xiaomi from '../assets/images/others/brands/Xiaomi.png';
 
 const Brands = () => {
     return (
-        <div id='brands'>
-            <div>
-                <h1 className='text-center brands-title'>Brands</h1>
+        <>
+            <div className='breadcrumbs'>
+                <p>
+                    Home / <span>Brands</span>
+                </p>
             </div>
-            <Container className='brands-container'>
-                <Row id='team' className='brand-item'>
-                    <Col lg={4}>
-                        <Card className='brand-apple'>
-                            <Card.Body>
-                                <img src={Apple}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card className='brand-razer'>
-                            <Card.Body>
-                                <img src={Razer}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card className='brand-microsoft'>
-                            <Card.Body>
-                                <img src={Microsoft}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row id='team' className='brand-item'>
-                    <Col lg={4}>
-                        <Card className='brand-google'>
-                            <Card.Body>
-                                <img src={Google}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card className='brand-alienware'>
-                            <Card.Body>
-                                <img src={Alienware}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card className='brand-samsung'>
-                            <Card.Body>
-                                <img src={Samsung}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row id='team' className='brand-item'>
-                    <Col lg={4}>
-                        <Card className='brand-dell'>
-                            <Card.Body>
-                                <img src={Dell}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card className='brand-asus'>
-                            <Card.Body>
-                                <img src={Asus}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card className='brand-sony'>
-                            <Card.Body>
-                                <img src={Sony}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row id='team' className='brand-item'>
-                    <Col lg={4}>
-                        <Card className='brand-hp'>
-                            <Card.Body>
-                                <img src={Hp}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card className='brand-lenovo'>
-                            <Card.Body>
-                                <img src={Lenovo}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card className='brand-msi'>
-                            <Card.Body>
-                                <img src={Msi}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row id='team' className='brand-item' style={{ marginBottom: '200px' }}>
-                    <Col lg={4}>
-                        <Card className='brand-huawei'>
-                            <Card.Body>
-                                <img src={Huawei}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card className='brand-xiaomi'>
-                            <Card.Body>
-                                <img src={Xiaomi}></img>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+            <div id='brands'>
+                <div>
+                    <h1 className='text-center brands-title'>Brands</h1>
+                </div>
+                <Container className='brands-container'>
+                    <Row id='team' className='brand-item'>
+                        <Col lg={4}>
+                            <Card className='brand-apple'>
+                                <Card.Body>
+                                    <img src={Apple}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4}>
+                            <Card className='brand-razer'>
+                                <Card.Body>
+                                    <img src={Razer}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4}>
+                            <Card className='brand-microsoft'>
+                                <Card.Body>
+                                    <img src={Microsoft}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row id='team' className='brand-item'>
+                        <Col lg={4}>
+                            <Card className='brand-google'>
+                                <Card.Body>
+                                    <img src={Google}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4}>
+                            <Card className='brand-alienware'>
+                                <Card.Body>
+                                    <img src={Alienware}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4}>
+                            <Card className='brand-samsung'>
+                                <Card.Body>
+                                    <img src={Samsung}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row id='team' className='brand-item'>
+                        <Col lg={4}>
+                            <Card className='brand-dell'>
+                                <Card.Body>
+                                    <img src={Dell}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4}>
+                            <Card className='brand-asus'>
+                                <Card.Body>
+                                    <img src={Asus}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4}>
+                            <Card className='brand-sony'>
+                                <Card.Body>
+                                    <img src={Sony}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row id='team' className='brand-item'>
+                        <Col lg={4}>
+                            <Card className='brand-hp'>
+                                <Card.Body>
+                                    <img src={Hp}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4}>
+                            <Card className='brand-lenovo'>
+                                <Card.Body>
+                                    <img src={Lenovo}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4}>
+                            <Card className='brand-msi'>
+                                <Card.Body>
+                                    <img src={Msi}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row id='team' className='brand-item' style={{ marginBottom: '200px' }}>
+                        <Col lg={4}>
+                            <Card className='brand-huawei'>
+                                <Card.Body>
+                                    <img src={Huawei}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4}>
+                            <Card className='brand-xiaomi'>
+                                <Card.Body>
+                                    <img src={Xiaomi}></img>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+        </>
     );
 };
 

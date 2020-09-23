@@ -59,6 +59,11 @@ const Apple = () => {
 
     return (
         <>
+            <div className='breadcrumbs'>
+                <p>
+                    Home / Brands / <span>Apple</span>
+                </p>
+            </div>
             <Carousel id='carousel'>
                 <Carousel.Item>
                     <img className='d-block w-100' src={Macbook1} alt='First slide' />

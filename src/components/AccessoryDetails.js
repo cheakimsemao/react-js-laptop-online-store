@@ -49,6 +49,11 @@ const AccessoryDetails = () => {
 
     return (
         <>
+            <div className='breadcrumbs'>
+                <p>
+                    Home / Accessories / Headsets / JBL / <span>Accessory Details</span>
+                </p>
+            </div>
             <div id='accessory-detail'>
                 <Container>
                     <Row>
