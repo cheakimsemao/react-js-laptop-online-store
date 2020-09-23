@@ -41,7 +41,10 @@ const Home = () => {
             </Carousel>
             <div id='new-arrival'>
                 <div className='recommend-title'>
-                    <span>NEW ARRIVAL</span>
+                    <div>
+                        <span>NEW ARRIVAL</span>
+                        <hr />
+                    </div>
                     <div>
                         <AiFillLeftCircle className='prev-next-btn' />
                         <AiFillRightCircle className='prev-next-btn' />
@@ -78,7 +81,10 @@ const Home = () => {
             </div>
             <div id='trending'>
                 <div className='recommend-title'>
-                    <span>TRENDING</span>
+                    <div>
+                        <span>MOST POPULAR</span>
+                        <hr />
+                    </div>
                     <div>
                         <AiFillLeftCircle className='prev-next-btn' />
                         <AiFillRightCircle className='prev-next-btn' />
