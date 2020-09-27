@@ -1,11 +1,12 @@
-import React from 'react';
-
+import React, {useState, useEffect} from 'react';
+import axios from 'axios';
 import { makeStyles } from '@material-ui/core/styles';
 import Carousel from 'react-bootstrap/Carousel';
 import NativeSelect from '@material-ui/core/NativeSelect';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Pagination from 'react-bootstrap/Pagination';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
@@ -31,29 +32,30 @@ const useStyles = makeStyles((theme) => ({
 const Apple = () => {
     const classes = useStyles();
 
-    const parameterNumber = [
-        'Apple1',
-        'Apple2',
-        'Apple3',
-        'Apple4',
-        'Apple5',
-        'Apple6',
-        'Apple7',
-        'Apple8',
-        'Apple9',
-    ];
+    const [data, setData]= useState([])
+    useEffect(()=>{
+        axios.get(`http://localhost:3000/laptops/1/lists`)
+        .then(res=> 
+            {                
+                      console.log(res)
+                    setData(res.data)
+            }
+        )
+    },[])
 
-    const grid = parameterNumber.map((name, idx) => (
-        <div className={'product-items index' + idx}>
-            <img src={Macbook2} alt='mac' />
-            <p class='product-items-title'>{name}</p>
+    const grid = data.map((item) => (
+        <div className={'product-items index'} key={item.id}>    
+         <Link to={`/brands/apple/${item.id}`}>      
+            <img src={item.imageURL} alt='mac' width="300px" height="200px"/>
+            </Link>
+            <p class='product-items-title'>{item.name}</p>
             {/* {idx} */}
             <div className={classes.root}>
                 <Box component='fieldset' mt={1} mb={1} borderColor='transparent'>
                     <Rating name='read-only' value={5} size='small' readOnly />
                 </Box>
             </div>
-            <p class='price'>$2000</p>
+    <p class='price'>{item.price}</p>
         </div>
     ));
 

@@ -45,7 +45,7 @@ const Header = () => {
                                 <Link to='/brands/msi'>MSI</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to='/brands/asus'>Asus</Link>
+                                <Link to='/brands/samsung'>Samsung</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item>

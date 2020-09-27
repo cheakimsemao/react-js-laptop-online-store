@@ -35,7 +35,7 @@ import Adaptor from './accessories/Adaptor';
 import AccessoryDetails from './AccessoryDetails';
 
 import { Switch, Route } from 'react-router-dom';
-
+import Display from '../Display';
 const Main = () => {
     return (
         <div>
@@ -48,9 +48,11 @@ const Main = () => {
                 <Route path={'/signup'} component={SignUp} />
                 <Route path={'/cart'} exact component={Cart} />
                 <Route path={'/cart/checkout'} component={Checkout} />
-                <Route path={'/brands/apple'} component={Apple} />
+                <Route path={'/brands/apple'} exact component={Apple} />
+                <Route path={'/brands/apple/:id'} component={Display} />
                 <Route path={'/brands/google'} component={Google} />
-                <Route path={'/brands/samsung'} component={Samsung} />
+                <Route path={'/brands/samsung'} exact component={Samsung} />
+                <Route path={'/brands/samsung/:id'} component={Display} />
                 <Route path={'/brands/alienware'} component={Alienware} />
                 <Route path={'/brands/lenovo'} component={Lenovo} />
                 <Route path={'/brands/microsoft'} component={Microsoft} />

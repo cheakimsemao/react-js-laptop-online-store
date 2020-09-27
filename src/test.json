@@ -1,0 +1,28 @@
+{
+    "apple": [
+        {
+            "id": 1,
+            "name": "apple",
+            "url": "appleTest"
+        },
+        {
+            "id": 2,
+            "name": "samsung",
+            "url": "samsungTest"
+        }
+    ],
+    "samsung":[
+        {
+            "id": 1,
+            "name": "apple",
+            "url": "appleTest"
+        },
+        {
+            "id": 2,
+            "name": "samsung",
+            "url": "samsungTest"
+        }
+    ]
+    
+    
+}
