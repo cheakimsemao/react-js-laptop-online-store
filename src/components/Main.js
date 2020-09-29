@@ -1,5 +1,5 @@
-import React from 'react';
-
+import React, {useState, useEffect} from 'react';
+import axios from 'axios';
 import Header from './Header';
 import Footer from './Footer';
 import SignIn from './SignIn';
@@ -9,21 +9,10 @@ import Home from './Home';
 import About from './About';
 import Brands from './Brands';
 import Checkout from './Checkout';
+import {BrowserRouter as Router, Route,Switch, Link} from 'react-router-dom';
+
 // brands
-import Apple from './brands/Apple';
-import Google from './brands/Google';
-import Samsung from './brands/Samsung';
-import Alienware from './brands/Alienware';
-import Lenovo from './brands/Lenovo';
-import Microsoft from './brands/Microsoft';
-import Huawei from './brands/Huawei';
-import Xiaomi from './brands/Xiaomi';
-import MSI from './brands/MSI';
-import Dell from './brands/Dell';
-import Sony from './brands/Sony';
-import Asus from './brands/Asus';
-import Razer from './brands/Razer';
-import HP from './brands/HP';
+
 import ProductDetails from './ProductDetails';
 // accessories
 import Keyboard from './accessories/Keyboard';
@@ -34,9 +23,31 @@ import USB from './accessories/USB';
 import Adaptor from './accessories/Adaptor';
 import AccessoryDetails from './AccessoryDetails';
 
-import { Switch, Route } from 'react-router-dom';
 import Display from '../Display';
+import Laptop from './brands/Laptop'
 const Main = () => {
+
+    const [data, setData]= useState([])
+    useEffect(()=>{
+        axios.get(`http://localhost:3000/brands`)
+        .then(res=> 
+            {                
+                      console.log(res)
+                    setData(res.data)
+            }
+        )
+    },[])
+    const item = data.map((item)=>(
+        
+        <Route path={`/brands/${item.id}`} exact component={Laptop}/>   
+      
+   
+    ))
+    const product = data.map((item)=>(
+        
+        <Route path={`/brands/${item.id}/:id`} component={Display} />
+        
+    ))
     return (
         <div>
             <Header />
@@ -48,22 +59,9 @@ const Main = () => {
                 <Route path={'/signup'} component={SignUp} />
                 <Route path={'/cart'} exact component={Cart} />
                 <Route path={'/cart/checkout'} component={Checkout} />
-                <Route path={'/brands/apple'} exact component={Apple} />
-                <Route path={'/brands/apple/:id'} component={Display} />
-                <Route path={'/brands/google'} component={Google} />
-                <Route path={'/brands/samsung'} exact component={Samsung} />
-                <Route path={'/brands/samsung/:id'} component={Display} />
-                <Route path={'/brands/alienware'} component={Alienware} />
-                <Route path={'/brands/lenovo'} component={Lenovo} />
-                <Route path={'/brands/microsoft'} component={Microsoft} />
-                <Route path={'/brands/huawei'} component={Huawei} />
-                <Route path={'/brands/xiaomi'} component={Xiaomi} />
-                <Route path={'/brands/msi'} component={MSI} />
-                <Route path={'/brands/dell'} component={Dell} />
-                <Route path={'/brands/sony'} component={Sony} />
-                <Route path={'/brands/asus'} component={Asus} />
-                <Route path={'/brands/razer'} component={Razer} />
-                <Route path={'/brands/hp'} component={HP} />
+                {item}
+                {product}
+
                 <Route path={'/accessories/keyboard'} component={Keyboard} />
                 <Route path={'/accessories/mouse'} component={Mouse} />
                 <Route path={'/accessories/headset'} component={Headset} />

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import axios from 'axios';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
@@ -8,6 +9,23 @@ import { MdAddShoppingCart, MdPersonOutline, MdSearch } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+    const [data, setData]= useState([])
+    useEffect(()=>{
+        axios.get(`http://localhost:3000/brands`)
+        .then(res=> 
+            {                
+                      console.log(res)
+                    setData(res.data)
+            }
+        )
+    },[])
+    const item = data.map((item)=>(
+        <NavDropdown.Item>
+        <Link to={`/Brands/${item.id}`}>
+        {item.name}
+        </Link>
+    </NavDropdown.Item>
+    ))
     return (
         <>
             <Navbar id='header' expand='lg' sticky='top'>
@@ -26,31 +44,8 @@ const Header = () => {
                             <Link to='/about'>About</Link>
                         </Nav.Link>
                         <NavDropdown title='Brands' id='basic-nav-dropdown' className='mr-3'>
-                            <NavDropdown.Item>
-                                <Link to={'/brands/apple'}>Apple</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                                <Link to={'/brands/google'}>Google</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                                <Link to='/brands/alienware'>Alienware</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                                <Link to='/brands/dell'>Dell</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                                <Link to='/brands/lenovo'>Lenovo</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                                <Link to='/brands/msi'>MSI</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                                <Link to='/brands/samsung'>Samsung</Link>
-                            </NavDropdown.Item>
+                            {item}
                             <NavDropdown.Divider />
-                            <NavDropdown.Item>
-                                <Link to='/brands'>More...</Link>
-                            </NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title='Accessories' id='basic-nav-dropdown' className='mr-3'>
                             <NavDropdown.Item>
