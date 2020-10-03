@@ -1,26 +1,33 @@
-import YearMonthPicker from 'react-year-month-picker'
-import ReactDOM from 'react-dom'
-import React, { Component } from 'react'
+import React from "react";
+import { css } from "@emotion/core";
+import ClipLoader from "react-spinners/ClipLoader";
  
-class Test extends Component {
+// Can be a string as well. Need to ensure each key-value pair ends with ;
+const override = css`
+  display: block;
+  margin: 0 auto;
+  border-color: red;
+`;
+ 
+class Test extends React.Component {
   constructor(props) {
-    super(props)
-    this.state = { scheduled: null }
+    super(props);
+    this.state = {
+      loading: true
+    };
   }
  
-  handleChange (m) {
-    this.setState({scheduled: m}, () => console.log(this.state.scheduled))
-  }
- 
-  render () {
+  render() {
     return (
-      <div>
-        <YearMonthPicker
-          closeOnSelect
-          onChange={this.handleChange.bind(this)}
+      <div className="sweet-loading">
+        <ClipLoader
+          css={override}
+          size={150}
+          color={"#123abc"}
+          loading={this.state.loading}
         />
       </div>
-    )
+    );
   }
 }
-export default Test;
+export default Test

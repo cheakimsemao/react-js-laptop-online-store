@@ -24,7 +24,8 @@ import Adaptor from './accessories/Adaptor';
 import AccessoryDetails from './AccessoryDetails';
 
 import Display from '../Display';
-import Laptop from './brands/Laptop'
+import Laptop from './brands/Laptop';
+
 const Main = () => {
 
     const [data, setData]= useState([])
@@ -40,9 +41,10 @@ const Main = () => {
 
     const product = data.map((item)=>(
         
-        <Route path={`/Brands/${item.id}/:id`} exact component={Display} />
+        <Route path={`/Brands/${item.name}/:id`} component={Display} />
         
     ))
+
     return (
         <div>
             <Header />
@@ -65,6 +67,7 @@ const Main = () => {
                 <Route path={'/accessories/adaptor'} component={Adaptor} />
                 <Route path={'/brands/product-details'} component={ProductDetails} />
                 <Route path={'/brands/accessory-details'} component={AccessoryDetails} />
+
             </Switch>
             <Footer />
         </div>
