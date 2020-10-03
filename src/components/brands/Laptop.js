@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useLocation} from 'react';
+import React, { useState, useEffect, useLocation } from 'react';
 import axios from 'axios';
 import { makeStyles } from '@material-ui/core/styles';
 import Carousel from 'react-bootstrap/Carousel';
@@ -6,7 +6,7 @@ import NativeSelect from '@material-ui/core/NativeSelect';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Pagination from 'react-bootstrap/Pagination';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
 import Macbook1 from '../../assets/images/others/laptops/Macbook.png';
@@ -25,24 +25,21 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-function Laptop(props){
+function Laptop(props) {
     const classes = useStyles();
-    console.log(props)
-    const [data, setData]= useState([])
-    useEffect(()=>{
-        axios.get(`http://localhost:3000/brands/${props.match.params.id}/products`)
-        .then(res=> 
-            {                
-                      console.log(res)
-                    setData(res.data)
-            }
-        )
-    },[props.match.params.id])
+    console.log(props);
+    const [data, setData] = useState([]);
+    useEffect(() => {
+        axios.get(`http://localhost:3000/brands/${props.match.params.id}/products`).then((res) => {
+            console.log(res);
+            setData(res.data);
+        });
+    }, [props.match.params.id]);
 
     const grid = data.map((item) => (
-        <div className={'product-items index'}>    
-         <Link to={`/Brands/${item.brandId}/${item.id}`}>      
-            <img src={item.imageURL} alt='mac' width="300px" height="200px" />
+        <div className={'product-items index'}>
+            <Link to={`/Brands/${item.brandId}/${item.id}`}>
+                <img src={item.imageURL} alt='mac' width='300px' height='200px' />
             </Link>
             <p class='product-items-title'>{item.name}</p>
             <div className={classes.root}>
@@ -53,26 +50,21 @@ function Laptop(props){
             <p class='price'>{item.price}</p>
         </div>
     ));
-    const productName = data.slice(0,1).map((item)=>(
-        <>
-            {item.brandId}
-        </>
 
-    ))
+    const productName = data.slice(0, 1).map((item) => <>{item.brandId}</>);
 
     return (
-        
         <>
         {data.length>0? <div>
             <div className='breadcrumbs'>
                 <p>
-                    <Link to="/" style={{"text-decoration": "none", "color": "black"}} >
-                    Home/
+                    <Link to='/' style={{ 'text-decoration': 'none', color: 'black' }}>
+                        Home/
                     </Link>
-                    <Link to="/Brands" style={{"text-decoration": "none", "color": "black"}} >
+                    <Link to='/Brands' style={{ 'text-decoration': 'none', color: 'black' }}>
                         Brands/
                     </Link>
-                   <span>{productName}</span>
+                    <span>{productName}</span>
                 </p>
             </div>
             <Carousel id='carousel'>
@@ -100,7 +92,7 @@ function Laptop(props){
             </Carousel>
             <div id='products'>
                 <div className='review-title'>
-    <span> {productName} Products</span>
+                    <span> {productName} Products</span>
                     <hr />
                 </div>
                 <div className='sorted-by'>
@@ -129,6 +121,6 @@ function Laptop(props){
             
         </>
     );
-};
+}
 
 export default Laptop;
