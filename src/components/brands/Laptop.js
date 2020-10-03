@@ -30,14 +30,14 @@ function Laptop(props){
     console.log(props)
     const [data, setData]= useState([])
     useEffect(()=>{
-        axios.get(`http://localhost:3000${props.match.path}/products`)
+        axios.get(`http://localhost:3000/brands/${props.match.params.id}/products`)
         .then(res=> 
             {                
                       console.log(res)
                     setData(res.data)
             }
         )
-    },[props.match.path])
+    },[props.match.params.id])
 
     const grid = data.map((item) => (
         <div className={'product-items index'}>    
@@ -63,6 +63,7 @@ function Laptop(props){
     return (
         
         <>
+        {data.length>0? <div>
             <div className='breadcrumbs'>
                 <p>
                     <Link to="/" style={{"text-decoration": "none", "color": "black"}} >
@@ -124,6 +125,8 @@ function Laptop(props){
                 <Pagination.Next />
                 {/* <Pagination.Last /> */}
             </Pagination>
+            </div>: "No data available"}
+            
         </>
     );
 };

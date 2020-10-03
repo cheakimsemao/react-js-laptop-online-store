@@ -10,19 +10,26 @@ function DisplayTest(match) {
       axios.get(`http://localhost:3000/products/${match.match.params.id}`)
       .then(res=>
           { 
-                  setData(res.data)                
+                  setData(res.data)    
+                  // setTest(res.data.specification)    
+                  // console.log(res.data.specification)        
           }
       )
   },[])
-  
+
   return (
+    
     <div>
+      {data.id?  <div>
         <Link to={`/Brands${data.url}`}>Back</Link>
         <br></br>
         <img height="200px" width="300px" src={data.imageURL} alt="pic"></img>
         <h1>Name: {data.name}</h1>
         <h1>Description: {data.description}</h1>
         <h1>Price: {data.price}</h1>
+        
+        </div> : "No data available"}
+    
     </div>
   );
 

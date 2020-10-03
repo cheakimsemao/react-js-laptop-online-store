@@ -37,12 +37,7 @@ const Main = () => {
             }
         )
     },[])
-    const item = data.map((item)=>(
-        
-        <Route path={`/brands/${item.id}`} exact component={Laptop}/>   
-      
-   
-    ))
+
     const product = data.map((item)=>(
         
         <Route path={`/brands/${item.id}/:id`} component={Display} />
@@ -55,11 +50,11 @@ const Main = () => {
                 <Route exact path={'/'} component={Home} />
                 <Route path={'/about'} component={About} />
                 <Route exact path={'/brands'} component={Brands} />
+                <Route path={'/brands/:id'} exact component={Laptop} />
                 <Route path={'/signin'} component={SignIn} />
                 <Route path={'/signup'} component={SignUp} />
                 <Route path={'/cart'} exact component={Cart} />
                 <Route path={'/cart/checkout'} component={Checkout} />
-                {item}
                 {product}
 
                 <Route path={'/accessories/keyboard'} component={Keyboard} />
