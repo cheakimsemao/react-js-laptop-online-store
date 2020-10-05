@@ -1,154 +1,168 @@
 {
     "brands": [
         {
-            "id": "Apple",
+            "id": 0,
             "name": "Apple"
         },
         {
-            "id": "Samsung",
+            "id": 1,
             "name": "Samsung"
         },
         {
-            "id": "Dell",
+            "id": 2,
             "name": "Dell"
         }
     ],
     "products": [
         {
-            "id": "MacBook-Air-2020",
+            "id": 0,
             "imageURL": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=892&hei=820&&qlt=80&.v=1541713862468",
-            "brandId": "Apple",
+            "brandId": 0,
+            "brand": "Apple",
             "name": "MacBook Air 2020",
             "url": "/Apple",
             "description": "Description Apple 1",
             "price": "$1000.00"
         },
         {
-            "id": "MacBook-Air-15-Inch-2020",
+            "id": 1,
             "imageURL": "https://cnet2.cbsistatic.com/img/1BWl9J4-PTHSBAxTEfB1aJghiM4=/1200x675/2020/03/19/5de637d4-b897-4fce-9155-e625bc7c9503/img-8349.jpg",
-            "brandId": "Apple",
+            "brandId": 0,
+            "brand": "Apple",
             "name": "MacBook Air 15-Inch 2020",
             "url": "/Apple",
             "description": "Description Apple 2",
             "price": "$1198.00"
         },
         {
-            "id": "MacBook-Air-12-Inch-2020",
+            "id": 2,
             "imageURL": "https://image.coolblue.nl/max/500x500/products/1406623",
-            "brandId": "Apple",
+            "brandId": 0,
+            "brand": "Apple",
             "name": "MacBook Air 12-Inch 2020",
             "url": "/Apple",
             "description": "Description Apple 3",
             "price": "$2999.00"
         },
         {
-            "id": "MacBook-Air-13-Inch-2020",
+            "id": 3,
             "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhn8FyCMNK1vI-4AmmdSZlmtbgUx1wvFuSsQ&usqp=CAU",
-            "brandId": "Apple",
+            "brandId": 0,
+            "brand": "Apple",
             "name": "MacBook Air 13-Inch 2020",
             "url": "/Apple",
             "description": "Description Apple 4",
             "price": "$900.00"
         },
         {
-            "id": "MacBook-Air-14-Inch-2020",
+            "id": 4,
             "imageURL": "https://i.ytimg.com/vi/iatPenadci0/maxresdefault.jpg",
-            "brandId": "Apple",
+            "brandId": 0,
+            "brand": "Apple",
             "name": "MacBook Air 14-Inch 2020",
             "url": "/Apple",
             "description": "Description Apple 5",
             "price": "$100.00"
         },
         {
-            "id": "Samsung-Galaxy-S1",
+            "id": 5,
             "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51ZQoLpusHL._AC_.jpg",
-            "brandId": "Samsung",
+            "brandId": 1,
+            "brand": "Samsung",
             "name": "Samsung-Galaxy-S1",
             "url": "/Samsung",
             "description": "Description Samsung 1",
             "price": "$1198.00"
         },
         {
-            "id": "Samsung-Galaxy-S2",
+            "id": 6,
             "imageURL": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/mobilephones/Samsung_Galaxy_S5/Samsung_Galaxy_S5_L_1.jpg",
-            "brandId": "Samsung",
+            "brandId": 1,
+            "brand": "Samsung",
             "name": "Samsung-Galaxy-S2",
             "url": "/Samsung",
             "description": "Description Samsung 2",
             "price": "$1268.00"
         },
         {
-            "id": "Samsung-Galaxy-S3",
+            "id": 7,
             "imageURL": "https://images.samsung.com/is/image/samsung/pk-galaxy-s6-g920f-sm-g920fzwapak-000000001-front-white?$PD_GALLERY_L_JPG$",
-            "brandId": "Samsung",
+            "brandId": 1,
+            "brand": "Samsung",
             "name": "Samsung-Galaxy-S3",
             "url": "/Samsung",
             "description": "Description Samsung 3",
             "price": "$1498.00"
         },
         {
-            "id": "Samsung-Galaxy-S4",
+            "id": 8,
             "imageURL": "https://images.samsung.com/is/image/samsung/levant-galaxy-s10-lite-g770-sm-g770fzkdmid-frontprismblack-216971460?$PD_GALLERY_L_JPG$",
-            "brandId": "Samsung",
+            "brandId": 1,
+            "brand": "Samsung",
             "name": "Samsung-Galaxy-S4",
             "url": "/Samsung",
             "description": "Description Samsung 4",
             "price": "$998.00"
         },
         {
-            "id": "Samsung-Galaxy-S5",
+            "id": 9,
             "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTcZI21_V-MqihgELIPLV7IzQOJw7DNhstZOg&usqp=CAU",
-            "brandId": "Samsung",
+            "brandId": 1,
+            "brand": "Samsung",
             "name": "Samsung-Galaxy-S5",
             "url": "/Samsung",
             "description": "Description Samsung 5",
             "price": "$2198.00"
         },
         {
-            "id": "Dell-XPS-13",
+            "id": 10,
             "imageURL": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/xps_notebooks/13_9380/global_spi/notebook-xps-13-9380-whl-silver-campaign-hero-504x350-ng.psd?fmt=jpg&wid=570&hei=400",
-            "brandId": "Dell",
+            "brandId": 2,
+            "brand": "Dell",
             "name": "Dell-XPS-13",
             "url": "/Samsung",
             "description": "Description Dell 1",
             "price": "$2198.00"
         },
         {
-            "id": "Dell-XPS-14",
+            "id": 11,
             "imageURL": "https://brain-images-ssl.cdn.dixons.com/6/6/10203566/u_10203566.jpg",
-            "brandId": "Dell",
+            "brandId": 2,
+            "brand": "Dell",
             "name": "Dell-XPS-14",
             "url": "/Dell",
             "description": "Description Dell 2",
             "price": "$2198.00"
         },
         {
-            "id": "Dell-XPS-15",
+            "id": 12,
             "imageURL": "https://assets.pcmag.com/media/images/569925-tried-and-true-design.jpg",
-            "brandId": "Dell",
+            "brandId": 2,
+            "brand": "Dell",
             "name": "Dell-XPS-15",
             "url": "/Dell",
             "description": "Description Dell 3",
             "price": "$2198.00"
         },
         {
-            "id": "Dell-XPS-16",
+            "id": 13,
             "imageURL": "https://sm.pcmag.com/t/pcmag_uk/review/d/dell-xps-1/dell-xps-13-7390_r1f5.1200.jpg",
-            "brandId": "Dell",
+            "brandId": 2,
+            "brand": "Dell",
             "name": "Dell-XPS-16",
             "url": "/Dell",
             "description": "Description Dell 4",
             "price": "$2198.00"
         },
         {
-            "id": "Dell-XPS-17",
+            "id": 14,
             "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQCm17XlVfqfp5xawTXCoBHKwDB1lYkCtP5Xw&usqp=CAU",
-            "brandId": "Dell",
+            "brandId": 2,
+            "brand": "Dell",
             "name": "Dell-XPS-17",
             "url": "/Dell",
             "description": "Description Dell 5",
             "price": "$2198.00"
         }
-
     ]
 }
