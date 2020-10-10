@@ -1,33 +1,40 @@
 import React from "react";
-import { css } from "@emotion/core";
-import ClipLoader from "react-spinners/ClipLoader";
- 
-// Can be a string as well. Need to ensure each key-value pair ends with ;
-const override = css`
-  display: block;
-  margin: 0 auto;
-  border-color: red;
-`;
- 
-class Test extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      loading: true
-    };
-  }
- 
-  render() {
-    return (
-      <div className="sweet-loading">
-        <ClipLoader
-          css={override}
-          size={150}
-          color={"#123abc"}
-          loading={this.state.loading}
-        />
-      </div>
-    );
-  }
+import ReactDOM from "react-dom";
+import { Link, useLocation, BrowserRouter as Router } from "react-router-dom";
+function User({ name }) {
+  return <div>{name}</div>;
 }
-export default Test
+function useQuery() {
+  return new URLSearchParams(useLocation().search);
+}
+function QueryScreen() {
+  let query = useQuery();
+  return (
+    <div>
+      <div>
+        <h2>Accounts</h2>
+        <ul>
+          <li>
+            <Link to="/account?name=foo">Foo User</Link>
+          </li>
+          <li>
+            <Link to="/account?name=bar">Bar User</Link>
+          </li>
+          <li>
+            <Link to="/account?name=baz">Baz User</Link>
+          </li>
+        </ul>
+        <User name={query.get("name")} />
+      </div>
+    </div>
+  );
+}
+function App() {
+  return (
+    <Router>
+      <QueryScreen />
+    </Router>
+  );
+}
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);

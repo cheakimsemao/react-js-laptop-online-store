@@ -21,7 +21,7 @@ const Header = () => {
     },[])
     const item = data.map((item)=>(
         <NavDropdown.Item>
-        <Link to={`/Brands/${item.id}`}>
+        <Link to={`/Brands/${item.name}`}>
         {item.name}
         </Link>
     </NavDropdown.Item>

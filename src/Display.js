@@ -3,13 +3,13 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 
-function DisplayTest(match) {
+function Display(name) {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState({ loading: true });
-  console.log(match);
+  console.log(name);
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/products/${match.match.params.id}`)
+      .get(`http://localhost:3000/products/${name.name}`)
       .then((res) => {
         console.log(res);
         setData(res.data);
@@ -58,4 +58,4 @@ function DisplayTest(match) {
   );
 }
 
-export default DisplayTest;
+export default Display;

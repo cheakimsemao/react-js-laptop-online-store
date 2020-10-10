@@ -1,15 +1,15 @@
 {
     "brands": [
         {
-            "id": "Apple",
+            "id": 0,
             "name": "Apple"
         },
         {
-            "id": "Samsung",
+            "id": 1,
             "name": "Samsung"
         },
         {
-            "id": "Dell",
+            "id": 2,
             "name": "Dell"
         }
     ],
@@ -17,8 +17,9 @@
         {
             "id": "MacBook-Air-2020",
             "imageURL": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=892&hei=820&&qlt=80&.v=1541713862468",
-            "brandId": "Apple",
-            "name": "MacBook Air 2020",
+            "brandId": 0,
+            "brand": "Apple",
+            "name": "MacBook-Air-2020",
             "url": "/Apple",
             "description": "Description Apple 1",
             "price": "$1000.00"
@@ -27,7 +28,7 @@
             "id": "MacBook-Air-15-Inch-2020",
             "imageURL": "https://cnet2.cbsistatic.com/img/1BWl9J4-PTHSBAxTEfB1aJghiM4=/1200x675/2020/03/19/5de637d4-b897-4fce-9155-e625bc7c9503/img-8349.jpg",
             "brandId": "Apple",
-            "name": "MacBook Air 15-Inch 2020",
+            "name": "MacBook-Air-15-Inch-2020",
             "url": "/Apple",
             "description": "Description Apple 2",
             "price": "$1198.00"
@@ -36,7 +37,7 @@
             "id": "MacBook-Air-12-Inch-2020",
             "imageURL": "https://image.coolblue.nl/max/500x500/products/1406623",
             "brandId": "Apple",
-            "name": "MacBook Air 12-Inch 2020",
+            "name": "MacBook-Air-12-Inch-2020",
             "url": "/Apple",
             "description": "Description Apple 3",
             "price": "$2999.00"
@@ -45,7 +46,7 @@
             "id": "MacBook-Air-13-Inch-2020",
             "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhn8FyCMNK1vI-4AmmdSZlmtbgUx1wvFuSsQ&usqp=CAU",
             "brandId": "Apple",
-            "name": "MacBook Air 13-Inch 2020",
+            "name": "MacBook-Air-13-Inch-2020",
             "url": "/Apple",
             "description": "Description Apple 4",
             "price": "$900.00"
