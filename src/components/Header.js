@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,17 +9,15 @@ import { MdAddShoppingCart, MdPersonOutline, MdSearch } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-    const [data, setData]= useState([])
-    useEffect(()=>{
-        axios.get(`http://localhost:3000/brands`)
-        .then(res=> 
-            {                
-                      console.log(res)
-                    setData(res.data)
-            }
-        )
-    },[])
-    const item = data.map((item)=>(
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        axios.get(`http://localhost:3000/brands`).then((res) => {
+            setData(res.data);
+        });
+    }, []);
+
+    const brands = data.map((item) => (
         <NavDropdown.Item>
         <Link to={`/Brands/${item.name}`}>
         {item.name}
@@ -44,7 +42,7 @@ const Header = () => {
                             <Link to='/about'>About</Link>
                         </Nav.Link>
                         <NavDropdown title='Brands' id='basic-nav-dropdown' className='mr-3'>
-                            {item}
+                            {brands}
                             <NavDropdown.Divider />
                         </NavDropdown>
                         <NavDropdown title='Accessories' id='basic-nav-dropdown' className='mr-3'>

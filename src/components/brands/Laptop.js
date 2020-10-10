@@ -13,17 +13,17 @@ import Macbook1 from "../../assets/images/others/laptops/Macbook.png";
 import ClipLoader from "react-spinners/ClipLoader";
 import Display from "../../Display"
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexDirection: "column",
-    "& > * + *": {
-      marginTop: theme.spacing(1),
+    root: {
+        display: 'flex',
+        flexDirection: 'column',
+        '& > * + *': {
+            marginTop: theme.spacing(1),
+        },
+        formControl: {
+            margin: theme.spacing(1),
+            minWidth: 120,
+        },
     },
-    formControl: {
-      margin: theme.spacing(1),
-      minWidth: 120,
-    },
-  },
 }));
 
 function Laptop(props) {
@@ -35,7 +35,7 @@ function Laptop(props) {
     axios
       .get(`http://localhost:3000/brands/${props.match.params.name}/products`)
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         setData(res.data);
         setLoading({ loading: false });
         if (res.data.length === 0) {
@@ -61,9 +61,7 @@ function Laptop(props) {
   const goBack = () => {
     window.history.back();
   };
-  function User({ name }) {
-    return <div>{name}</div>;
-  }
+
   function useQuery() {
     return new URLSearchParams(useLocation().search);
   }
