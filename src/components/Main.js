@@ -27,17 +27,13 @@ import Laptop from './brands/Laptop';
 import { ImTerminal } from 'react-icons/im';
 
 const Main = () => {
-    const [data, setData] = useState([]);
+    // const [data, setData] = useState([]);
 
-    useEffect(() => {
-        axios.get(`http://localhost:3000/brands`).then((res) => {
-            setData(res.data);
-        });
-    }, []);
-
-    // const productDetails = data.map((item) => (
-    //     <Route path={`/brands/${item.name}/:id`} component={Display} />
-    // ));
+    // useEffect(() => {
+    //     axios.get(`http://localhost:3000/brands`).then((res) => {
+    //         setData(res.data);
+    //     });
+    // }, []);
 
     return (
         <div>
@@ -46,7 +42,7 @@ const Main = () => {
                 <Route exact path={'/'} component={Home} />
                 <Route path={'/about'} component={About} />
                 <Route exact path={'/brands'} component={Brands} />
-                <Route path={'/Brands/:name'} exact component={Laptop} />
+                <Route path={'/brands/:name'} exact component={Laptop} />
                 <Route path={'/signin'} component={SignIn} />
                 <Route path={'/signup'} component={SignUp} />
                 <Route path={'/cart'} exact component={Cart} />

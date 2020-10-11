@@ -11,6 +11,50 @@
         {
             "id": 3,
             "name": "Dell"
+        },
+        {
+            "id": 4,
+            "name": "Razer"
+        },
+        {
+            "id": 5,
+            "name": "Microsoft"
+        },
+        {
+            "id": 6,
+            "name": "Google"
+        },
+        {
+            "id": 7,
+            "name": "Alienware"
+        },
+        {
+            "id": 8,
+            "name": "Asus"
+        },
+        {
+            "id": 9,
+            "name": "Sony"
+        },
+        {
+            "id": 10,
+            "name": "HP"
+        },
+        {
+            "id": 11,
+            "name": "Lenovo"
+        },
+        {
+            "id": 12,
+            "name": "MSI"
+        },
+        {
+            "id": 13,
+            "name": "Huawei"
+        },
+        {
+            "id": 14,
+            "name": "Xiaomi"
         }
     ],
     "products": [

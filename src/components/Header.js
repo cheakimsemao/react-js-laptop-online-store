@@ -17,13 +17,16 @@ const Header = () => {
         });
     }, []);
 
-    const brands = data.map((item) => (
-        <NavDropdown.Item>
-        <Link to={`/Brands/${item.name}`}>
-        {item.name}
-        </Link>
-    </NavDropdown.Item>
-    ))
+    const brands = data.map((item) => {
+        for (var i = item.id; i < 6; i++) {
+            return (
+                <NavDropdown.Item>
+                    <Link to={`/brands/${item.name}`}>{item.name}</Link>
+                </NavDropdown.Item>
+            );
+        }
+    });
+
     return (
         <>
             <Navbar id='header' expand='lg' sticky='top'>
@@ -44,6 +47,9 @@ const Header = () => {
                         <NavDropdown title='Brands' id='basic-nav-dropdown' className='mr-3'>
                             {brands}
                             <NavDropdown.Divider />
+                            <NavDropdown.Item>
+                                 <Link to='/brands'>More...</Link>
+                             </NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title='Accessories' id='basic-nav-dropdown' className='mr-3'>
                             <NavDropdown.Item>
