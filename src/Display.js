@@ -9,7 +9,7 @@ function Display(name) {
   console.log(name);
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/products?name=${name.name}`)
+      .get(`http://localhost:3000/products?productName=${name.name}`)
       .then((res) => {
         // console.log(res);
         setData(res.data);

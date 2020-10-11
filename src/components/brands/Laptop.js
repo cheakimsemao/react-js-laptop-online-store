@@ -33,7 +33,7 @@ function Laptop(props) {
   const [loading, setLoading] = useState({ loading: true });
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/brands/${props.match.params.name}/products`)
+      .get(`http://localhost:3000/products?brand=${props.match.params.name}`)
       .then((res) => {
         // console.log(res);
         setData(res.data);
@@ -46,7 +46,7 @@ function Laptop(props) {
 
   const grid = data.map((item) => (
     <div className={"product-items index"}>
-      <Link to={`/Brands/${item.brandId}?name=${item.name}`}>
+      <Link to={`/Brands/${item.brand}?name=${item.productName}`}>
         <img src={item.imageURL} alt="mac" width="300px" height="200px" />
       </Link>
       <p class="product-items-title">{item.name}</p>
@@ -68,7 +68,7 @@ function Laptop(props) {
   let query = useQuery();
 
   let name=query.get("name");
-  const productName = data.slice(0, 1).map((item) => <>{item.brandId}</>);
+  const productName = data.slice(0, 1).map((item) => <>{item.brand}</>);
   return (
     <>
     
