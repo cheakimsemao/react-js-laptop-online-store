@@ -18,10 +18,10 @@ import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 import { BsFillEnvelopeFill, BsFillPersonLinesFill } from 'react-icons/bs';
 import { MdTitle, MdMessage } from 'react-icons/md';
 
-import JBL1 from '../assets/images/others/headsets/JBL-1.jpg';
-import Razer1 from '../assets/images/others/headsets/Razer-1.jpg';
-import Razer2 from '../assets/images/others/headsets/Razer-2.jpg';
-import Razer3 from '../assets/images/others/headsets/Razer-3.png';
+import JBL1 from '../../assets/images/others/headsets/JBL-1.jpg';
+import Razer1 from '../../assets/images/others/headsets/Razer-1.jpg';
+import Razer2 from '../../assets/images/others/headsets/Razer-2.jpg';
+import Razer3 from '../../assets/images/others/headsets/Razer-3.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {

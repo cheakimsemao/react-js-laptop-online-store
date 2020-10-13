@@ -12,6 +12,7 @@ import Box from '@material-ui/core/Box';
 import Macbook1 from '../../assets/images/others/laptops/Macbook.png';
 import ClipLoader from 'react-spinners/ClipLoader';
 import Display from '../../Display';
+import ProductDetails from './ProductDetails';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -27,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const Laptop = (props) => {
+const ProductList = (props) => {
     const classes = useStyles();
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState({ loading: true });
@@ -42,10 +43,10 @@ const Laptop = (props) => {
         });
     }, [props.match.params.name]);
 
-    const grid = data.map((item) => (
+    const products = data.map((item) => (
         <div className={'product-items index'}>
-            <Link to={`/Brands/${item.brand}?name=${item.productName}`}>
-                <img src={item.imageURL} alt='mac' width='300px' height='200px' />
+            <Link to={`/brands/${item.brand}?name=${item.productName}`}>
+                <img src={item.imageURL} alt={item.productName} width='300px' height='200px' />
             </Link>
             <p class='product-items-title'>{item.productName}</p>
             <div className={classes.root}>
@@ -64,18 +65,18 @@ const Laptop = (props) => {
     let query = useQuery();
     let name = query.get('name');
 
-    const productName = data.slice(0, 1).map((item) => <>{item.brand}</>);
+    const productBrand = data.slice(0, 1).map((item) => <>{item.brand}</>);
 
     return (
         <>
             {name ? (
-                <Display name={name} />
+                <ProductDetails name={name} />
             ) : data.length > 0 ? (
                 <div>
                     <div className='breadcrumbs'>
                         <p>
                             Home / Brands / {' '}
-                            <span>{productName}</span>
+                            <span>{productBrand}</span>
                         </p>
                     </div>
                     <Carousel id='carousel'>
@@ -103,7 +104,7 @@ const Laptop = (props) => {
                     </Carousel>
                     <div id='products'>
                         <div className='review-title'>
-                            <span> {productName} Products</span>
+                            <span> {productBrand} Products</span>
                             <hr />
                         </div>
                         <div className='sorted-by'>
@@ -118,7 +119,7 @@ const Laptop = (props) => {
                             </FormControl>
                         </div>
                     </div>
-                    <div className='grid-container'>{grid}</div>
+                    <div className='grid-container'>{products}</div>
                     <Pagination>
                         {/* <Pagination.First /> */}
                         <Pagination.Prev />
@@ -147,4 +148,4 @@ const Laptop = (props) => {
     );
 }
 
-export default Laptop;
+export default ProductList;

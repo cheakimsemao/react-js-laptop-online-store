@@ -65,6 +65,52 @@
             "brand": "Apple",
             "productName": "MacBook-Air-2020",
             "url": "/Apple",
+            "specification": [
+                {
+                    "CPU / Processor": "2.3GHz quad core 10th generation Intel Core i7, Turbo Boost up to 4.1GHz, with 6MB shared L3 cache"
+                },
+                { "Operting Systems": "macOS Catalina" },
+                { "RAM / Memory": "8GB of 3733MHz LPDDR4X onboard memory" },
+                { "Storage": "128GB SSD" },
+                { "Graphic": "Intel Iris Plus Graphics" },
+                {
+                    "Display": "13.3 inch LED-backlit display with IPS technology; 2560x1600 native resolution at 227 pixels per inch"
+                },
+                { "Wireless": "802.11ac Wi-Fi wireless networking, IEEE 802.11a/b/g/n compatible" },
+                { "Sound": "Stereo speakers with high dynamic range" },
+                { "Webcam": "720p FaceTime HD camera" },
+                { "Ports": "Four Thunderbolt 3 (USB-C) ports" },
+                { "Battery": "Up to 10 hours wireless web, Up to 10 hours Apple TV app movie playback" },
+                { "Weight": "1.4kg" }
+            ],
+            "detailTitle": [
+                "CPU / Processor",
+                "Operting Systems",
+                "RAM / Memory",
+                "Storage",
+                "Graphic",
+                "Display",
+                "Wireless",
+                "Sound",
+                "Webcam",
+                "Ports",
+                "Battery",
+                "Weight"
+            ],
+            "detail": [
+                "2.3GHz quad core 10th generation Intel Core i7, Turbo Boost up to 4.1GHz, with 6MB shared L3 cache",
+                "macOS Catalina",
+                "8GB of 3733MHz LPDDR4X onboard memory",
+                "128GB SSD",
+                "Intel Iris Plus Graphics",
+                "13.3 inch LED-backlit display with IPS technology; 2560x1600 native resolution at 227 pixels per inch",
+                "802.11ac Wi-Fi wireless networking, IEEE 802.11a/b/g/n compatible",
+                "Stereo speakers with high dynamic range",
+                "720p FaceTime HD camera",
+                "Four Thunderbolt 3 (USB-C) ports",
+                "Up to 10 hours wireless web, Up to 10 hours Apple TV app movie playback",
+                "1.4kg"
+            ],
             "description": "Description Apple 1",
             "price": "$1000.00"
         },
