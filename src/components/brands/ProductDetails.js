@@ -50,14 +50,15 @@ const ProductDetails = (name) => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    const [data, setData] = useState({});
+    const [data, setData] = useState([]);
     const [loading, setLoading] = useState({ loading: true });
-
+    const [spec, setSpec] = useState({})
     useEffect(() => {
         axios
             .get(`http://localhost:3000/products?productName=${name.name}`)
             .then((res) => {
-                setData(res.data);
+                setData(res.data);  
+                setSpec(res.data[0].specification)             
                 setLoading({ loading: false });
             })
             .catch((err) => {
@@ -67,385 +68,45 @@ const ProductDetails = (name) => {
             });
     }, []);
 
-    const specification = (spec) => {
-        for (var i in spec) {
-            for (var key in spec[i]) {
-                return (
-                    <>
-                        <Col sm={3}>
-                            <p>{key}</p>
-                        </Col>
-                        <Col sm={9}>
-                            <p>{spec[i][key]}</p>
-                        </Col>
-                    </>
-                );
-            }
-        }
-        // console.log("Spec: " + JSON.stringify(spec))
-    };
 
-    const spec = () => {
-        data.map((item) => {
-            for (item in data) {
-                return (
-                    <Col sm={3}>
-                        <p>{item.detailTitle}</p>
-                    </Col>
-                );
-            }
-        });
-    };
+//    function specification(spec){
+//     for (const [key, value] of Object.entries(spec)) {  
+//         return(       
+//         <>
+//             {key}: {value}
+//         </>
+//         )
+//    };
+// }
+// Object.keys(spec).map(function(key, index) {
+//     return(
+//     <>
+//    { spec[key] }
+//     </>
+//     )
+//   });
+const specification = Object.keys(spec).map(function(key, index) {
+    return(
+    <>
+    {key}  : 
+   { spec[key] } 
+        <br></br>
+    </>
+    )
+  });
 
     const goBack = () => window.history.back();
-
+    
     return (
         <>
-            {data.length > 0 ? (
-                data.map((item) => (
-                    <div key={item.id}>
-                        <div className='breadcrumbs'>
-                            <p>
-                                Home / Brands / {item.brand} / <span>{item.productName}</span>
-                            </p>
-                        </div>
-                        <div id='product-detail'>
-                            <Container>
-                                <Row>
-                                    <Col sm className='product-detail-image'>
-                                        <img src={item.imageURL} alt={item.productName} />
-                                    </Col>
-                                    <Col sm>
-                                        <p className='product-detail-title'>{item.productName}</p>
-                                        <Row className='product-detail-option'>
-                                            <Col lg={3}>
-                                                <h6 className='price'>{item.price}</h6>
-                                            </Col>
-                                            <Col lg={9} className={classes.root}>
-                                                <Box component='fieldset' mb={3} borderColor='transparent'>
-                                                    <Rating
-                                                        name='read-only'
-                                                        value={5}
-                                                        size='small'
-                                                        readOnly
-                                                    />
-                                                </Box>
-                                            </Col>
-                                        </Row>
-                                        <Row className='product-detail-option'>
-                                            <Col sm={3}>
-                                                <p>COLOR: </p>
-                                            </Col>
-                                            <Col sm={9}>
-                                                <button className='color-picker space-gray'>&nbsp;</button>
-                                                <button className='color-picker white'>&nbsp;</button>
-                                            </Col>
-                                        </Row>
-                                        <Row className='product-detail-option'>
-                                            <Col sm={3}>
-                                                <p>RAM: </p>
-                                            </Col>
-                                            <Col sm={9}>
-                                                <button className='laptop-ram'>8 GB</button>
-                                                <button className='laptop-ram'>16 GB</button>
-                                            </Col>
-                                        </Row>
-                                        <Row className='product-detail-option'>
-                                            <Col md={3}>
-                                                <p>STORAGE: </p>
-                                            </Col>
-                                            <Col md={9}>
-                                                <button className='laptop-storage'>128 GB</button>
-                                                <button className='laptop-storage'>256 GB</button>
-                                            </Col>
-                                        </Row>
-                                        <Row className='product-detail-option'>
-                                            <Col lg={4}>
-                                                <form className='quantity-input'>
-                                                    <div
-                                                        className='value-button'
-                                                        id='decrease'
-                                                        onClick={() =>
-                                                            setCount((prevCount) =>
-                                                                prevCount > 1 ? prevCount - 1 : null
-                                                            )
-                                                        }>
-                                                        -
-                                                    </div>
-                                                    <input type='number' id='number' value={count} />
-                                                    <div
-                                                        className='value-button'
-                                                        id='increase'
-                                                        onClick={() =>
-                                                            setCount((prevCount) => prevCount + 1)
-                                                        }>
-                                                        +
-                                                    </div>
-                                                </form>
-                                            </Col>
-                                            <Col lg={8}>
-                                                <button className='add-to-cart-btn'>ADD TO CART</button>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                </Row>
-                            </Container>
-                            <div id='specification'>
-                                <div className='specification-title'>
-                                    <span>SPECIFICATION</span>
-                                </div>
-                                <Container className='specification-details'>
-                                    <Row className='mt-5'>
-                                        {specification(item.specification)}
-                                    </Row>
-                                </Container>
-                            </div>
-                            <div id='review'>
-                                <div className='review-title'>
-                                    <span>REVIEWS</span>
-                                </div>
-                                <div>
-                                    <FormControl
-                                        className={classes.formControl}
-                                        style={{ width: '150px', marginRight: '30px' }}>
-                                        <NativeSelect
-                                            defaultValue='newest'
-                                            style={{ fontSize: '12px', color: '#ff6600' }}>
-                                            <option value='newest'>NEWEST</option>
-                                            <option value='oldest'>OLDEST</option>
-                                        </NativeSelect>
-                                        <FormHelperText style={{ fontSize: '9px' }}>SORTED BY</FormHelperText>
-                                    </FormControl>
-                                    <button className='write-a-review-btn' onClick={handleShow}>
-                                        WRITE A REVIEW
-                                    </button>
-                                    <Modal
-                                        show={show}
-                                        onHide={handleClose}
-                                        backdrop='static'
-                                        keyboard={false}
-                                        animation={true}
-                                        centered>
-                                        <Modal.Header closeButton>
-                                            <Modal.Title>WRITE A REVIEW</Modal.Title>
-                                        </Modal.Header>
-                                        <Modal.Body id='write-a-review'>
-                                            <Form id='review-form'>
-                                                <div className='input-field'>
-                                                    <Form.Group controlId='formGroupName'>
-                                                        <Form.Control type='text' placeholder='Full name' />
-                                                        <BsFillPersonLinesFill className='input-icon' />
-                                                    </Form.Group>
-                                                </div>
-                                                <div className='input-field'>
-                                                    <Form.Group controlId='formGroupEmail'>
-                                                        <Form.Control type='email' placeholder='Email' />
-                                                        <BsFillEnvelopeFill className='input-icon' />
-                                                    </Form.Group>
-                                                </div>
-                                                <div className='mb-3'>
-                                                    <span className='mr-3'>Rating:</span>
-                                                    <Rating
-                                                        className='item-rating'
-                                                        name='size-small'
-                                                        defaultValue={0}
-                                                        size='small'
-                                                    />
-                                                </div>
-                                                <div className='input-field'>
-                                                    <Form.Group controlId='formGroupNumber'>
-                                                        <Form.Control
-                                                            type='text'
-                                                            placeholder='Review Title'
-                                                        />
-                                                        <MdTitle className='input-icon' />
-                                                    </Form.Group>
-                                                </div>
-                                                <div className='input-field'>
-                                                    <Form.Group controlId='exampleForm.ControlTextarea1'>
-                                                        <Form.Control
-                                                            as='textarea'
-                                                            rows='5'
-                                                            placeholder='Body of Review'
-                                                        />
-                                                        <MdMessage className='input-icon' />
-                                                    </Form.Group>
-                                                </div>
-                                                <div className='center'>
-                                                    <Button
-                                                        className='submit-button'
-                                                        variant='white'
-                                                        type='submit'>
-                                                        Submit
-                                                    </Button>
-                                                </div>
-                                            </Form>
-                                        </Modal.Body>
-                                    </Modal>
-                                </div>
-                            </div>
-                            <Container className='mt-5'>
-                                <Row className='review-item'>
-                                    <Col sm={4}>
-                                        <ListItem>
-                                            <ListItemAvatar>
-                                                <Avatar src='/static/images/avatar/1.jpg' />
-                                            </ListItemAvatar>
-                                            <ListItemText
-                                                primary={<span className='reviewer-name'>Kevin Wisky</span>}
-                                                secondary={
-                                                    <>
-                                                        <GrLocation />
-                                                        <span className='reviewer-location'>Phnom Penh</span>
-                                                    </>
-                                                }
-                                            />
-                                        </ListItem>
-                                    </Col>
-                                    <Col sm={8} className={classes.root} style={{ paddingTop: '12px' }}>
-                                        <div className='d-flex'>
-                                            <Box component='fieldset' mb={3} borderColor='transparent'>
-                                                <Rating name='read-only' value={5} size='small' readOnly />
-                                            </Box>
-                                            <span className='review-datetime'>08/08/2020</span>
-                                        </div>
-                                        <p className='comment'>
-                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                                            amet sint. Velit officia conseq duis enim velit mollit.
-                                            Exercitation veniam consequat sunt nostrud amet. Amet minim mollit
-                                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                                            officia consequat duis enim velit mollit. Exercitation veniam
-                                            consequat sunt nostrud amet.
-                                        </p>
-                                    </Col>
-                                </Row>
-                                <Row className='review-item'>
-                                    <Col sm={4}>
-                                        <ListItem>
-                                            <ListItemAvatar>
-                                                <Avatar src='/static/images/avatar/1.jpg' />
-                                            </ListItemAvatar>
-                                            <ListItemText
-                                                primary={<span className='reviewer-name'>Devid Dom</span>}
-                                                secondary={
-                                                    <>
-                                                        <GrLocation />
-                                                        <span className='reviewer-location'>Phnom Penh</span>
-                                                    </>
-                                                }
-                                            />
-                                        </ListItem>
-                                    </Col>
-                                    <Col sm={8} className={classes.root} style={{ paddingTop: '12px' }}>
-                                        <div className='d-flex'>
-                                            <Box component='fieldset' mb={3} borderColor='transparent'>
-                                                <Rating name='read-only' value={5} size='small' readOnly />
-                                            </Box>
-                                            <span className='review-datetime'>07/08/2020</span>
-                                        </div>
-                                        <p className='comment'>
-                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                                            amet sint. Velit officia conseq duis enim velit mollit.
-                                            Exercitation veniam consequat sunt nostrud amet. Amet minim mollit
-                                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                                            officia consequat duis enim velit mollit. Exercitation veniam
-                                            consequat sunt nostrud amet.
-                                        </p>
-                                    </Col>
-                                </Row>
-                                <Row className='review-item'>
-                                    <Col sm={4}>
-                                        <ListItem>
-                                            <ListItemAvatar>
-                                                <Avatar src='/static/images/avatar/1.jpg' />
-                                            </ListItemAvatar>
-                                            <ListItemText
-                                                primary={<span className='reviewer-name'>Jenny Ry</span>}
-                                                secondary={
-                                                    <>
-                                                        <GrLocation />
-                                                        <span className='reviewer-location'>Phnom Penh</span>
-                                                    </>
-                                                }
-                                            />
-                                        </ListItem>
-                                    </Col>
-                                    <Col sm={8} className={classes.root} style={{ paddingTop: '12px' }}>
-                                        <div className='d-flex'>
-                                            <Box component='fieldset' mb={3} borderColor='transparent'>
-                                                <Rating name='read-only' value={5} size='small' readOnly />
-                                            </Box>
-                                            <span className='review-datetime'>06/08/2020</span>
-                                        </div>
-                                        <p className='comment'>
-                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                                            amet sint. Velit officia conseq duis enim velit mollit.
-                                            Exercitation veniam consequat sunt nostrud amet. Amet minim mollit
-                                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                                            officia consequat duis enim velit mollit. Exercitation veniam
-                                            consequat sunt nostrud amet.
-                                        </p>
-                                    </Col>
-                                </Row>
-                                <div className='center'>
-                                    <button className='load-more-btn'>Load More</button>
-                                </div>
-                            </Container>
-                        </div>
-                        <hr className='seperated-line' />
-                        <div id='recommendation'>
-                            <div className='recommend-title'>
-                                <span>YOU MAY ALSO LIKE</span>
-                                <div>
-                                    <AiFillLeftCircle className='prev-next-btn' />
-                                    <AiFillRightCircle className='prev-next-btn' />
-                                </div>
-                            </div>
-                            <Container>
-                                <Row>
-                                    <Col lg className='recommended-card'>
-                                        <img src={Macbook1} alt='macbook-pro-2020' />
-                                        <h6>MACBOOK PRO 16-INCH 2020</h6>
-                                        <Box component='fieldset' borderColor='transparent'>
-                                            <Rating name='read-only' value={5} size='small' readOnly />
-                                        </Box>
-                                        <p>$2099.00</p>
-                                    </Col>
-                                    <Col lg className='recommended-card'>
-                                        <img src={Macbook3} alt='macbook-pro-2020' />
-                                        <h6>MACBOOK PRO 15-INCH 2020</h6>
-                                        <Box component='fieldset' borderColor='transparent'>
-                                            <Rating name='read-only' value={5} size='small' readOnly />
-                                        </Box>
-                                        <p>$1999.00</p>
-                                    </Col>
-                                    <Col lg className='recommended-card'>
-                                        <img src={Macbook2} alt='macbook-pro-2020' />
-                                        <h6>MACBOOK AIR 2020</h6>
-                                        <Box component='fieldset' borderColor='transparent'>
-                                            <Rating name='read-only' value={5} size='small' readOnly />
-                                        </Box>
-                                        <p>$1199.00</p>
-                                    </Col>
-                                </Row>
-                            </Container>
-                        </div>
-                    </div>
-                ))
-            ) : (
-                <>
-                    <ClipLoader size={150} color={'#123abc'} loading={loading.loading} />
-                    {loading.loading === false && (
-                        <>
-                            <Link onClick={goBack}>Go Back</Link>
-                            <br></br>
-                            Sorry, no data available
-                        </>
-                    )}
-                </>
-            )}
-        </>
-    );
+        {/* {JSON.stringify(data)} */}
+        {/* {JSON.stringify(spec)} */}
+{/* {specification(spec)}
+ */}
+ 
+{specification} 
+            </>
+    )
 };
 
 export default ProductDetails;
