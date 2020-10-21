@@ -57,29 +57,32 @@
             "name": "Xiaomi"
         }
     ],
-    "products": [
+    "laptops": [
         {
             "id": 1,
             "imageURL": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=892&hei=820&&qlt=80&.v=1541713862468",
             "brandId": 1,
             "brand": "Apple",
-            "productName": "MacBook-Air-2020",
+            "productName": "MacBook Air 2020",
             "url": "/Apple",
             "specification": {
-                "CPU / Processor": "2.3GHz quad core 10th generation Intel Core i7, Turbo Boost up to 4.1GHz, with 6MB shared L3 cache",
+                "CPU / Processor": "2.3GHz quad core 10th generation Intel Core i3, Turbo Boost up to 4.1GHz, with 6MB shared L3 cache",
                 "Operting Systems": "macOS Catalina",
                 "RAM / Memory": "8GB of 3733MHz LPDDR4X onboard memory",
                 "Storage": "128GB SSD",
                 "Graphic": "Intel Iris Plus Graphics",
                 "Display": "13.3 inch LED-backlit display with IPS technology; 2560x1600 native resolution at 227 pixels per inch",
+                "Touch Screen": "Yes",
+                "Finger Print Sensor": "Yes",
+                "Bluetooth Version": "5.0",
                 "Wireless": "802.11ac Wi-Fi wireless networking, IEEE 802.11a/b/g/n compatible",
                 "Sound": "Stereo speakers with high dynamic range",
                 "Webcam": "720p FaceTime HD camera",
                 "Ports": "Four Thunderbolt 3 (USB-C) ports",
                 "Battery": "Up to 10 hours wireless web, Up to 10 hours Apple TV app movie playback",
-                "Weight": "1.4kg"
+                "Weight": "1.29kg"
             },
-            "price": "$1000.00"
+            "price": "1199.00"
         },
         {
             "id": 2,
@@ -102,7 +105,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$1198.00"
+            "price": "1198.00"
         },
         {
             "id": 3,
@@ -125,7 +128,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$2999.00"
+            "price": "2999.00"
         },
         {
             "id": 4,
@@ -148,7 +151,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$900.00"
+            "price": "900.00"
         },
         {
             "id": 5,
@@ -171,7 +174,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$100.00"
+            "price": "100.00"
         },
         {
             "id": 6,
@@ -194,7 +197,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$1198.00"
+            "price": "1198.00"
         },
         {
             "id": 7,
@@ -217,7 +220,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$1268.00"
+            "price": "1268.00"
         },
         {
             "id": 8,
@@ -240,7 +243,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$1498.00"
+            "price": "1498.00"
         },
         {
             "id": 9,
@@ -263,7 +266,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$998.00"
+            "price": "998.00"
         },
         {
             "id": 10,
@@ -286,7 +289,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$2198.00"
+            "price": "2198.00"
         },
         {
             "id": 11,
@@ -309,7 +312,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$2198.00"
+            "price": "2198.00"
         },
         {
             "id": 12,
@@ -332,7 +335,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$2198.00"
+            "price": "2198.00"
         },
         {
             "id": 13,
@@ -355,7 +358,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$2198.00"
+            "price": "2198.00"
         },
         {
             "id": 14,
@@ -378,7 +381,7 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$2198.00"
+            "price": "2198.00"
         },
         {
             "id": 15,
@@ -401,7 +404,1728 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": "$2198.00"
+            "price": "2198.00"
+        },
+        {
+            "id": 16,
+            "imageURL": "",
+            "brandId": 4,
+            "brand": "Razer",
+            "productName": "",
+            "url": "/Razer",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 17,
+            "imageURL": "",
+            "brandId": 4,
+            "brand": "Razer",
+            "productName": "",
+            "url": "/Razer",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 18,
+            "imageURL": "",
+            "brandId": 4,
+            "brand": "Razer",
+            "productName": "",
+            "url": "/Razer",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 19,
+            "imageURL": "",
+            "brandId": 4,
+            "brand": "Razer",
+            "productName": "",
+            "url": "/Razer",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 20,
+            "imageURL": "",
+            "brandId": 4,
+            "brand": "Razer",
+            "productName": "",
+            "url": "/Razer",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 21,
+            "imageURL": "",
+            "brandId": 5,
+            "brand": "Microsoft",
+            "productName": "",
+            "url": "/Microsoft",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 22,
+            "imageURL": "",
+            "brandId": 5,
+            "brand": "Microsoft",
+            "productName": "",
+            "url": "/Microsoft",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 23,
+            "imageURL": "",
+            "brandId": 5,
+            "brand": "Microsoft",
+            "productName": "",
+            "url": "/Microsoft",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 24,
+            "imageURL": "",
+            "brandId": 5,
+            "brand": "Microsoft",
+            "productName": "",
+            "url": "/Microsoft",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 25,
+            "imageURL": "",
+            "brandId": 5,
+            "brand": "Microsoft",
+            "productName": "",
+            "url": "/Microsoft",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 26,
+            "imageURL": "",
+            "brandId": 6,
+            "brand": "Google",
+            "productName": "",
+            "url": "/Google",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 27,
+            "imageURL": "",
+            "brandId": 6,
+            "brand": "Google",
+            "productName": "",
+            "url": "/Google",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 28,
+            "imageURL": "",
+            "brandId": 6,
+            "brand": "Google",
+            "productName": "",
+            "url": "/Google",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 29,
+            "imageURL": "",
+            "brandId": 6,
+            "brand": "Google",
+            "productName": "",
+            "url": "/Google",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 30,
+            "imageURL": "",
+            "brandId": 6,
+            "brand": "Google",
+            "productName": "",
+            "url": "/Google",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 31,
+            "imageURL": "",
+            "brandId": 7,
+            "brand": "Alienware",
+            "productName": "",
+            "url": "/Alienware",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 32,
+            "imageURL": "",
+            "brandId": 7,
+            "brand": "Alienware",
+            "productName": "",
+            "url": "/Alienware",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 33,
+            "imageURL": "",
+            "brandId": 7,
+            "brand": "Alienware",
+            "productName": "",
+            "url": "/Alienware",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 34,
+            "imageURL": "",
+            "brandId": 7,
+            "brand": "Alienware",
+            "productName": "",
+            "url": "/Alienware",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 35,
+            "imageURL": "",
+            "brandId": 7,
+            "brand": "Alienware",
+            "productName": "",
+            "url": "/Alienware",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 36,
+            "imageURL": "",
+            "brandId": 8,
+            "brand": "Asus",
+            "productName": "",
+            "url": "/Asus",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 37,
+            "imageURL": "",
+            "brandId": 8,
+            "brand": "Asus",
+            "productName": "",
+            "url": "/Asus",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 38,
+            "imageURL": "",
+            "brandId": 8,
+            "brand": "Asus",
+            "productName": "",
+            "url": "/Asus",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 39,
+            "imageURL": "",
+            "brandId": 8,
+            "brand": "Asus",
+            "productName": "",
+            "url": "/Asus",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 40,
+            "imageURL": "",
+            "brandId": 8,
+            "brand": "Asus",
+            "productName": "",
+            "url": "/Asus",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 41,
+            "imageURL": "",
+            "brandId": 9,
+            "brand": "Sony",
+            "productName": "",
+            "url": "/Sony",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 41,
+            "imageURL": "",
+            "brandId": 9,
+            "brand": "Sony",
+            "productName": "",
+            "url": "/Sony",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 42,
+            "imageURL": "",
+            "brandId": 9,
+            "brand": "Sony",
+            "productName": "",
+            "url": "/Sony",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 43,
+            "imageURL": "",
+            "brandId": 9,
+            "brand": "Sony",
+            "productName": "",
+            "url": "/Sony",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 44,
+            "imageURL": "",
+            "brandId": 9,
+            "brand": "Sony",
+            "productName": "",
+            "url": "/Sony",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 45,
+            "imageURL": "",
+            "brandId": 9,
+            "brand": "Sony",
+            "productName": "",
+            "url": "/Sony",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 46,
+            "imageURL": "",
+            "brandId": 10,
+            "brand": "HP",
+            "productName": "",
+            "url": "/HP",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 47,
+            "imageURL": "",
+            "brandId": 10,
+            "brand": "HP",
+            "productName": "",
+            "url": "/HP",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 48,
+            "imageURL": "",
+            "brandId": 10,
+            "brand": "HP",
+            "productName": "",
+            "url": "/HP",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 49,
+            "imageURL": "",
+            "brandId": 10,
+            "brand": "HP",
+            "productName": "",
+            "url": "/HP",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 50,
+            "imageURL": "",
+            "brandId": 10,
+            "brand": "HP",
+            "productName": "",
+            "url": "/HP",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 51,
+            "imageURL": "",
+            "brandId": 11,
+            "brand": "Lenovo",
+            "productName": "",
+            "url": "/Lenovo",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 52,
+            "imageURL": "",
+            "brandId": 11,
+            "brand": "Lenovo",
+            "productName": "",
+            "url": "/Lenovo",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 53,
+            "imageURL": "",
+            "brandId": 11,
+            "brand": "Lenovo",
+            "productName": "",
+            "url": "/Lenovo",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 54,
+            "imageURL": "",
+            "brandId": 11,
+            "brand": "Lenovo",
+            "productName": "",
+            "url": "/Lenovo",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 55,
+            "imageURL": "",
+            "brandId": 11,
+            "brand": "Lenovo",
+            "productName": "",
+            "url": "/Lenovo",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 56,
+            "imageURL": "",
+            "brandId": 12,
+            "brand": "MSI",
+            "productName": "",
+            "url": "/MSI",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 57,
+            "imageURL": "",
+            "brandId": 12,
+            "brand": "MSI",
+            "productName": "",
+            "url": "/MSI",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 58,
+            "imageURL": "",
+            "brandId": 12,
+            "brand": "MSI",
+            "productName": "",
+            "url": "/MSI",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 59,
+            "imageURL": "",
+            "brandId": 12,
+            "brand": "MSI",
+            "productName": "",
+            "url": "/MSI",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 60,
+            "imageURL": "",
+            "brandId": 12,
+            "brand": "MSI",
+            "productName": "",
+            "url": "/MSI",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 61,
+            "imageURL": "",
+            "brandId": 13,
+            "brand": "Huawei",
+            "productName": "",
+            "url": "/Huawei",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 62,
+            "imageURL": "",
+            "brandId": 13,
+            "brand": "Huawei",
+            "productName": "",
+            "url": "/Huawei",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 63,
+            "imageURL": "",
+            "brandId": 13,
+            "brand": "Huawei",
+            "productName": "",
+            "url": "/Huawei",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 64,
+            "imageURL": "",
+            "brandId": 13,
+            "brand": "Huawei",
+            "productName": "",
+            "url": "/Huawei",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 65,
+            "imageURL": "",
+            "brandId": 13,
+            "brand": "Huawei",
+            "productName": "",
+            "url": "/Huawei",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 66,
+            "imageURL": "",
+            "brandId": 14,
+            "brand": "Xiaomi",
+            "productName": "",
+            "url": "/Xiaomi",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 67,
+            "imageURL": "",
+            "brandId": 14,
+            "brand": "Xiaomi",
+            "productName": "",
+            "url": "/Xiaomi",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 68,
+            "imageURL": "",
+            "brandId": 14,
+            "brand": "Xiaomi",
+            "productName": "",
+            "url": "/Xiaomi",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 69,
+            "imageURL": "",
+            "brandId": 14,
+            "brand": "Xiaomi",
+            "productName": "",
+            "url": "/Xiaomi",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 70,
+            "imageURL": "",
+            "brandId": 14,
+            "brand": "Xiaomi",
+            "productName": "",
+            "url": "/Xiaomi",
+            "specification": {
+                "CPU / Processor": "",
+                "Opterating Systems": "",
+                "RAM / Memory": "",
+                "Storage": "",
+                "Graphic": "",
+                "Display": "",
+                "Wireless": "",
+                "Sound": "",
+                "Webcam": "",
+                "Ports": "",
+                "Battery": "",
+                "Weight": ""
+            },
+            "price": ""
+        }
+    ],
+    "accessoryCategories": [
+        {
+            "id": 1,
+            "category": "Headset"
+        },
+        {
+            "id": 2,
+            "category": "Mouse"
+        },
+        {
+            "id": 3,
+            "category": "Keyboard"
+        },
+        {
+            "id": 4,
+            "category": "Webcam"
+        },
+        {
+            "id": 5,
+            "category": "USB"
+        },
+        {
+            "id": 6,
+            "category": "Adaptor"
+        }
+    ],
+    "accessories": [
+        {
+            "id": 1,
+            "imageURL": "https://m.media-amazon.com/images/I/31ugYqhKEeL.jpg",
+            "productName": "JBL TUNE 700BT",
+            "url": "/Headset",
+            "specification": {
+                "Audio Specifications": [
+                    "Frequency range 20Hz-20KHz",
+                    "Sensitivity passive mode 95dBSPL / 1mW, Sensitivity active mode 102 dBSPL / 1mW",
+                    "Transducer Impedance 32Ohm",
+                    "Max input power 40mW, Transmit sensitivity -15 Dbv/Pa"
+                ],
+                "Control & Connection Specifications": [
+                    "Bluetooth transmitted power < 5dBm",
+                    " Bluetooth transmitted modulation GFSK, π/4DQPSK, 8DPSK",
+                    "Bluetooth frequency 2.402GHz-2.480GHz",
+                    "Bluetooth profiles version A2DP 1.2",
+                    "AVRCP 1.5, HFP 1.6, HSP 1.2, Bluetooth version 4.2"
+                ],
+                "Battery": [
+                    "Headset battery type Polymer Li-ion Battery(610mAh/3.7V)",
+                    "Power supply 5V ⎓ 1A",
+                    "Charging time <2 hrs from empty, Music play time with BT on 27 hrs"
+                ],
+                "Size": ["Driver size 40mm dynamic driver", "Weight (g) 220 g"]
+            },
+            "price": "69.00"
+        },
+        {
+            "id": 2,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Headset",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 3,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Headset",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 4,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Headset",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 5,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Headset",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 6,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Mouse",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 7,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Mouse",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 8,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Mouse",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 9,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Mouse",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 10,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Mouse",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 11,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Keyboard",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 12,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Keyboard",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 13,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Keyboard",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 14,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Keyboard",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 15,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Keyboard",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 16,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Webcam",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 17,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Webcam",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 18,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Webcam",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 19,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Webcam",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 20,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Webcam",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 21,
+            "imageURL": "",
+            "productName": "",
+            "url": "/USB",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 22,
+            "imageURL": "",
+            "productName": "",
+            "url": "/USB",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 23,
+            "imageURL": "",
+            "productName": "",
+            "url": "/USB",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 24,
+            "imageURL": "",
+            "productName": "",
+            "url": "/USB",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 25,
+            "imageURL": "",
+            "productName": "",
+            "url": "/USB",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 26,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Adaptor",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 27,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Adaptor",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 28,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Adaptor",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 29,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Adaptor",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
+        },
+        {
+            "id": 30,
+            "imageURL": "",
+            "productName": "",
+            "url": "/Adaptor",
+            "specification": {
+                "Audio Specification": "",
+                "Control & Connection Specification": "",
+                "Battery": "",
+                "Size": ""
+            },
+            "price": ""
         }
     ]
 }

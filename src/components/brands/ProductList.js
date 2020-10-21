@@ -11,7 +11,6 @@ import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
 import Macbook1 from '../../assets/images/others/laptops/Macbook.png';
 import ClipLoader from 'react-spinners/ClipLoader';
-import Display from '../../Display';
 import ProductDetails from './ProductDetails';
 
 const useStyles = makeStyles((theme) => ({
@@ -34,7 +33,7 @@ const ProductList = (props) => {
     const [loading, setLoading] = useState({ loading: true });
 
     useEffect(() => {
-        axios.get(`http://localhost:3000/products?brand=${props.match.params.name}`).then((res) => {
+        axios.get(`http://localhost:3000/laptops?brand=${props.match.params.name}`).then((res) => {
             setData(res.data);
             setLoading({ loading: false });
             if (res.data.length === 0) {
@@ -54,7 +53,7 @@ const ProductList = (props) => {
                     <Rating name='read-only' value={5} size='small' readOnly />
                 </Box>
             </div>
-            <p class='price'>{item.price}</p>
+            <p class='price'>${item.price}</p>
         </div>
     ));
 

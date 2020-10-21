@@ -56,7 +56,7 @@ const ProductDetails = (name) => {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:3000/products?productName=${name.name}`)
+            .get(`http://localhost:3000/laptops?productName=${name.name}`)
             .then((res) => {
                 setData(res.data);
                 setSpec(res.data[0].specification);
@@ -106,7 +106,7 @@ const ProductDetails = (name) => {
                                         <p className='product-detail-title'>{item.productName}</p>
                                         <Row className='product-detail-option'>
                                             <Col lg={3}>
-                                                <h6 className='price'>{item.price}</h6>
+                                                <h6 className='price'>${item.price}</h6>
                                             </Col>
                                             <Col lg={9} className={classes.root}>
                                                 <Box component='fieldset' mb={3} borderColor='transparent'>
