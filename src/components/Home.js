@@ -145,8 +145,6 @@ const Home = () => {
                     </Row>
                 </Container>
             </div>
-            <Link to='/brands/product-details'>ProductDetails</Link>{' '}
-            <Link to='/brands/accessory-details'>AccessoryDetails</Link>
         </div>
     );
 };

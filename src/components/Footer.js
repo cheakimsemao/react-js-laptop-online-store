@@ -19,50 +19,50 @@ const Footer = () => {
                         <Col>
                             <ul className='list-unstyled'>
                                 <li>
-                                    <Link to='/brands/apple'>APPLE</Link>
+                                    <Link to='/brands/Apple'>APPLE</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/google'>GOOGLE</Link>
+                                    <Link to='/brands/Google'>GOOGLE</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/samsung'>SAMSUNG</Link>
+                                    <Link to='/brands/Samsung'>SAMSUNG</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/alienware'>ALIENWARE</Link>
+                                    <Link to='/brands/Alienware'>ALIENWARE</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/lenovo'>LENOVO</Link>
+                                    <Link to='/brands/Lenovo'>LENOVO</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/microsoft'>MICROSOFT</Link>
+                                    <Link to='/brands/Microsoft'>MICROSOFT</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/huawei'>HUAWEI</Link>
+                                    <Link to='/brands/Huawei'>HUAWEI</Link>
                                 </li>
                             </ul>
                         </Col>
                         <Col>
                             <ul className='list-unstyled'>
                                 <li>
-                                    <Link to='/brands/xiaomi'>XIAOMI</Link>
+                                    <Link to='/brands/Xiaomi'>XIAOMI</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/msi'>MSI</Link>
+                                    <Link to='/brands/MSI'>MSI</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/dell'>DELL</Link>
+                                    <Link to='/brands/Dell'>DELL</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/sony'>SONY</Link>
+                                    <Link to='/brands/Sony'>SONY</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/asus'>ASUS</Link>
+                                    <Link to='/brands/Asus'>ASUS</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/razer'>RAZER</Link>
+                                    <Link to='/brands/Razer'>RAZER</Link>
                                 </li>
                                 <li>
-                                    <Link to='/brands/hp'>HP</Link>
+                                    <Link to='/brands/HP'>HP</Link>
                                 </li>
                             </ul>
                         </Col>
@@ -72,22 +72,22 @@ const Footer = () => {
                     <p className='mb-4 footer-title'>Accessories</p>
                     <ul className='list-unstyled'>
                         <li>
-                            <Link to='/accessories/keyboard'>KEYBOARD</Link>
+                            <Link to='/accessories/Headset'>HEADSET</Link>
                         </li>
                         <li>
-                            <Link to='/accessories/mouse'>MOUSE</Link>
+                            <Link to='/accessories/Mouse'>MOUSE</Link>
                         </li>
                         <li>
-                            <Link to='/accessories/headset'>HEADSET</Link>
+                            <Link to='/accessories/Keyboard'>KEYBOARD</Link>
                         </li>
                         <li>
-                            <Link to='/accessories/webcam'>WEBCAM</Link>
+                            <Link to='/accessories/Webcam'>WEBCAM</Link>
                         </li>
                         <li>
-                            <Link to='/accessories/usb'>USB</Link>
+                            <Link to='/accessories/USB'>USB</Link>
                         </li>
                         <li>
-                            <Link to='/accessories/adaptor'>ADAPTOR</Link>
+                            <Link to='/accessories/Adaptor'>ADAPTOR</Link>
                         </li>
                     </ul>
                 </Col>
