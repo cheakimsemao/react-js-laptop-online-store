@@ -52,14 +52,14 @@ const AccessoryDetails = (name) => {
 
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState({ loading: true });
-    const [spec, setSpec] = useState({});
+    const [info, setInfo] = useState({});
 
     useEffect(() => {
         axios
             .get(`http://localhost:3000/accessories?productName=${name.name}`)
             .then((res) => {
                 setData(res.data);
-                setSpec(res.data[0].specification);
+                setInfo(res.data[0].productInformation);
                 setLoading({ loading: false });
             })
             .catch((err) => {
@@ -69,15 +69,15 @@ const AccessoryDetails = (name) => {
             });
     }, []);
 
-    const specification = Object.keys(spec).map((key) => {
-        if (key !== '' && spec[key] !== '') {
+    const productInformation = Object.keys(info).map((key) => {
+        if (key !== '' && info[key] !== '') {
             return (
                 <>
                     <Col sm={3}>
                         <p>{key}</p>
                     </Col>
                     <Col sm={9}>
-                        <p>{spec[key]}</p>
+                        <p>{info[key]}</p>
                     </Col>
                 </>
             );
@@ -129,24 +129,6 @@ const AccessoryDetails = (name) => {
                                             </Col>
                                         </Row>
                                         <Row className='product-detail-option'>
-                                            <Col sm={3}>
-                                                <p>RAM: </p>
-                                            </Col>
-                                            <Col sm={9}>
-                                                <button className='laptop-ram'>8 GB</button>
-                                                <button className='laptop-ram'>16 GB</button>
-                                            </Col>
-                                        </Row>
-                                        <Row className='product-detail-option'>
-                                            <Col md={3}>
-                                                <p>STORAGE: </p>
-                                            </Col>
-                                            <Col md={9}>
-                                                <button className='laptop-storage'>128 GB</button>
-                                                <button className='laptop-storage'>256 GB</button>
-                                            </Col>
-                                        </Row>
-                                        <Row className='product-detail-option'>
                                             <Col lg={4}>
                                                 <form className='quantity-input'>
                                                     <div
@@ -179,10 +161,10 @@ const AccessoryDetails = (name) => {
                             </Container>
                             <div id='specification'>
                                 <div className='specification-title'>
-                                    <span>SPECIFICATION</span>
+                                    <span>PRODUCT INFORMATION</span>
                                 </div>
                                 <Container className='specification-details'>
-                                    <Row className='mt-5'>{specification}</Row>
+                                    <Row className='mt-5'>{productInformation}</Row>
                                 </Container>
                             </div>
                             <div id='review'>

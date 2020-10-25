@@ -33,17 +33,19 @@ const AccessoryList = (props) => {
     const [loading, setLoading] = useState({ loading: true });
 
     useEffect(() => {
-        axios.get(`http://localhost:3000/accessories?category=${props.match.params.name}`).then((res) => {
-            setData(res.data);
-            setLoading({ loading: false });
-            if (res.data.length === 0) {
-                setLoading({ loading: false });
-            }
-        });
+        fetchData();
     }, [props.match.params.name]);
 
+    const fetchData = async () => {
+        const response = await axios.get(
+            `http://localhost:3000/accessories?category=${props.match.params.name}`
+        );
+        setLoading({ loading: false });
+        setData(response.data);
+    };
+
     const accessories = data.map((item) => (
-        <div className={'product-items index'}>
+        <div key={item.id} className={'product-items index'}>
             <Link to={`/accessories/${item.category}?name=${item.productName}`}>
                 <img src={item.imageURL} alt={item.productName} width='300px' height='200px' />
             </Link>
@@ -60,7 +62,7 @@ const AccessoryList = (props) => {
     const goBack = () => window.history.back();
 
     const useQuery = () => new URLSearchParams(useLocation().search);
-    
+
     let query = useQuery();
     let name = query.get('name');
 
@@ -70,12 +72,11 @@ const AccessoryList = (props) => {
         <>
             {name ? (
                 <AccessoryDetails name={name} />
-            ) : data.length > 0 ? (
+            ) : data.length > 0 || loading.loading === 'false' ? (
                 <div>
                     <div className='breadcrumbs'>
                         <p>
-                            Home / Accessories / {' '}
-                            <span>{productCategory}</span>
+                            Home / Accessories / <span>{productCategory}</span>
                         </p>
                     </div>
                     <Carousel id='carousel'>
@@ -144,7 +145,7 @@ const AccessoryList = (props) => {
                 </>
             )}
         </>
-    )
-}
+    );
+};
 
-export default AccessoryList
+export default AccessoryList;

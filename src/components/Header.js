@@ -20,7 +20,7 @@ const Header = () => {
     const brands = data.map((item) => {
         for (var i = item.id; i < 6; i++) {
             return (
-                <NavDropdown.Item>
+                <NavDropdown.Item key={item.id}>
                     <Link to={`/brands/${item.name}`}>{item.name}</Link>
                 </NavDropdown.Item>
             );
@@ -65,7 +65,7 @@ const Header = () => {
                                 <Link to='/accessories/Webcam'>Webcam</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to='/accessories/USB'>USB</Link>
+                                <Link to='/accessories/Speaker'>Speaker</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <Link to='/accessories/Adaptor'>Adaptor</Link>

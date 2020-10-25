@@ -201,27 +201,40 @@ const About = () => {
                             <Form id='submit-form'>
                                 <div className='input-field'>
                                     <Form.Group controlId='formGroupName'>
-                                        <Form.Control type='text' placeholder='Full name' />
+                                        <Form.Control
+                                            type='text'
+                                            placeholder='Full name'
+                                            autoComplete='off'
+                                        />
                                         <BsFillPersonLinesFill className='input-icon' />
                                     </Form.Group>
                                 </div>
                                 <div className='input-field'>
                                     <Form.Group controlId='formGroupEmail'>
-                                        <Form.Control type='email' placeholder='Email' />
+                                        <Form.Control type='email' placeholder='Email' autoComplete='off' />
                                         <BsFillEnvelopeFill className='input-icon' />
                                     </Form.Group>
                                 </div>
 
                                 <div className='input-field'>
                                     <Form.Group controlId='formGroupNumber'>
-                                        <Form.Control type='text' placeholder='Phone number' />
+                                        <Form.Control
+                                            type='text'
+                                            placeholder='Phone number'
+                                            autoComplete='off'
+                                        />
                                         <ImPhone className='input-icon' />
                                     </Form.Group>
                                 </div>
 
                                 <div className='input-field'>
                                     <Form.Group controlId='exampleForm.ControlTextarea1'>
-                                        <Form.Control as='textarea' rows='3' placeholder='Your message' />
+                                        <Form.Control
+                                            as='textarea'
+                                            rows='3'
+                                            placeholder='Your message'
+                                            autoComplete='off'
+                                        />
                                         <MdMessage className='input-icon' />
                                     </Form.Group>
                                 </div>
@@ -244,4 +257,5 @@ const About = () => {
         </>
     );
 };
+
 export default About;
