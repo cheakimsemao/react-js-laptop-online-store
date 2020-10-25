@@ -1751,7 +1751,7 @@
         },
         {
             "id": 5,
-            "category": "USB"
+            "category": "Speaker"
         },
         {
             "id": 6,
@@ -1931,7 +1931,7 @@
             "categoryId": 2,
             "category": "Mouse",
             "url": "/Mouse",
-            "specification": {
+            "productInformation": {
                 "Form Factor": "Right-Handed",
                 "Connectivity": "Razer™ HyperSpeed Wireless / Wired - Speedflex Cable / Bluetooth",
                 "Battery Life": "Up to 150 Hours",
@@ -1960,7 +1960,7 @@
             "categoryId": 2,
             "category": "Mouse",
             "url": "/Mouse",
-            "specification": {
+            "productInformation": {
                 "Form Factor": "Right-Handed",
                 "Connectivity": "Razer™ HyperSpeed Wireless / Wired - Speedflex Cable / Bluetooth",
                 "Battery Life": "Up to 150 Hours",
@@ -1989,7 +1989,7 @@
             "categoryId": 2,
             "category": "Mouse",
             "url": "/Mouse",
-            "specification": {
+            "productInformation": {
                 "Form Factor": "Right-Handed",
                 "Connectivity": "Razer™ HyperSpeed Wireless / Wired - Speedflex Cable / Bluetooth",
                 "Battery Life": "Up to 150 Hours",
@@ -2018,7 +2018,7 @@
             "categoryId": 2,
             "category": "Mouse",
             "url": "/Mouse",
-            "specification": {
+            "productInformation": {
                 "Form Factor": "Right-Handed",
                 "Connectivity": "Razer™ HyperSpeed Wireless / Wired - Speedflex Cable / Bluetooth",
                 "Battery Life": "Up to 150 Hours",
@@ -2047,7 +2047,7 @@
             "categoryId": 2,
             "category": "Mouse",
             "url": "/Mouse",
-            "specification": {
+            "productInformation": {
                 "Form Factor": "Right-Handed",
                 "Connectivity": "Razer™ HyperSpeed Wireless / Wired - Speedflex Cable / Bluetooth",
                 "Battery Life": "Up to 150 Hours",
@@ -2071,12 +2071,12 @@
         },
         {
             "id": 11,
-            "imageURL": "https://lh3.googleusercontent.com/proxy/p9yzyR9HU1jjVig66zrvQ66V6lT10UILd-fFjBCam9cXL4an5qZY3yhr1uTWadn0TO12uiNLK1ItMXm-temQtDaQkOpyMnGY03w4busC1aCkuU5ukpXsbqhcu5AeuyS-XB-sFInl-rDKEA",
+            "imageURL": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQ052?wid=4000&hei=1800&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1495129815011",
             "productName": "Magic Keyboard Pro",
             "categoryId": 3,
             "category": "Keyboard",
             "url": "/Keyboard",
-            "specification": {
+            "productInformation": {
                 "Height": "0.16–0.43 inch (0.41–1.09 cm)",
                 "Width": "16.48 inches (41.87 cm)",
                 "Depth": "4.52 inches (11.49 cm)",
@@ -2094,7 +2094,7 @@
             "categoryId": 3,
             "category": "Keyboard",
             "url": "/Keyboard",
-            "specification": {
+            "productInformation": {
                 "Height": "0.16–0.43 inch (0.41–1.09 cm)",
                 "Width": "16.48 inches (41.87 cm)",
                 "Depth": "4.52 inches (11.49 cm)",
@@ -2112,7 +2112,7 @@
             "categoryId": 3,
             "category": "Keyboard",
             "url": "/Keyboard",
-            "specification": {
+            "productInformation": {
                 "Height": "0.16–0.43 inch (0.41–1.09 cm)",
                 "Width": "16.48 inches (41.87 cm)",
                 "Depth": "4.52 inches (11.49 cm)",
@@ -2130,7 +2130,7 @@
             "categoryId": 3,
             "category": "Keyboard",
             "url": "/Keyboard",
-            "specification": {
+            "productInformation": {
                 "Height": "0.16–0.43 inch (0.41–1.09 cm)",
                 "Width": "16.48 inches (41.87 cm)",
                 "Depth": "4.52 inches (11.49 cm)",
@@ -2148,7 +2148,7 @@
             "categoryId": 3,
             "category": "Keyboard",
             "url": "/Keyboard",
-            "specification": {
+            "productInformation": {
                 "Height": "0.16–0.43 inch (0.41–1.09 cm)",
                 "Width": "16.48 inches (41.87 cm)",
                 "Depth": "4.52 inches (11.49 cm)",
@@ -2166,7 +2166,7 @@
             "categoryId": 4,
             "category": "Webcam",
             "url": "/Webcam",
-            "specification": {
+            "productInformation": {
                 "Video Resolution": "1080p @ 30FPS / 720p @ 60FPS / 480p @ 30FPS / 360p @ 30FPS",
                 "Field of View": "81.6 °",
                 "Image Resolution": "4 Megapixels",
@@ -2190,7 +2190,7 @@
             "categoryId": 4,
             "category": "Webcam",
             "url": "/Webcam",
-            "specification": {
+            "productInformation": {
                 "Video Resolution": "1080p @ 30FPS / 720p @ 60FPS / 480p @ 30FPS / 360p @ 30FPS",
                 "Field of View": "81.6 °",
                 "Image Resolution": "4 Megapixels",
@@ -2214,7 +2214,7 @@
             "categoryId": 4,
             "category": "Webcam",
             "url": "/Webcam",
-            "specification": {
+            "productInformation": {
                 "Video Resolution": "1080p @ 30FPS / 720p @ 60FPS / 480p @ 30FPS / 360p @ 30FPS",
                 "Field of View": "81.6 °",
                 "Image Resolution": "4 Megapixels",
@@ -2238,7 +2238,7 @@
             "categoryId": 4,
             "category": "Webcam",
             "url": "/Webcam",
-            "specification": {
+            "productInformation": {
                 "Video Resolution": "1080p @ 30FPS / 720p @ 60FPS / 480p @ 30FPS / 360p @ 30FPS",
                 "Field of View": "81.6 °",
                 "Image Resolution": "4 Megapixels",
@@ -2262,7 +2262,7 @@
             "categoryId": 4,
             "category": "Webcam",
             "url": "/Webcam",
-            "specification": {
+            "productInformation": {
                 "Video Resolution": "1080p @ 30FPS / 720p @ 60FPS / 480p @ 30FPS / 360p @ 30FPS",
                 "Field of View": "81.6 °",
                 "Image Resolution": "4 Megapixels",
@@ -2284,9 +2284,9 @@
             "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51wEJVJjuLL._AC_SL1000_.jpg",
             "productName": "Razer Nommo Chroma",
             "categoryId": 5,
-            "category": "USB",
-            "url": "/USB",
-            "specification": {
+            "category": "Speaker",
+            "url": "/Speaker",
+            "productInformation": {
                 "Frequency Response": "50 Hz - 20 KHz",
                 "Input Power": "Ext. Power Adapter",
                 "Driver Size": "2 x 3 full range drivers (1 x per speaker)",
@@ -2300,9 +2300,9 @@
             "imageURL": "https://hnsfpau.imgix.net/5/images/detailed/118/SRSXB41B.1.jpg?fit=fill&bg=0FFF&w=1500&h=844&auto=format,compress",
             "productName": "Sony Extra Bass XB41",
             "categoryId": 5,
-            "category": "USB",
-            "url": "/USB",
-            "specification": {
+            "category": "Speaker",
+            "url": "/Speaker",
+            "productInformation": {
                 "Frequency Response": "50 Hz - 20 KHz",
                 "Input Power": "Ext. Power Adapter",
                 "Driver Size": "2 x 3 full range drivers (1 x per speaker)",
@@ -2316,9 +2316,9 @@
             "imageURL": "https://www.retravision.com.au/media/catalog/product/cache/1/thumbnail/640x480/9df78eab33525d08d6e5fb8d27136e95/p/o/portableaudio_jblboombox2blkas_01_med.jpg",
             "productName": "JBL Boombox 2",
             "categoryId": 5,
-            "category": "USB",
-            "url": "/USB",
-            "specification": {
+            "category": "Speaker",
+            "url": "/Speaker",
+            "productInformation": {
                 "Frequency Response": "50 Hz - 20 KHz",
                 "Input Power": "Ext. Power Adapter",
                 "Driver Size": "2 x 3 full range drivers (1 x per speaker)",
@@ -2332,9 +2332,9 @@
             "imageURL": "https://i.pinimg.com/originals/ad/b1/39/adb13951538115e6453cfbddff5b1c0a.jpg",
             "productName": "Beats by Dr.Dre",
             "categoryId": 5,
-            "category": "USB",
-            "url": "/USB",
-            "specification": {
+            "category": "Speaker",
+            "url": "/Speaker",
+            "productInformation": {
                 "Frequency Response": "50 Hz - 20 KHz",
                 "Input Power": "Ext. Power Adapter",
                 "Driver Size": "2 x 3 full range drivers (1 x per speaker)",
@@ -2348,9 +2348,9 @@
             "imageURL": "https://c1.neweggimages.com/ProductImage/36-121-013-01.jpg",
             "productName": "Logitech S120",
             "categoryId": 5,
-            "category": "USB",
-            "url": "/USB",
-            "specification": {
+            "category": "Speaker",
+            "url": "/Speaker",
+            "productInformation": {
                 "Frequency Response": "50 Hz - 20 KHz",
                 "Input Power": "Ext. Power Adapter",
                 "Driver Size": "2 x 3 full range drivers (1 x per speaker)",
@@ -2366,13 +2366,10 @@
             "categoryId": 6,
             "category": "Adaptor",
             "url": "/Adaptor",
-            "specification": {
-                "Audio Specification": "",
-                "Control & Connection Specification": "",
-                "Battery": "",
-                "Size": ""
+            "productInformation": {
+                "Overview": "The USB-C Digital AV Multiport Adapter lets you connect your USB-C-enabled Mac or iPad to an HDMI display, while also connecting a standard USB device and a USB-C charging cable. This adapter allows you to mirror your Mac or iPad display to your HDMI-enabled TV or display."
             },
-            "price": ""
+            "price": "69.00"
         },
         {
             "id": 27,
@@ -2381,28 +2378,22 @@
             "categoryId": 6,
             "category": "Adaptor",
             "url": "/Adaptor",
-            "specification": {
-                "Audio Specification": "",
-                "Control & Connection Specification": "",
-                "Battery": "",
-                "Size": ""
+            "productInformation": {
+                "Overview": "The USB-C to USB Adapter lets you connect iOS devices and many of your standard USB accessories to a USB-C or Thunderbolt 3 (USB-C) enabled Mac. Plug the USB-C end of the adapter into a USB-C or Thunderbolt 3 (USB-C) port on your Mac, and then connect your flash drive, camera, or other standard USB device. You can also connect a Lightning to USB cable to sync and charge your iPhone, iPad, or iPod."
             },
-            "price": ""
+            "price": "19.00"
         },
         {
             "id": 28,
-            "imageURL": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MU7T2_GEO_US?wid=890&hei=890&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1542406417329",
-            "productName": "20W USB-C Power",
+            "imageURL": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0J2_GEO_US?wid=890&hei=890&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1573268141869",
+            "productName": "61W USB-C Adaptor",
             "categoryId": 6,
             "category": "Adaptor",
             "url": "/Adaptor",
-            "specification": {
-                "Audio Specification": "",
-                "Control & Connection Specification": "",
-                "Battery": "",
-                "Size": ""
+            "productInformation": {
+                "Overview": "The 61W USB-C Power Adapter offers fast, efficient charging at home, in the office, or on the go. While this power adapter is compatible with any USB-C–enabled device, Apple recommends pairing it with your 13-inch MacBook Pro with Thunderbolt 3 (USB-C) ports for optimal charging performance. Charging cable sold separately."
             },
-            "price": ""
+            "price": "69.00"
         },
         {
             "id": 29,
@@ -2411,13 +2402,10 @@
             "categoryId": 6,
             "category": "Adaptor",
             "url": "/Adaptor",
-            "specification": {
-                "Audio Specification": "",
-                "Control & Connection Specification": "",
-                "Battery": "",
-                "Size": ""
+            "productInformation": {
+                "Overview": "The 1.8-metre Power Adapter Extension Cable is an AC extension lead that provides extra length for your Apple power adapter. Use it with MagSafe and MagSafe 2 power adapters, 10W and 12W USB-A power adapters and 29W, 30W, 61W, 87W and 96W USB-C power adapters."
             },
-            "price": ""
+            "price": "19.00"
         },
         {
             "id": 30,
@@ -2426,13 +2414,10 @@
             "categoryId": 6,
             "category": "Adaptor",
             "url": "/Adaptor",
-            "specification": {
-                "Audio Specification": "",
-                "Control & Connection Specification": "",
-                "Battery": "",
-                "Size": ""
+            "productInformation": {
+                "Overview": "The first 5K cable certified by VESA, Moshi's USB-C to DisplayPort Cable easily connects your new Thunderbolt 3-enabled MacBook, MacBook Pro, iMac, or iMac Pro to a 5K DisplayPort monitor for crystal-clear, blur-free video as well as multi-channel digital surround sound. It uses high-speed technology to support up to 5120 by 2880 video output with a 60 Hz refresh rate. Both ends of the cable are encased in anodized aluminum to minimize electromagnetic interference and ensure long-term reliability. The cable also features bi-directional support to connect your DisplayPort Mac to a UHD monitor with USB-C input."
             },
-            "price": ""
+            "price": "19.00"
         }
     ]
 }
