@@ -69,15 +69,15 @@ const ProductDetails = (name) => {
             });
     }, []);
 
-    const specification = Object.keys(spec).map((key) => {
-        if (key !== '' && spec[key] !== '') {
+    const specification = Object.keys(spec).map((item) => {
+        if (item !== '' && spec[item] !== '') {
             return (
                 <>
                     <Col sm={3}>
-                        <p>{key}</p>
+                        <p>{item}</p>
                     </Col>
                     <Col sm={9}>
-                        <p>{spec[key]}</p>
+                        <p>{spec[item]}</p>
                     </Col>
                 </>
             );

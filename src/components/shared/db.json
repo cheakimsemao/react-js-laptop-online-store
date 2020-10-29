@@ -82,7 +82,34 @@
                 "Battery": "Up to 10 hours wireless web, Up to 10 hours Apple TV app movie playback",
                 "Weight": "1.29kg"
             },
-            "price": "1199.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1199.00",
+            "rating": "5"
         },
         {
             "id": 2,
@@ -108,7 +135,34 @@
                 "Battery": "Up to 11 hours wireless web, Up to 10 hours Apple TV app movie playback",
                 "Weight": "2.0kg"
             },
-            "price": "1899.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1899.00",
+            "rating": "5"
         },
         {
             "id": 3,
@@ -134,7 +188,34 @@
                 "Battery": "Up to 11 hours wireless web, Up to 10 hours Apple TV app movie playback",
                 "Weight": "1.4kg"
             },
-            "price": "1599.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1599.00",
+            "rating": "5"
         },
         {
             "id": 4,
@@ -160,7 +241,34 @@
                 "Battery": "Up to 10 hours wireless web, Up to 10 hours Apple TV app movie playback",
                 "Weight": "1.8kg"
             },
-            "price": "1499.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1499.00",
+            "rating": "5"
         },
         {
             "id": 5,
@@ -186,7 +294,34 @@
                 "Battery": "Up to 11 hours wireless web, Up to 10 hours Apple TV app movie playback",
                 "Weight": "1.4kg"
             },
-            "price": "1299.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1299.00",
+            "rating": "5"
         },
         {
             "id": 6,
@@ -211,7 +346,34 @@
                 "Battery": "69.7Wh (Typical)",
                 "Weight": "0.97 kg"
             },
-            "price": "1199.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1199.00",
+            "rating": "5"
         },
         {
             "id": 7,
@@ -236,7 +398,34 @@
                 "Battery": "Up to 20 hours",
                 "Weight": "1.16 kg"
             },
-            "price": "1349.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1349.00",
+            "rating": "5"
         },
         {
             "id": 8,
@@ -261,7 +450,34 @@
                 "Battery": "Up to 20 hours",
                 "Weight": "0.96 kg"
             },
-            "price": "349.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "349.00",
+            "rating": "5"
         },
         {
             "id": 9,
@@ -286,7 +502,34 @@
                 "Battery": "Up to 15 hours",
                 "Weight": "0.96 kg"
             },
-            "price": "1349.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1349.00",
+            "rating": "5"
         },
         {
             "id": 10,
@@ -311,7 +554,34 @@
                 "Battery": "Up to 10 hours",
                 "Weight": "1.25 kg"
             },
-            "price": "1449.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1449.00",
+            "rating": "5"
         },
         {
             "id": 11,
@@ -335,7 +605,34 @@
                 "Battery": "6-Cell Battery, 97WHr (Integrated)",
                 "Weight": "2.11 kg"
             },
-            "price": "1899.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1899.00",
+            "rating": "5"
         },
         {
             "id": 12,
@@ -359,7 +656,34 @@
                 "Battery": "6-Cell Battery, 97WHr (Integrated)",
                 "Weight": "1.8 kg"
             },
-            "price": "1899.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1899.00",
+            "rating": "5"
         },
         {
             "id": 13,
@@ -383,7 +707,34 @@
                 "Battery": "6-Cell Battery, 97WHr (Integrated)",
                 "Weight": "1.2 kg"
             },
-            "price": "1099.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1099.00",
+            "rating": "5"
         },
         {
             "id": 14,
@@ -407,7 +758,34 @@
                 "Battery": "6-Cell Battery, 97WHr (Integrated)",
                 "Weight": "1.33 kg"
             },
-            "price": "1529.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1529.00",
+            "rating": "5"
         },
         {
             "id": 15,
@@ -431,7 +809,34 @@
                 "Battery": "6-Cell Battery, 97WHr (Integrated)",
                 "Weight": "1.33 kg"
             },
-            "price": "1329.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1329.00",
+            "rating": "5"
         },
         {
             "id": 16,
@@ -455,7 +860,34 @@
                 "Battery": "6-Cell Battery, 97WHr (Integrated)",
                 "Weight": "2.2 kg"
             },
-            "price": "4299.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "4299.00",
+            "rating": "5"
         },
         {
             "id": 17,
@@ -479,7 +911,34 @@
                 "Battery": "53.1 WHr, Compact 100W USB-C power adapter",
                 "Weight": "1.41 kg"
             },
-            "price": "1799.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1799.00",
+            "rating": "5"
         },
         {
             "id": 18,
@@ -503,7 +962,34 @@
                 "Battery": "53.1 WHr, Compact 100W USB-C power adapter",
                 "Weight": "1.41 kg"
             },
-            "price": "1999.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1999.00",
+            "rating": "5"
         },
         {
             "id": 19,
@@ -527,7 +1013,34 @@
                 "Battery": "70.5 WHr",
                 "Weight": "2.75 kg"
             },
-            "price": "3199.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "3199.00",
+            "rating": "5"
         },
         {
             "id": 20,
@@ -551,7 +1064,34 @@
                 "Battery": "65.0 WHr",
                 "Weight": "2.09 kg"
             },
-            "price": "1599.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1599.00",
+            "rating": "5"
         },
         {
             "id": 21,
@@ -575,7 +1115,34 @@
                 "Battery": "Up to 17.5 hours",
                 "Weight": "1.9 kg"
             },
-            "price": "2399.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "2399.00",
+            "rating": "5"
         },
         {
             "id": 22,
@@ -599,7 +1166,34 @@
                 "Battery": "Up to 17.5 hours",
                 "Weight": "1.6 kg"
             },
-            "price": "2199.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "2199.00",
+            "rating": "5"
         },
         {
             "id": 23,
@@ -623,7 +1217,34 @@
                 "Battery": "Up to 17 hours",
                 "Weight": "1.9 kg"
             },
-            "price": "2299.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "2299.00",
+            "rating": "5"
         },
         {
             "id": 24,
@@ -647,7 +1268,34 @@
                 "Battery": "Up to 15 hours",
                 "Weight": "0.77 kg"
             },
-            "price": "1199.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "1199.00",
+            "rating": "5"
         },
         {
             "id": 25,
@@ -671,7 +1319,34 @@
                 "Battery": "Up to 10.5 hours",
                 "Weight": "0.79 kg"
             },
-            "price": "2199.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "2199.00",
+            "rating": "5"
         },
         {
             "id": 26,
@@ -694,7 +1369,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 27,
@@ -717,7 +1419,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 28,
@@ -740,7 +1469,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 29,
@@ -763,7 +1519,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 30,
@@ -786,7 +1569,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 31,
@@ -809,7 +1619,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 32,
@@ -832,7 +1669,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 33,
@@ -855,7 +1719,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 34,
@@ -878,7 +1769,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 35,
@@ -901,7 +1819,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 36,
@@ -924,7 +1869,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 37,
@@ -947,7 +1919,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 38,
@@ -970,7 +1969,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 39,
@@ -993,7 +2019,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 40,
@@ -1016,7 +2069,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 41,
@@ -1039,7 +2119,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 41,
@@ -1062,7 +2169,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 42,
@@ -1085,7 +2219,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 43,
@@ -1108,7 +2269,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 44,
@@ -1131,7 +2319,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 45,
@@ -1154,7 +2369,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 46,
@@ -1177,7 +2419,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 47,
@@ -1200,7 +2469,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 48,
@@ -1223,7 +2519,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 49,
@@ -1246,7 +2569,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 50,
@@ -1269,7 +2619,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 51,
@@ -1292,7 +2669,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 52,
@@ -1315,7 +2719,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 53,
@@ -1338,7 +2769,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 54,
@@ -1361,7 +2819,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 55,
@@ -1384,7 +2869,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 56,
@@ -1407,7 +2919,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 57,
@@ -1430,7 +2969,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 58,
@@ -1453,7 +3019,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 59,
@@ -1476,7 +3069,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 60,
@@ -1499,7 +3119,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 61,
@@ -1522,7 +3169,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 62,
@@ -1545,7 +3219,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 63,
@@ -1568,7 +3269,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 64,
@@ -1591,7 +3319,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 65,
@@ -1614,7 +3369,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 66,
@@ -1637,7 +3419,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 67,
@@ -1660,7 +3469,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 68,
@@ -1683,7 +3519,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 69,
@@ -1706,7 +3569,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         },
         {
             "id": 70,
@@ -1729,7 +3619,34 @@
                 "Battery": "",
                 "Weight": ""
             },
-            "price": ""
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "",
+            "rating": "5"
         }
     ],
     "accessoryCategories": [
@@ -1766,7 +3683,7 @@
             "categoryId": 1,
             "category": "Headset",
             "url": "/Headset",
-            "specification": {
+            "productInformation": {
                 "Frequency Response": "20 Hz – 20 kHz (44.1 kHz Sampling)",
                 "Impedance": "32 Ω",
                 "Sensitivity": "96 dB/mW at 1 kHz",
@@ -1790,7 +3707,34 @@
                 "Lighting": "RGB LED for indicating power, pairing and charging status",
                 "Compatibility": "BT Connection: Mobile / System"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 2,
@@ -1799,7 +3743,7 @@
             "categoryId": 1,
             "category": "Headset",
             "url": "/Headset",
-            "specification": {
+            "productInformation": {
                 "Frequency Response": "20 Hz – 20 kHz (44.1 kHz Sampling)",
                 "Impedance": "32 Ω",
                 "Sensitivity": "96 dB/mW at 1 kHz",
@@ -1823,7 +3767,34 @@
                 "Lighting": "RGB LED for indicating power, pairing and charging status",
                 "Compatibility": "BT Connection: Mobile / System"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 3,
@@ -1832,7 +3803,7 @@
             "categoryId": 1,
             "category": "Headset",
             "url": "/Headset",
-            "specification": {
+            "productInformation": {
                 "Frequency Response": "20 Hz – 20 kHz (44.1 kHz Sampling)",
                 "Impedance": "32 Ω",
                 "Sensitivity": "96 dB/mW at 1 kHz",
@@ -1856,7 +3827,34 @@
                 "Lighting": "RGB LED for indicating power, pairing and charging status",
                 "Compatibility": "BT Connection: Mobile / System"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 4,
@@ -1865,7 +3863,7 @@
             "categoryId": 1,
             "category": "Headset",
             "url": "/Headset",
-            "specification": {
+            "productInformation": {
                 "Frequency Response": "20 Hz – 20 kHz (44.1 kHz Sampling)",
                 "Impedance": "32 Ω",
                 "Sensitivity": "96 dB/mW at 1 kHz",
@@ -1889,7 +3887,34 @@
                 "Lighting": "RGB LED for indicating power, pairing and charging status",
                 "Compatibility": "BT Connection: Mobile / System"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 5,
@@ -1898,7 +3923,7 @@
             "categoryId": 1,
             "category": "Headset",
             "url": "/Headset",
-            "specification": {
+            "productInformation": {
                 "Frequency Response": "20 Hz – 20 kHz (44.1 kHz Sampling)",
                 "Impedance": "32 Ω",
                 "Sensitivity": "96 dB/mW at 1 kHz",
@@ -1922,7 +3947,34 @@
                 "Lighting": "RGB LED for indicating power, pairing and charging status",
                 "Compatibility": "BT Connection: Mobile / System"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 6,
@@ -1951,7 +4003,34 @@
                 "Weight": "0.257 lbs / 117 g (Excluding dongle)",
                 "Dock Compatibility": "Yes"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 7,
@@ -1980,7 +4059,34 @@
                 "Weight": "0.257 lbs / 117 g (Excluding dongle)",
                 "Dock Compatibility": "Yes"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 8,
@@ -2009,7 +4115,34 @@
                 "Weight": "0.257 lbs / 117 g (Excluding dongle)",
                 "Dock Compatibility": "Yes"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 9,
@@ -2038,7 +4171,34 @@
                 "Weight": "0.257 lbs / 117 g (Excluding dongle)",
                 "Dock Compatibility": "Yes"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 10,
@@ -2067,7 +4227,34 @@
                 "Weight": "0.257 lbs / 117 g (Excluding dongle)",
                 "Dock Compatibility": "Yes"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 11,
@@ -2085,7 +4272,34 @@
                 "Connection": "Bluetooth, Lightning port, Wireless",
                 "Requirement": "Bluetooth-enabled Mac computer with macOS 10.12.4 or later"
             },
-            "price": "129.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "129.00",
+            "rating": "5"
         },
         {
             "id": 12,
@@ -2103,7 +4317,34 @@
                 "Connection": "Bluetooth, Lightning port, Wireless",
                 "Requirement": "Bluetooth-enabled Mac computer with macOS 10.12.4 or later"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 13,
@@ -2121,7 +4362,34 @@
                 "Connection": "Bluetooth, Lightning port, Wireless",
                 "Requirement": "Bluetooth-enabled Mac computer with macOS 10.12.4 or later"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 14,
@@ -2139,7 +4407,34 @@
                 "Connection": "Bluetooth, Lightning port, Wireless",
                 "Requirement": "Bluetooth-enabled Mac computer with macOS 10.12.4 or later"
             },
-            "price": "99.0"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.0",
+            "rating": "5"
         },
         {
             "id": 15,
@@ -2157,7 +4452,34 @@
                 "Connection": "Bluetooth, Lightning port, Wireless",
                 "Requirement": "Bluetooth-enabled Mac computer with macOS 10.12.4 or later"
             },
-            "price": "99.0"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.0",
+            "rating": "5"
         },
         {
             "id": 16,
@@ -2181,7 +4503,34 @@
                 "Sensitivity": "-38 dB",
                 "Compatibility": "PC with a free USB port / Internet Connection"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 17,
@@ -2205,7 +4554,34 @@
                 "Sensitivity": "-38 dB",
                 "Compatibility": "PC with a free USB port / Internet Connection"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 18,
@@ -2229,7 +4605,34 @@
                 "Sensitivity": "-38 dB",
                 "Compatibility": "PC with a free USB port / Internet Connection"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 19,
@@ -2253,7 +4656,34 @@
                 "Sensitivity": "-38 dB",
                 "Compatibility": "PC with a free USB port / Internet Connection"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 20,
@@ -2277,7 +4707,34 @@
                 "Sensitivity": "-38 dB",
                 "Compatibility": "PC with a free USB port / Internet Connection"
             },
-            "price": "99.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "99.00",
+            "rating": "5"
         },
         {
             "id": 21,
@@ -2293,7 +4750,34 @@
                 "Driver Type": "Custom woven glass fiber 3-inch drivers for power and clarity",
                 "Compatibility": "3.5 mm connection / USB Audio connection"
             },
-            "price": "169.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "169.00",
+            "rating": "5"
         },
         {
             "id": 22,
@@ -2309,7 +4793,34 @@
                 "Driver Type": "Custom woven glass fiber 3-inch drivers for power and clarity",
                 "Compatibility": "3.5 mm connection / USB Audio connection"
             },
-            "price": "169.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "169.00",
+            "rating": "5"
         },
         {
             "id": 23,
@@ -2325,7 +4836,34 @@
                 "Driver Type": "Custom woven glass fiber 3-inch drivers for power and clarity",
                 "Compatibility": "3.5 mm connection / USB Audio connection"
             },
-            "price": "169.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "169.00",
+            "rating": "5"
         },
         {
             "id": 24,
@@ -2341,7 +4879,34 @@
                 "Driver Type": "Custom woven glass fiber 3-inch drivers for power and clarity",
                 "Compatibility": "3.5 mm connection / USB Audio connection"
             },
-            "price": "169.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "169.00",
+            "rating": "5"
         },
         {
             "id": 25,
@@ -2357,7 +4922,34 @@
                 "Driver Type": "Custom woven glass fiber 3-inch drivers for power and clarity",
                 "Compatibility": "3.5 mm connection / USB Audio connection"
             },
-            "price": "169.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "169.00",
+            "rating": "5"
         },
         {
             "id": 26,
@@ -2369,7 +4961,34 @@
             "productInformation": {
                 "Overview": "The USB-C Digital AV Multiport Adapter lets you connect your USB-C-enabled Mac or iPad to an HDMI display, while also connecting a standard USB device and a USB-C charging cable. This adapter allows you to mirror your Mac or iPad display to your HDMI-enabled TV or display."
             },
-            "price": "69.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "69.00",
+            "rating": "5"
         },
         {
             "id": 27,
@@ -2381,7 +5000,34 @@
             "productInformation": {
                 "Overview": "The USB-C to USB Adapter lets you connect iOS devices and many of your standard USB accessories to a USB-C or Thunderbolt 3 (USB-C) enabled Mac. Plug the USB-C end of the adapter into a USB-C or Thunderbolt 3 (USB-C) port on your Mac, and then connect your flash drive, camera, or other standard USB device. You can also connect a Lightning to USB cable to sync and charge your iPhone, iPad, or iPod."
             },
-            "price": "19.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "19.00",
+            "rating": "5"
         },
         {
             "id": 28,
@@ -2393,7 +5039,34 @@
             "productInformation": {
                 "Overview": "The 61W USB-C Power Adapter offers fast, efficient charging at home, in the office, or on the go. While this power adapter is compatible with any USB-C–enabled device, Apple recommends pairing it with your 13-inch MacBook Pro with Thunderbolt 3 (USB-C) ports for optimal charging performance. Charging cable sold separately."
             },
-            "price": "69.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "69.00",
+            "rating": "5"
         },
         {
             "id": 29,
@@ -2405,7 +5078,34 @@
             "productInformation": {
                 "Overview": "The 1.8-metre Power Adapter Extension Cable is an AC extension lead that provides extra length for your Apple power adapter. Use it with MagSafe and MagSafe 2 power adapters, 10W and 12W USB-A power adapters and 29W, 30W, 61W, 87W and 96W USB-C power adapters."
             },
-            "price": "19.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "19.00",
+            "rating": "5"
         },
         {
             "id": 30,
@@ -2417,7 +5117,34 @@
             "productInformation": {
                 "Overview": "The first 5K cable certified by VESA, Moshi's USB-C to DisplayPort Cable easily connects your new Thunderbolt 3-enabled MacBook, MacBook Pro, iMac, or iMac Pro to a 5K DisplayPort monitor for crystal-clear, blur-free video as well as multi-channel digital surround sound. It uses high-speed technology to support up to 5120 by 2880 video output with a 60 Hz refresh rate. Both ends of the cable are encased in anodized aluminum to minimize electromagnetic interference and ensure long-term reliability. The cable also features bi-directional support to connect your DisplayPort Mac to a UHD monitor with USB-C input."
             },
-            "price": "19.00"
+            "comments": [
+                {
+                    "commentId": 1,
+                    "commenterName": "Kevin Wisky",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 2,
+                    "commenterName": "David Dom",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+                    "location": "Phnom Penh",
+                    "datetime": "10/10/2020",
+                    "rating": "5"
+                },
+                {
+                    "commentId": 3,
+                    "commenterName": "Jenny Ry",
+                    "comment": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia conseq duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+                    "location": "Phnom Penh",
+                    "datetime": "11/10/2020",
+                    "rating": "4"
+                }
+            ],
+            "price": "19.00",
+            "rating": "5"
         }
     ]
 }

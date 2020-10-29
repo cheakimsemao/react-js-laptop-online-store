@@ -50,7 +50,7 @@ const ProductList = (props) => {
             <p class='product-items-title'>{item.productName}</p>
             <div className={classes.root}>
                 <Box component='fieldset' mt={1} mb={1} borderColor='transparent'>
-                    <Rating name='read-only' value={5} size='small' readOnly />
+                    <Rating name='read-only' value={item.rating} size='small' readOnly />
                 </Box>
             </div>
             <p class='price'>${item.price}</p>

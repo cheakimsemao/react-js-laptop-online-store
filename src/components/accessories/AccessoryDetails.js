@@ -69,15 +69,15 @@ const AccessoryDetails = (name) => {
             });
     }, []);
 
-    const productInformation = Object.keys(info).map((key) => {
-        if (key !== '' && info[key] !== '') {
+    const productInformation = Object.keys(info).map((item) => {
+        if (item !== '' && info[item] !== '') {
             return (
                 <>
                     <Col sm={3}>
-                        <p>{key}</p>
+                        <p>{item}</p>
                     </Col>
                     <Col sm={9}>
-                        <p>{info[key]}</p>
+                        <p>{info[item]}</p>
                     </Col>
                 </>
             );
