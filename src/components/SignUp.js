@@ -5,7 +5,6 @@ import { BsFillEnvelopeFill, BsLockFill, BsFillPersonLinesFill } from 'react-ico
 import { FaFacebookSquare, FaTwitter, FaRedditSquare } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { useForm } from 'react-hook-form';
-import { ErrorMessage } from '@hookform/error-message';
 import { Link } from 'react-router-dom';
 
 const SignUp = () => {

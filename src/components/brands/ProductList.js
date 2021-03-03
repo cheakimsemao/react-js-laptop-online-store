@@ -33,14 +33,14 @@ const ProductList = (props) => {
     const [loading, setLoading] = useState({ loading: true });
 
     useEffect(() => {
-        fetchData();
+        axios.get(`http://localhost:3000/laptops?brand=${props.match.params.name}`).then((res) => {
+            setData(res.data);
+            setLoading({ loading: false });
+            if (res.data.length === 0) {
+                setLoading({ loading: false });
+            }
+        });    
     }, [props.match.params.name]);
-
-    const fetchData = async () => {
-        const response = await axios.get(`http://localhost:3000/laptops?brand=${props.match.params.name}`);
-        setLoading({ loading: false });
-        setData(response.data);
-    };
 
     const products = data.map((item) => (
         <div key={item.id} className={'product-items index'}>
