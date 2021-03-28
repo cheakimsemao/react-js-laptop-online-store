@@ -12,7 +12,7 @@ const Header = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get(`http://localhost:3000/brands`).then((res) => {
+        axios.get(`http://localhost:3003/brands`).then((res) => {
             setData(res.data);
         });
     }, []);

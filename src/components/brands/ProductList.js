@@ -33,7 +33,7 @@ const ProductList = (props) => {
     const [loading, setLoading] = useState({ loading: true });
 
     useEffect(() => {
-        axios.get(`http://localhost:3000/laptops?brand=${props.match.params.name}`).then((res) => {
+        axios.get(`http://localhost:3003/laptops?brand=${props.match.params.name}`).then((res) => {
             setData(res.data);
             setLoading({ loading: false });
             if (res.data.length === 0) {

@@ -56,7 +56,7 @@ const AccessoryDetails = (name) => {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:3000/accessories?productName=${name.name}`)
+            .get(`http://localhost:3003/accessories?productName=${name.name}`)
             .then((res) => {
                 setData(res.data);
                 setInfo(res.data[0].productInformation);

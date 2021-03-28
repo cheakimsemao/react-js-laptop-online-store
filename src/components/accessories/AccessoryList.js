@@ -38,7 +38,7 @@ const AccessoryList = (props) => {
 
     const fetchData = async () => {
         const response = await axios.get(
-            `http://localhost:3000/accessories?category=${props.match.params.name}`
+            `http://localhost:3003/accessories?category=${props.match.params.name}`
         );
         setLoading({ loading: false });
         setData(response.data);

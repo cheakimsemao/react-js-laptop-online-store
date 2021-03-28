@@ -56,7 +56,7 @@ const ProductDetails = (name) => {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:3000/laptops?productName=${name.name}`)
+            .get(`http://localhost:3003/laptops?productName=${name.name}`)
             .then((res) => {
                 setData(res.data);
                 setSpec(res.data[0].specification);
